@@ -1,0 +1,2001 @@
+case_id,priority_level,incident_type,time_of_day,weather_conditions,day_of_week,traffic_density,dispatch_zone,distance_to_scene,crew_experience_years,ambulance_age_years,temperature,historical_zone_delay_rate,caller_stress_score,delay_risk
+CASE_1000,Medium,Traffic Accident,Afternoon,Rainy,Weekend,Medium,Zone D,1.56,17,3,12.0,0.32,2,0
+CASE_1001,Critical,Traffic Accident,Evening,Clear,Weekday,Medium,Zone A,1.8,3,3,40.3,0.08,1,0
+CASE_1002,High,Fire/Hazmat,Evening,Snowy,Weekday,Low,Zone A,9.95,4,10,87.9,0.08,6,1
+CASE_1003,Medium,Traffic Accident,Morning,Rainy,Weekend,Medium,Zone D,7.56,2,2,13.9,0.32,5,1
+CASE_1004,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone C,11.96,14,10,48.6,0.18,2,1
+CASE_1005,Low,Fall/Injury,Afternoon,Foggy,Weekday,High,Zone E,13.79,5,10,78.6,0.22,3,1
+CASE_1006,Low,Respiratory Emergency,Afternoon,Clear,Weekend,Low,Zone B,6.13,2,2,95.8,0.15,9,1
+CASE_1007,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone E,9.15,15,8,98.7,0.22,3,0
+CASE_1008,High,Cardiac Arrest,Evening,Rainy,Weekday,Medium,Zone B,7.76,11,1,48.0,0.15,7,1
+CASE_1009,High,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone E,14.73,10,8,95.5,0.22,1,1
+CASE_1010,Low,Cardiac Arrest,Morning,Snowy,Weekend,High,Zone E,12.55,20,10,13.2,0.22,7,1
+CASE_1011,Critical,Cardiac Arrest,Afternoon,Snowy,Weekday,Medium,Zone B,13.72,1,3,77.1,0.15,9,1
+CASE_1012,High,Fire/Hazmat,Evening,Foggy,Weekday,High,Zone E,4.19,19,2,67.8,0.22,8,1
+CASE_1013,Medium,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone E,11.7,14,9,32.5,0.22,7,1
+CASE_1014,Low,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,4.35,14,5,55.7,0.08,10,1
+CASE_1015,Low,Respiratory Emergency,Afternoon,Rainy,Weekend,Low,Zone C,3.53,1,5,21.7,0.18,8,1
+CASE_1016,Medium,Traffic Accident,Night,Clear,Weekday,Low,Zone A,14.19,9,6,88.4,0.08,4,1
+CASE_1017,Medium,Stroke,Night,Clear,Weekday,Low,Zone E,0.78,17,4,42.2,0.22,2,0
+CASE_1018,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone A,14.5,14,7,66.3,0.08,9,1
+CASE_1019,Medium,Fall/Injury,Morning,Clear,Weekend,Low,Zone A,2.66,13,7,24.3,0.08,3,1
+CASE_1020,High,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone B,12.38,13,9,28.6,0.15,4,0
+CASE_1021,Low,Respiratory Emergency,Morning,Snowy,Weekend,Low,Zone C,4.5,6,6,99.3,0.18,7,0
+CASE_1022,Medium,Fire/Hazmat,Evening,Snowy,Weekend,High,Zone E,5.59,7,1,77.8,0.22,2,1
+CASE_1023,Medium,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone E,3.64,2,9,96.6,0.22,8,0
+CASE_1024,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone B,8.99,8,10,36.6,0.15,10,0
+CASE_1025,High,Traffic Accident,Evening,Clear,Weekday,Low,Zone A,5.55,6,9,24.8,0.08,8,1
+CASE_1026,Low,Fall/Injury,Afternoon,Snowy,Weekend,High,Zone D,10.03,3,5,55.3,0.32,5,1
+CASE_1027,Medium,Fire/Hazmat,Morning,Clear,Weekday,High,Zone C,0.73,18,7,54.5,0.18,9,1
+CASE_1028,Medium,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone B,1.43,18,1,25.7,0.15,8,0
+CASE_1029,Low,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone B,1.95,6,4,76.0,0.15,1,0
+CASE_1030,High,Traffic Accident,Evening,Rainy,Weekday,Low,Zone C,6.58,11,10,42.6,0.18,9,1
+CASE_1031,Low,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone B,12.31,3,4,26.8,0.15,5,1
+CASE_1032,Low,Respiratory Emergency,Morning,Rainy,Weekday,High,Zone D,13.38,16,5,39.9,0.32,9,1
+CASE_1033,Critical,Fire/Hazmat,Night,Clear,Weekday,High,Zone C,4.05,5,6,60.7,0.18,9,1
+CASE_1034,Critical,Fall/Injury,Morning,Rainy,Weekend,Medium,Zone E,8.83,2,4,75.4,0.22,10,1
+CASE_1035,High,Traffic Accident,Night,Clear,Weekday,Medium,Zone C,11.64,15,6,53.4,0.18,10,1
+CASE_1036,Medium,Cardiac Arrest,Night,Rainy,Weekday,High,Zone A,4.69,16,10,57.3,0.08,3,0
+CASE_1037,Low,Traffic Accident,Evening,Snowy,Weekend,Low,Zone E,6.43,7,7,22.5,0.22,8,1
+CASE_1038,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone C,8.1,16,3,92.3,0.18,7,1
+CASE_1039,Medium,Traffic Accident,Afternoon,Snowy,Weekend,Low,Zone A,2.46,4,9,93.6,0.08,7,0
+CASE_1040,Low,Stroke,Night,Clear,Weekend,High,Zone C,0.88,16,8,71.5,0.18,10,0
+CASE_1041,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone B,2.72,17,1,11.6,0.15,2,0
+CASE_1042,Low,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone E,9.59,2,2,58.3,0.22,2,1
+CASE_1043,Critical,Cardiac Arrest,Evening,Clear,Weekend,Medium,Zone C,1.57,16,2,66.6,0.18,2,0
+CASE_1044,Medium,Stroke,Afternoon,Rainy,Weekday,Medium,Zone D,3.25,4,10,99.5,0.32,2,1
+CASE_1045,High,Fall/Injury,Afternoon,Rainy,Weekday,Medium,Zone A,5.4,7,9,99.6,0.08,4,1
+CASE_1046,Medium,Cardiac Arrest,Afternoon,Clear,Weekend,Low,Zone B,1.63,18,9,87.2,0.15,7,0
+CASE_1047,Medium,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone E,3.28,6,9,15.7,0.22,2,0
+CASE_1048,Medium,Respiratory Emergency,Night,Snowy,Weekend,Medium,Zone E,13.71,18,1,95.8,0.22,5,1
+CASE_1049,Low,Cardiac Arrest,Morning,Foggy,Weekday,High,Zone A,0.78,7,7,65.1,0.08,7,1
+CASE_1050,Critical,Respiratory Emergency,Night,Clear,Weekday,High,Zone B,9.97,2,3,82.1,0.15,9,1
+CASE_1051,High,Respiratory Emergency,Evening,Foggy,Weekday,Medium,Zone B,6.07,19,9,46.6,0.15,8,0
+CASE_1052,Critical,Traffic Accident,Evening,Clear,Weekend,High,Zone D,10.25,9,8,38.8,0.32,9,1
+CASE_1053,High,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone D,9.04,4,3,51.7,0.32,7,1
+CASE_1054,Medium,Stroke,Evening,Snowy,Weekend,Medium,Zone D,3.74,14,1,23.2,0.32,3,0
+CASE_1055,Critical,Fall/Injury,Morning,Clear,Weekday,Medium,Zone C,12.78,5,9,42.1,0.18,1,1
+CASE_1056,Low,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone E,7.63,7,10,87.2,0.22,10,1
+CASE_1057,Low,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone B,12.43,8,1,13.4,0.15,7,1
+CASE_1058,Low,Fall/Injury,Night,Snowy,Weekday,Medium,Zone A,6.39,15,3,23.6,0.08,6,0
+CASE_1059,Medium,Respiratory Emergency,Night,Snowy,Weekday,Medium,Zone C,14.78,19,6,21.3,0.18,2,0
+CASE_1060,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone E,11.67,11,6,46.3,0.22,1,0
+CASE_1061,Medium,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone D,14.51,20,10,99.7,0.32,10,1
+CASE_1062,High,Stroke,Evening,Clear,Weekend,Medium,Zone C,7.96,4,4,25.6,0.18,4,1
+CASE_1063,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone C,7.37,18,2,23.1,0.18,4,0
+CASE_1064,Medium,Cardiac Arrest,Night,Clear,Weekend,Low,Zone E,11.45,14,10,92.4,0.22,6,0
+CASE_1065,Medium,Fall/Injury,Morning,Rainy,Weekday,Medium,Zone B,13.26,6,6,89.4,0.15,5,1
+CASE_1066,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,14.48,16,10,12.9,0.15,9,1
+CASE_1067,High,Traffic Accident,Night,Clear,Weekday,Medium,Zone E,5.21,18,5,77.7,0.22,8,1
+CASE_1068,Low,Traffic Accident,Evening,Clear,Weekday,Medium,Zone E,12.08,1,6,69.0,0.22,9,1
+CASE_1069,Critical,Traffic Accident,Evening,Clear,Weekday,High,Zone B,3.55,8,7,79.1,0.15,10,1
+CASE_1070,High,Fall/Injury,Afternoon,Foggy,Weekday,High,Zone C,8.41,1,9,54.5,0.18,7,1
+CASE_1071,Low,Respiratory Emergency,Evening,Clear,Weekday,High,Zone B,3.11,1,7,99.2,0.15,9,1
+CASE_1072,Low,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone A,5.54,19,4,13.9,0.08,3,0
+CASE_1073,High,Stroke,Evening,Clear,Weekday,Medium,Zone E,14.0,10,10,31.1,0.22,9,1
+CASE_1074,High,Stroke,Evening,Clear,Weekend,High,Zone B,2.62,18,5,45.7,0.15,2,0
+CASE_1075,High,Stroke,Afternoon,Clear,Weekday,Low,Zone E,9.67,12,6,50.5,0.22,9,1
+CASE_1076,High,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone A,9.1,17,9,92.9,0.08,6,0
+CASE_1077,Low,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone C,2.25,1,5,60.4,0.18,4,1
+CASE_1078,Medium,Fire/Hazmat,Evening,Clear,Weekday,Low,Zone A,5.23,8,5,14.1,0.08,2,1
+CASE_1079,Low,Fall/Injury,Morning,Clear,Weekday,High,Zone D,8.66,10,7,46.7,0.32,10,1
+CASE_1080,High,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone C,3.21,10,2,47.5,0.18,3,1
+CASE_1081,High,Cardiac Arrest,Morning,Foggy,Weekday,Medium,Zone C,12.11,18,3,96.9,0.18,5,1
+CASE_1082,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,14.6,9,2,63.9,0.08,9,0
+CASE_1083,Low,Fire/Hazmat,Evening,Clear,Weekday,Medium,Zone A,3.61,2,10,67.2,0.08,7,0
+CASE_1084,Medium,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone A,3.21,3,10,74.2,0.08,3,1
+CASE_1085,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone B,7.1,2,2,79.3,0.15,4,0
+CASE_1086,High,Cardiac Arrest,Morning,Rainy,Weekend,Medium,Zone C,11.34,6,3,67.2,0.18,2,1
+CASE_1087,High,Fall/Injury,Evening,Clear,Weekend,Medium,Zone C,4.58,12,6,31.3,0.18,8,0
+CASE_1088,High,Stroke,Evening,Rainy,Weekday,Medium,Zone C,0.79,19,5,88.7,0.18,6,0
+CASE_1089,Medium,Traffic Accident,Morning,Clear,Weekend,Low,Zone C,8.35,15,5,75.9,0.18,3,1
+CASE_1090,Low,Fall/Injury,Evening,Clear,Weekend,Low,Zone B,14.37,19,2,76.8,0.15,5,1
+CASE_1091,High,Fire/Hazmat,Afternoon,Rainy,Weekday,Low,Zone A,6.17,12,2,99.7,0.08,5,1
+CASE_1092,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,6.59,18,1,82.2,0.08,1,0
+CASE_1093,Medium,Respiratory Emergency,Night,Clear,Weekend,High,Zone E,14.55,16,3,84.6,0.22,5,1
+CASE_1094,High,Traffic Accident,Afternoon,Clear,Weekday,High,Zone C,10.57,2,7,95.6,0.18,6,1
+CASE_1095,Medium,Fall/Injury,Afternoon,Rainy,Weekend,Medium,Zone A,10.93,11,5,23.6,0.08,10,1
+CASE_1096,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone A,8.66,12,7,54.8,0.08,10,0
+CASE_1097,Medium,Fall/Injury,Morning,Snowy,Weekday,Medium,Zone E,14.63,5,9,62.3,0.22,2,1
+CASE_1098,Low,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone D,10.49,6,6,39.6,0.32,3,1
+CASE_1099,Low,Traffic Accident,Morning,Snowy,Weekday,Low,Zone D,13.48,11,2,85.5,0.32,10,1
+CASE_1100,Low,Fire/Hazmat,Evening,Clear,Weekend,High,Zone B,10.64,10,1,78.6,0.15,5,0
+CASE_1101,High,Respiratory Emergency,Afternoon,Rainy,Weekend,Medium,Zone B,11.16,4,1,74.9,0.15,3,1
+CASE_1102,Medium,Traffic Accident,Afternoon,Clear,Weekday,High,Zone E,4.71,9,10,99.7,0.22,5,1
+CASE_1103,Medium,Fall/Injury,Morning,Foggy,Weekday,Medium,Zone D,4.9,12,9,33.3,0.32,5,1
+CASE_1104,Critical,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone B,11.85,10,6,76.2,0.15,8,1
+CASE_1105,Medium,Traffic Accident,Evening,Clear,Weekday,Low,Zone E,4.8,14,6,59.6,0.22,10,0
+CASE_1106,Medium,Stroke,Night,Clear,Weekday,Low,Zone D,8.66,5,4,38.2,0.32,9,1
+CASE_1107,High,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone B,4.12,1,2,24.5,0.15,8,1
+CASE_1108,Medium,Traffic Accident,Night,Clear,Weekend,Medium,Zone B,12.35,5,10,90.6,0.15,3,1
+CASE_1109,Low,Fire/Hazmat,Afternoon,Foggy,Weekend,Low,Zone A,2.1,16,3,63.6,0.08,1,0
+CASE_1110,Medium,Cardiac Arrest,Afternoon,Foggy,Weekday,Low,Zone A,12.53,5,3,84.2,0.08,3,1
+CASE_1111,Low,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone D,9.24,5,8,59.1,0.32,1,1
+CASE_1112,Critical,Traffic Accident,Morning,Foggy,Weekend,Medium,Zone B,3.21,18,6,29.8,0.15,9,0
+CASE_1113,High,Stroke,Morning,Clear,Weekday,Medium,Zone E,8.36,6,7,40.4,0.22,3,0
+CASE_1114,High,Fall/Injury,Evening,Clear,Weekday,Low,Zone E,4.6,18,9,44.3,0.22,8,0
+CASE_1115,High,Traffic Accident,Afternoon,Rainy,Weekday,Low,Zone A,5.19,10,1,97.6,0.08,6,0
+CASE_1116,High,Respiratory Emergency,Night,Rainy,Weekend,Low,Zone C,5.6,15,2,10.5,0.18,3,1
+CASE_1117,Low,Fall/Injury,Afternoon,Foggy,Weekday,Medium,Zone E,1.42,11,9,98.7,0.22,9,0
+CASE_1118,High,Cardiac Arrest,Morning,Clear,Weekday,Low,Zone D,14.8,19,5,98.2,0.32,8,1
+CASE_1119,Medium,Stroke,Evening,Rainy,Weekday,Medium,Zone D,0.96,13,4,99.7,0.32,3,0
+CASE_1120,High,Stroke,Afternoon,Clear,Weekday,Low,Zone B,10.11,20,1,52.9,0.15,7,1
+CASE_1121,High,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone C,5.88,3,9,96.7,0.18,5,1
+CASE_1122,Medium,Fire/Hazmat,Evening,Clear,Weekday,High,Zone C,9.87,16,9,45.6,0.18,2,1
+CASE_1123,Low,Respiratory Emergency,Night,Foggy,Weekday,Medium,Zone E,5.67,7,4,12.4,0.22,8,1
+CASE_1124,Medium,Fire/Hazmat,Evening,Snowy,Weekday,Low,Zone B,10.27,12,9,30.2,0.15,1,1
+CASE_1125,Medium,Fall/Injury,Evening,Rainy,Weekday,High,Zone E,11.07,15,10,95.1,0.22,4,1
+CASE_1126,High,Fall/Injury,Evening,Clear,Weekday,Medium,Zone B,10.51,8,1,11.2,0.15,4,1
+CASE_1127,High,Traffic Accident,Night,Clear,Weekend,High,Zone E,2.15,17,5,59.1,0.22,10,1
+CASE_1128,Low,Stroke,Afternoon,Clear,Weekend,Medium,Zone D,10.02,1,1,16.8,0.32,5,1
+CASE_1129,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone C,4.56,8,4,35.8,0.18,4,0
+CASE_1130,Medium,Traffic Accident,Afternoon,Clear,Weekend,High,Zone C,0.92,14,5,17.9,0.18,1,0
+CASE_1131,Medium,Cardiac Arrest,Morning,Rainy,Weekday,Low,Zone B,6.52,10,3,87.4,0.15,7,0
+CASE_1132,Low,Respiratory Emergency,Evening,Clear,Weekend,Medium,Zone B,6.79,19,2,63.2,0.15,10,0
+CASE_1133,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,7.27,8,6,91.2,0.08,2,1
+CASE_1134,Critical,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone A,10.72,19,3,72.0,0.08,10,1
+CASE_1135,Medium,Stroke,Morning,Clear,Weekday,Low,Zone B,4.98,4,10,97.4,0.15,3,0
+CASE_1136,Medium,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone D,5.07,10,1,55.9,0.32,5,1
+CASE_1137,High,Fall/Injury,Afternoon,Foggy,Weekend,Medium,Zone C,1.38,3,5,67.5,0.18,8,1
+CASE_1138,Medium,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone A,10.46,4,2,61.9,0.08,10,1
+CASE_1139,Critical,Stroke,Afternoon,Snowy,Weekday,Medium,Zone E,8.73,16,2,53.6,0.22,8,1
+CASE_1140,Critical,Stroke,Afternoon,Clear,Weekday,Low,Zone C,5.57,4,4,86.1,0.18,2,1
+CASE_1141,Medium,Respiratory Emergency,Morning,Clear,Weekend,Medium,Zone E,10.73,20,4,68.0,0.22,9,0
+CASE_1142,Medium,Fall/Injury,Morning,Clear,Weekday,High,Zone D,8.29,20,4,82.1,0.32,6,1
+CASE_1143,Medium,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone A,7.3,13,7,80.8,0.08,9,0
+CASE_1144,Medium,Respiratory Emergency,Night,Rainy,Weekend,Medium,Zone C,7.91,17,1,27.2,0.18,4,1
+CASE_1145,Low,Stroke,Evening,Clear,Weekday,Medium,Zone C,9.73,16,8,68.5,0.18,3,1
+CASE_1146,High,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone A,10.07,17,10,28.0,0.08,5,0
+CASE_1147,Medium,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone A,4.69,6,9,62.5,0.08,5,0
+CASE_1148,Low,Respiratory Emergency,Evening,Rainy,Weekday,High,Zone A,2.54,3,10,71.0,0.08,4,1
+CASE_1149,Medium,Stroke,Evening,Foggy,Weekday,Medium,Zone B,2.77,20,6,99.8,0.15,7,0
+CASE_1150,Critical,Traffic Accident,Morning,Clear,Weekday,High,Zone B,9.77,4,4,12.7,0.15,8,1
+CASE_1151,Medium,Traffic Accident,Morning,Clear,Weekend,Low,Zone C,13.16,8,6,18.2,0.18,5,0
+CASE_1152,Low,Fall/Injury,Evening,Clear,Weekday,Low,Zone A,6.44,20,10,16.9,0.08,9,1
+CASE_1153,Medium,Stroke,Afternoon,Clear,Weekend,Low,Zone D,2.96,9,7,45.9,0.32,7,0
+CASE_1154,Critical,Cardiac Arrest,Afternoon,Clear,Weekend,Medium,Zone C,11.47,1,6,83.9,0.18,7,1
+CASE_1155,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,12.57,13,1,86.0,0.15,8,0
+CASE_1156,High,Cardiac Arrest,Afternoon,Rainy,Weekend,Low,Zone A,13.27,2,5,76.3,0.08,4,1
+CASE_1157,High,Traffic Accident,Night,Rainy,Weekday,Low,Zone A,9.3,10,8,90.7,0.08,10,1
+CASE_1158,Medium,Respiratory Emergency,Night,Clear,Weekday,High,Zone B,12.98,19,8,39.1,0.15,6,1
+CASE_1159,High,Fall/Injury,Afternoon,Snowy,Weekend,High,Zone A,0.72,17,10,17.9,0.08,5,0
+CASE_1160,Medium,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone B,2.05,13,9,15.2,0.15,1,0
+CASE_1161,High,Fall/Injury,Morning,Clear,Weekday,Medium,Zone C,1.84,14,4,86.7,0.18,9,0
+CASE_1162,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,10.83,11,10,75.7,0.18,2,0
+CASE_1163,Medium,Stroke,Afternoon,Clear,Weekday,Medium,Zone A,1.51,10,6,72.9,0.08,6,1
+CASE_1164,Low,Respiratory Emergency,Evening,Clear,Weekday,High,Zone B,7.7,7,7,40.6,0.15,8,1
+CASE_1165,High,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone C,7.35,10,5,44.2,0.18,3,0
+CASE_1166,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone E,5.01,1,8,96.2,0.22,5,1
+CASE_1167,Low,Cardiac Arrest,Morning,Foggy,Weekday,Medium,Zone D,13.12,14,3,15.7,0.32,7,1
+CASE_1168,Low,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone C,2.97,3,8,79.6,0.18,4,0
+CASE_1169,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,5.61,13,5,37.9,0.15,5,0
+CASE_1170,High,Fall/Injury,Morning,Clear,Weekend,Medium,Zone B,11.73,2,1,13.5,0.15,1,1
+CASE_1171,Low,Cardiac Arrest,Night,Rainy,Weekend,Low,Zone E,0.94,17,6,76.8,0.22,4,0
+CASE_1172,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,10.26,3,2,39.8,0.08,7,1
+CASE_1173,Medium,Stroke,Afternoon,Snowy,Weekday,Low,Zone E,12.34,15,7,75.0,0.22,10,1
+CASE_1174,High,Traffic Accident,Night,Clear,Weekday,Low,Zone D,14.02,8,9,73.7,0.32,7,1
+CASE_1175,Low,Stroke,Night,Clear,Weekday,Low,Zone D,13.21,6,3,58.1,0.32,10,1
+CASE_1176,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,5.13,9,10,80.0,0.08,10,0
+CASE_1177,Medium,Fall/Injury,Evening,Clear,Weekend,Medium,Zone C,9.0,11,4,62.3,0.18,4,0
+CASE_1178,Critical,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone C,1.62,2,4,35.8,0.18,6,0
+CASE_1179,Low,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone A,4.24,9,4,76.1,0.08,5,0
+CASE_1180,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone B,1.87,18,3,63.0,0.15,1,0
+CASE_1181,Low,Traffic Accident,Evening,Clear,Weekday,Medium,Zone E,5.07,19,5,11.1,0.22,8,1
+CASE_1182,Critical,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone C,13.19,18,9,91.1,0.18,7,1
+CASE_1183,High,Traffic Accident,Afternoon,Foggy,Weekend,Medium,Zone B,5.53,5,8,59.1,0.15,5,1
+CASE_1184,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone A,8.65,18,10,88.2,0.08,10,0
+CASE_1185,High,Fire/Hazmat,Evening,Snowy,Weekday,Medium,Zone D,6.78,12,2,89.4,0.32,10,1
+CASE_1186,High,Stroke,Morning,Rainy,Weekday,High,Zone D,7.15,4,9,50.0,0.32,7,1
+CASE_1187,Medium,Fall/Injury,Afternoon,Clear,Weekend,High,Zone C,14.56,15,10,55.7,0.18,10,1
+CASE_1188,Medium,Fall/Injury,Evening,Clear,Weekday,Low,Zone C,4.79,11,2,47.4,0.18,3,0
+CASE_1189,Medium,Fall/Injury,Evening,Clear,Weekday,Low,Zone B,9.6,19,7,50.4,0.15,8,0
+CASE_1190,Low,Traffic Accident,Evening,Rainy,Weekend,Medium,Zone C,6.59,5,5,90.6,0.18,5,0
+CASE_1191,High,Fire/Hazmat,Night,Rainy,Weekday,Medium,Zone A,1.39,6,7,80.9,0.08,2,1
+CASE_1192,Critical,Fall/Injury,Afternoon,Rainy,Weekday,Low,Zone E,7.6,13,5,21.4,0.22,2,1
+CASE_1193,High,Respiratory Emergency,Evening,Foggy,Weekday,High,Zone C,12.29,10,6,64.9,0.18,4,1
+CASE_1194,Medium,Cardiac Arrest,Evening,Rainy,Weekday,Low,Zone B,1.93,14,8,99.6,0.15,7,1
+CASE_1195,Medium,Respiratory Emergency,Morning,Clear,Weekday,High,Zone B,1.51,4,1,63.6,0.15,10,1
+CASE_1196,High,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone E,2.73,20,1,80.7,0.22,4,0
+CASE_1197,High,Stroke,Afternoon,Snowy,Weekday,Medium,Zone A,11.58,12,5,79.2,0.08,9,1
+CASE_1198,High,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone B,11.0,15,1,41.5,0.15,2,1
+CASE_1199,High,Traffic Accident,Evening,Clear,Weekday,Low,Zone D,8.69,10,3,43.5,0.32,6,1
+CASE_1200,High,Fire/Hazmat,Evening,Rainy,Weekday,Medium,Zone B,7.29,11,10,75.2,0.15,4,1
+CASE_1201,Low,Cardiac Arrest,Morning,Clear,Weekday,Low,Zone D,13.38,9,9,55.0,0.32,6,1
+CASE_1202,Low,Respiratory Emergency,Morning,Foggy,Weekend,Medium,Zone A,11.62,11,7,61.4,0.08,10,1
+CASE_1203,High,Cardiac Arrest,Night,Rainy,Weekday,Medium,Zone D,12.27,2,6,74.2,0.32,9,1
+CASE_1204,High,Fall/Injury,Morning,Clear,Weekday,Low,Zone A,12.29,13,8,80.0,0.08,10,1
+CASE_1205,Low,Fire/Hazmat,Afternoon,Foggy,Weekday,Low,Zone A,9.82,8,8,34.4,0.08,9,0
+CASE_1206,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,7.14,8,6,23.2,0.22,9,0
+CASE_1207,High,Stroke,Afternoon,Clear,Weekday,Low,Zone C,13.04,1,4,36.3,0.18,9,1
+CASE_1208,Low,Traffic Accident,Morning,Clear,Weekday,Low,Zone B,13.93,6,4,55.7,0.15,3,1
+CASE_1209,Low,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone A,0.85,13,4,40.8,0.08,9,0
+CASE_1210,Medium,Fall/Injury,Morning,Clear,Weekday,High,Zone C,1.25,9,6,61.2,0.18,3,1
+CASE_1211,High,Stroke,Afternoon,Clear,Weekend,Medium,Zone C,14.4,6,1,14.8,0.18,10,1
+CASE_1212,High,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone E,4.52,15,2,55.9,0.22,3,1
+CASE_1213,Medium,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone E,13.16,16,6,43.1,0.22,5,1
+CASE_1214,High,Fall/Injury,Evening,Rainy,Weekday,High,Zone C,6.14,4,1,58.1,0.18,6,1
+CASE_1215,Medium,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone B,2.23,17,9,48.0,0.15,9,0
+CASE_1216,Medium,Stroke,Morning,Clear,Weekday,Medium,Zone C,1.67,9,6,35.6,0.18,1,0
+CASE_1217,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone D,2.77,12,7,91.4,0.32,8,0
+CASE_1218,High,Stroke,Evening,Clear,Weekday,Medium,Zone A,4.12,19,1,26.6,0.08,4,1
+CASE_1219,High,Cardiac Arrest,Afternoon,Clear,Weekend,Low,Zone B,7.58,20,8,71.3,0.15,10,0
+CASE_1220,High,Fall/Injury,Afternoon,Rainy,Weekend,Medium,Zone A,10.67,12,5,93.2,0.08,7,0
+CASE_1221,Medium,Respiratory Emergency,Evening,Rainy,Weekday,Medium,Zone A,14.8,6,5,58.5,0.08,6,1
+CASE_1222,Low,Cardiac Arrest,Night,Clear,Weekday,High,Zone A,6.9,12,6,88.9,0.08,6,0
+CASE_1223,Medium,Traffic Accident,Evening,Clear,Weekend,Low,Zone C,8.01,9,7,21.2,0.18,7,0
+CASE_1224,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone D,8.07,20,7,54.4,0.32,4,0
+CASE_1225,Medium,Respiratory Emergency,Evening,Rainy,Weekday,Medium,Zone C,8.32,5,5,51.1,0.18,6,1
+CASE_1226,Critical,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone B,8.01,3,1,10.7,0.15,3,1
+CASE_1227,Medium,Respiratory Emergency,Evening,Foggy,Weekday,Medium,Zone A,0.63,2,9,49.9,0.08,5,0
+CASE_1228,High,Traffic Accident,Afternoon,Rainy,Weekday,Low,Zone C,0.53,8,6,43.2,0.18,2,0
+CASE_1229,High,Traffic Accident,Morning,Clear,Weekday,Low,Zone B,1.92,10,9,70.3,0.15,3,0
+CASE_1230,High,Fall/Injury,Evening,Clear,Weekday,Medium,Zone C,1.97,15,4,94.4,0.18,9,0
+CASE_1231,Medium,Cardiac Arrest,Afternoon,Foggy,Weekday,Medium,Zone E,10.72,9,2,17.7,0.22,6,1
+CASE_1232,Medium,Fire/Hazmat,Afternoon,Clear,Weekend,High,Zone A,3.47,10,3,39.5,0.08,3,0
+CASE_1233,Medium,Stroke,Night,Clear,Weekday,Medium,Zone A,13.47,11,4,50.0,0.08,2,1
+CASE_1234,Low,Fall/Injury,Morning,Clear,Weekday,Medium,Zone C,13.96,9,10,51.0,0.18,5,1
+CASE_1235,High,Respiratory Emergency,Afternoon,Snowy,Weekday,Medium,Zone E,14.65,14,8,79.7,0.22,10,1
+CASE_1236,Medium,Stroke,Morning,Rainy,Weekend,Medium,Zone D,14.12,5,3,49.9,0.32,5,1
+CASE_1237,Low,Traffic Accident,Evening,Rainy,Weekend,Medium,Zone E,4.44,9,8,12.4,0.22,1,0
+CASE_1238,High,Cardiac Arrest,Evening,Snowy,Weekday,High,Zone B,7.89,4,6,73.9,0.15,3,1
+CASE_1239,Low,Traffic Accident,Afternoon,Snowy,Weekday,Low,Zone E,3.04,2,4,89.6,0.22,7,1
+CASE_1240,Critical,Fall/Injury,Evening,Foggy,Weekend,Medium,Zone A,12.19,19,7,56.3,0.08,9,1
+CASE_1241,Critical,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone A,13.38,1,5,62.3,0.08,5,1
+CASE_1242,Critical,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone E,12.84,1,5,24.7,0.22,4,1
+CASE_1243,Medium,Fire/Hazmat,Afternoon,Rainy,Weekday,Medium,Zone E,6.78,12,9,29.9,0.22,3,0
+CASE_1244,Low,Stroke,Afternoon,Rainy,Weekday,Low,Zone A,11.5,11,3,31.2,0.08,10,1
+CASE_1245,Critical,Respiratory Emergency,Night,Rainy,Weekday,High,Zone A,1.91,1,10,48.8,0.08,9,1
+CASE_1246,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone A,1.08,14,4,93.5,0.08,7,0
+CASE_1247,Critical,Stroke,Morning,Rainy,Weekday,Medium,Zone A,11.42,11,5,57.0,0.08,7,1
+CASE_1248,Critical,Respiratory Emergency,Afternoon,Rainy,Weekend,High,Zone A,6.67,7,1,27.3,0.08,8,1
+CASE_1249,High,Cardiac Arrest,Night,Clear,Weekend,Low,Zone E,14.94,2,7,33.9,0.22,10,1
+CASE_1250,Medium,Cardiac Arrest,Afternoon,Clear,Weekend,Medium,Zone D,1.91,15,8,44.6,0.32,1,0
+CASE_1251,Medium,Fire/Hazmat,Morning,Clear,Weekend,Low,Zone D,12.91,8,6,66.1,0.32,4,1
+CASE_1252,High,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone D,7.46,20,9,49.6,0.32,5,1
+CASE_1253,Medium,Stroke,Afternoon,Clear,Weekday,Medium,Zone C,12.49,15,3,45.3,0.18,5,0
+CASE_1254,Low,Stroke,Morning,Clear,Weekday,High,Zone D,12.35,8,2,60.8,0.32,1,1
+CASE_1255,Medium,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone C,13.78,10,5,31.8,0.18,3,1
+CASE_1256,Critical,Respiratory Emergency,Night,Rainy,Weekday,Medium,Zone B,4.82,19,9,17.1,0.15,2,1
+CASE_1257,High,Respiratory Emergency,Afternoon,Rainy,Weekend,Medium,Zone C,14.27,3,1,12.2,0.18,7,1
+CASE_1258,Medium,Traffic Accident,Afternoon,Snowy,Weekday,High,Zone C,2.7,20,1,32.6,0.18,5,0
+CASE_1259,Low,Respiratory Emergency,Afternoon,Clear,Weekend,Low,Zone E,1.69,14,10,18.2,0.22,3,0
+CASE_1260,High,Fall/Injury,Morning,Clear,Weekday,Medium,Zone E,6.76,9,3,40.3,0.22,8,1
+CASE_1261,Critical,Fall/Injury,Night,Snowy,Weekday,Medium,Zone B,12.51,9,10,79.6,0.15,1,1
+CASE_1262,Low,Stroke,Afternoon,Clear,Weekend,Medium,Zone D,7.36,6,3,74.5,0.32,1,0
+CASE_1263,Medium,Respiratory Emergency,Afternoon,Foggy,Weekday,High,Zone A,12.52,8,5,65.0,0.08,6,1
+CASE_1264,High,Fall/Injury,Evening,Snowy,Weekend,High,Zone D,11.08,11,4,86.7,0.32,1,1
+CASE_1265,High,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone B,3.54,8,6,35.4,0.15,4,1
+CASE_1266,High,Respiratory Emergency,Evening,Foggy,Weekday,Medium,Zone A,14.26,12,8,89.7,0.08,6,1
+CASE_1267,High,Fall/Injury,Morning,Clear,Weekday,Medium,Zone B,1.38,10,8,45.9,0.15,1,0
+CASE_1268,Medium,Traffic Accident,Evening,Clear,Weekday,Medium,Zone C,13.53,4,4,46.1,0.18,9,1
+CASE_1269,Medium,Respiratory Emergency,Night,Rainy,Weekday,Medium,Zone A,4.91,16,1,46.5,0.08,4,0
+CASE_1270,High,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone E,7.75,20,7,18.8,0.22,9,0
+CASE_1271,High,Traffic Accident,Night,Foggy,Weekday,Medium,Zone A,6.62,6,6,97.8,0.08,9,1
+CASE_1272,High,Respiratory Emergency,Morning,Clear,Weekday,High,Zone E,2.99,9,5,22.5,0.22,6,1
+CASE_1273,Critical,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone D,5.69,5,4,40.7,0.32,7,0
+CASE_1274,Medium,Fire/Hazmat,Evening,Clear,Weekday,High,Zone B,3.3,6,6,38.7,0.15,1,1
+CASE_1275,Medium,Fall/Injury,Afternoon,Rainy,Weekend,Medium,Zone B,3.46,17,8,16.7,0.15,5,1
+CASE_1276,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone D,3.21,17,6,23.7,0.32,3,0
+CASE_1277,High,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone C,7.59,13,3,14.0,0.18,10,1
+CASE_1278,High,Fall/Injury,Morning,Snowy,Weekday,Medium,Zone D,12.07,17,9,36.3,0.32,10,1
+CASE_1279,High,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone B,8.75,14,3,88.0,0.15,6,1
+CASE_1280,High,Traffic Accident,Morning,Snowy,Weekday,Medium,Zone C,13.45,2,4,40.5,0.18,4,1
+CASE_1281,Medium,Traffic Accident,Evening,Clear,Weekend,Medium,Zone E,9.73,19,5,21.1,0.22,9,1
+CASE_1282,Medium,Respiratory Emergency,Morning,Rainy,Weekend,High,Zone A,10.5,3,2,68.1,0.08,7,1
+CASE_1283,Low,Cardiac Arrest,Morning,Rainy,Weekday,High,Zone B,10.18,2,10,99.7,0.15,4,1
+CASE_1284,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone B,7.02,2,10,30.9,0.15,6,1
+CASE_1285,Low,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone D,10.5,7,2,35.2,0.32,2,0
+CASE_1286,Medium,Fire/Hazmat,Night,Snowy,Weekday,Medium,Zone D,1.51,4,6,97.5,0.32,3,0
+CASE_1287,Medium,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone B,12.97,17,2,26.1,0.15,7,0
+CASE_1288,Medium,Respiratory Emergency,Afternoon,Foggy,Weekday,Medium,Zone A,11.78,6,10,56.0,0.08,4,1
+CASE_1289,Medium,Traffic Accident,Evening,Clear,Weekday,Low,Zone A,4.06,7,1,31.6,0.08,10,0
+CASE_1290,Low,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone B,11.64,20,8,93.9,0.15,7,1
+CASE_1291,Low,Traffic Accident,Morning,Clear,Weekday,Low,Zone B,0.68,6,10,98.3,0.15,9,0
+CASE_1292,High,Traffic Accident,Afternoon,Foggy,Weekday,Medium,Zone E,3.65,9,10,83.3,0.22,5,0
+CASE_1293,Medium,Respiratory Emergency,Night,Clear,Weekday,Medium,Zone C,1.44,20,1,38.3,0.18,1,0
+CASE_1294,Low,Cardiac Arrest,Afternoon,Snowy,Weekend,Medium,Zone B,11.81,4,10,46.3,0.15,5,0
+CASE_1295,Medium,Cardiac Arrest,Afternoon,Snowy,Weekend,High,Zone E,11.46,5,6,31.8,0.22,6,1
+CASE_1296,High,Traffic Accident,Morning,Clear,Weekday,High,Zone C,12.3,19,1,90.2,0.18,2,1
+CASE_1297,Medium,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone C,0.56,10,8,92.3,0.18,8,0
+CASE_1298,High,Cardiac Arrest,Afternoon,Rainy,Weekday,Low,Zone A,7.77,18,5,47.7,0.08,2,0
+CASE_1299,Low,Traffic Accident,Afternoon,Clear,Weekend,High,Zone B,10.72,15,3,69.1,0.15,9,1
+CASE_1300,Low,Stroke,Morning,Rainy,Weekend,High,Zone E,2.75,1,5,24.9,0.22,2,0
+CASE_1301,Medium,Respiratory Emergency,Night,Clear,Weekday,High,Zone C,9.92,5,1,49.1,0.18,3,1
+CASE_1302,Medium,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone B,1.72,5,1,66.8,0.15,8,1
+CASE_1303,High,Traffic Accident,Afternoon,Rainy,Weekday,High,Zone C,3.13,8,4,44.7,0.18,6,1
+CASE_1304,High,Fire/Hazmat,Evening,Clear,Weekday,Low,Zone E,7.4,20,9,42.2,0.22,1,1
+CASE_1305,Critical,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,9.98,15,9,10.1,0.15,4,1
+CASE_1306,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone C,2.62,17,1,82.4,0.18,5,1
+CASE_1307,Medium,Fall/Injury,Evening,Clear,Weekday,Low,Zone E,3.19,19,3,90.0,0.22,3,0
+CASE_1308,High,Cardiac Arrest,Evening,Clear,Weekday,High,Zone A,3.46,13,4,97.3,0.08,1,0
+CASE_1309,Medium,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone D,3.96,10,2,74.7,0.32,3,0
+CASE_1310,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone C,3.79,17,7,59.4,0.18,9,0
+CASE_1311,Low,Stroke,Night,Clear,Weekday,Low,Zone D,6.23,5,3,34.2,0.32,2,1
+CASE_1312,Low,Respiratory Emergency,Morning,Rainy,Weekday,High,Zone B,9.98,18,1,99.9,0.15,1,1
+CASE_1313,Critical,Fall/Injury,Night,Clear,Weekday,Low,Zone B,6.85,17,1,63.1,0.15,7,1
+CASE_1314,High,Fire/Hazmat,Night,Clear,Weekday,Medium,Zone D,11.75,4,3,71.3,0.32,7,1
+CASE_1315,High,Cardiac Arrest,Morning,Foggy,Weekday,Medium,Zone A,10.93,7,6,71.4,0.08,5,1
+CASE_1316,Medium,Traffic Accident,Evening,Rainy,Weekend,Medium,Zone B,2.33,5,4,86.1,0.15,2,1
+CASE_1317,Low,Traffic Accident,Morning,Clear,Weekend,Low,Zone A,1.21,8,1,10.9,0.08,1,0
+CASE_1318,Low,Respiratory Emergency,Afternoon,Rainy,Weekend,Medium,Zone A,13.23,8,7,29.8,0.08,5,1
+CASE_1319,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone E,1.66,11,2,69.9,0.22,10,0
+CASE_1320,Medium,Fire/Hazmat,Afternoon,Rainy,Weekday,Medium,Zone B,2.65,9,5,90.6,0.15,4,1
+CASE_1321,High,Fall/Injury,Night,Clear,Weekday,Low,Zone E,0.82,19,8,71.7,0.22,9,0
+CASE_1322,High,Fall/Injury,Evening,Clear,Weekday,High,Zone A,9.61,19,7,47.2,0.08,5,1
+CASE_1323,Medium,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone C,8.94,9,8,42.5,0.18,10,0
+CASE_1324,Critical,Stroke,Evening,Clear,Weekday,Low,Zone A,14.81,20,10,76.4,0.08,2,0
+CASE_1325,High,Fire/Hazmat,Night,Clear,Weekend,Low,Zone D,13.36,17,6,76.7,0.32,4,1
+CASE_1326,Medium,Stroke,Morning,Foggy,Weekday,Medium,Zone D,6.46,16,7,64.6,0.32,9,1
+CASE_1327,High,Cardiac Arrest,Night,Clear,Weekend,Low,Zone A,5.89,7,9,36.2,0.08,8,1
+CASE_1328,Medium,Fall/Injury,Morning,Clear,Weekend,Medium,Zone E,4.8,3,6,93.3,0.22,3,0
+CASE_1329,Medium,Cardiac Arrest,Evening,Clear,Weekday,High,Zone A,2.71,19,9,59.7,0.08,8,0
+CASE_1330,Medium,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone C,2.5,8,2,81.1,0.18,2,0
+CASE_1331,High,Cardiac Arrest,Morning,Rainy,Weekday,Medium,Zone E,2.42,5,2,29.3,0.22,3,1
+CASE_1332,Low,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone E,2.15,6,2,41.0,0.22,5,0
+CASE_1333,Low,Fall/Injury,Evening,Clear,Weekday,Medium,Zone E,3.99,2,6,88.7,0.22,10,1
+CASE_1334,Low,Cardiac Arrest,Afternoon,Clear,Weekend,Low,Zone B,4.95,19,2,14.5,0.15,10,0
+CASE_1335,Low,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone A,14.44,13,3,56.1,0.08,8,0
+CASE_1336,High,Respiratory Emergency,Afternoon,Clear,Weekend,Low,Zone A,8.89,6,8,53.4,0.08,1,1
+CASE_1337,High,Traffic Accident,Night,Clear,Weekday,Medium,Zone C,14.82,6,8,77.6,0.18,4,1
+CASE_1338,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone D,5.9,2,4,35.4,0.32,1,1
+CASE_1339,Low,Respiratory Emergency,Morning,Clear,Weekend,High,Zone A,7.14,5,9,29.7,0.08,1,1
+CASE_1340,Medium,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone D,5.21,11,8,93.4,0.32,5,0
+CASE_1341,Medium,Cardiac Arrest,Morning,Rainy,Weekday,Medium,Zone B,3.15,11,1,61.5,0.15,6,0
+CASE_1342,Low,Cardiac Arrest,Evening,Rainy,Weekday,Low,Zone B,2.58,14,8,19.4,0.15,1,0
+CASE_1343,Medium,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone D,14.2,13,1,27.4,0.32,6,1
+CASE_1344,Medium,Fire/Hazmat,Afternoon,Clear,Weekend,High,Zone C,14.81,8,4,99.9,0.18,5,1
+CASE_1345,High,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone E,1.15,15,10,27.6,0.22,4,0
+CASE_1346,High,Fall/Injury,Evening,Clear,Weekend,Medium,Zone A,2.68,12,6,64.9,0.08,10,0
+CASE_1347,Low,Traffic Accident,Afternoon,Foggy,Weekday,High,Zone D,6.64,3,7,47.8,0.32,5,1
+CASE_1348,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,3.2,5,10,89.7,0.08,8,1
+CASE_1349,High,Cardiac Arrest,Evening,Rainy,Weekday,Medium,Zone A,5.78,6,4,78.0,0.08,9,1
+CASE_1350,Medium,Fall/Injury,Evening,Clear,Weekend,Medium,Zone D,2.37,2,8,63.7,0.32,2,0
+CASE_1351,High,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone E,7.12,8,8,11.0,0.22,6,1
+CASE_1352,High,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone B,4.44,5,9,89.2,0.15,3,0
+CASE_1353,Low,Stroke,Night,Clear,Weekday,High,Zone B,5.6,17,6,50.0,0.15,2,0
+CASE_1354,Low,Fall/Injury,Afternoon,Foggy,Weekday,Medium,Zone C,1.87,2,4,93.8,0.18,1,0
+CASE_1355,High,Cardiac Arrest,Evening,Foggy,Weekday,Low,Zone A,6.71,11,2,54.6,0.08,4,1
+CASE_1356,Low,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone E,14.76,4,7,72.5,0.22,8,1
+CASE_1357,Medium,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone D,5.27,11,10,16.2,0.32,3,1
+CASE_1358,Critical,Respiratory Emergency,Afternoon,Foggy,Weekday,Low,Zone A,13.21,9,3,77.1,0.08,5,1
+CASE_1359,Medium,Cardiac Arrest,Morning,Rainy,Weekday,Medium,Zone C,12.73,6,3,40.4,0.18,10,1
+CASE_1360,Medium,Cardiac Arrest,Morning,Clear,Weekend,High,Zone D,14.3,2,3,41.6,0.32,5,1
+CASE_1361,High,Respiratory Emergency,Evening,Clear,Weekday,High,Zone B,11.96,15,4,20.7,0.15,5,1
+CASE_1362,Medium,Traffic Accident,Evening,Clear,Weekday,High,Zone C,10.06,5,2,23.2,0.18,9,1
+CASE_1363,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone A,12.92,12,5,26.7,0.08,8,1
+CASE_1364,Critical,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone C,1.6,13,3,39.5,0.18,8,1
+CASE_1365,Medium,Cardiac Arrest,Evening,Clear,Weekend,Medium,Zone A,7.21,17,10,90.3,0.08,1,0
+CASE_1366,Critical,Cardiac Arrest,Morning,Clear,Weekday,High,Zone E,14.84,4,5,43.1,0.22,1,1
+CASE_1367,Critical,Respiratory Emergency,Afternoon,Clear,Weekend,Medium,Zone B,11.66,10,7,75.2,0.15,2,1
+CASE_1368,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,14.45,1,9,17.4,0.15,8,1
+CASE_1369,Low,Fall/Injury,Morning,Snowy,Weekday,Medium,Zone E,11.8,11,2,63.2,0.22,10,1
+CASE_1370,Low,Fall/Injury,Morning,Rainy,Weekday,Medium,Zone A,13.19,16,9,53.4,0.08,1,0
+CASE_1371,Low,Stroke,Afternoon,Clear,Weekday,High,Zone B,10.74,11,10,98.0,0.15,4,1
+CASE_1372,Low,Fall/Injury,Morning,Foggy,Weekday,Medium,Zone B,11.53,9,6,86.2,0.15,9,1
+CASE_1373,High,Respiratory Emergency,Afternoon,Foggy,Weekend,Medium,Zone B,8.09,2,6,50.9,0.15,2,1
+CASE_1374,Low,Fall/Injury,Afternoon,Clear,Weekday,High,Zone E,13.9,7,3,79.8,0.22,3,1
+CASE_1375,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone D,12.46,19,10,27.4,0.32,6,1
+CASE_1376,High,Traffic Accident,Afternoon,Rainy,Weekday,Low,Zone A,12.74,18,9,60.6,0.08,10,1
+CASE_1377,Low,Fall/Injury,Evening,Snowy,Weekday,Medium,Zone D,10.26,20,4,16.7,0.32,3,0
+CASE_1378,High,Respiratory Emergency,Morning,Foggy,Weekday,High,Zone C,4.92,7,5,41.3,0.18,4,1
+CASE_1379,Medium,Fall/Injury,Afternoon,Snowy,Weekday,Medium,Zone E,1.02,9,3,30.3,0.22,9,1
+CASE_1380,Low,Stroke,Morning,Rainy,Weekday,Medium,Zone B,14.07,12,5,74.7,0.15,9,1
+CASE_1381,High,Stroke,Morning,Clear,Weekday,Medium,Zone C,9.0,3,8,54.1,0.18,10,1
+CASE_1382,High,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone C,4.82,16,8,77.6,0.18,5,0
+CASE_1383,High,Respiratory Emergency,Afternoon,Clear,Weekend,High,Zone C,2.66,7,8,56.4,0.18,7,1
+CASE_1384,High,Traffic Accident,Night,Clear,Weekday,High,Zone C,12.53,5,6,17.8,0.18,9,1
+CASE_1385,High,Respiratory Emergency,Afternoon,Rainy,Weekday,Low,Zone A,12.63,7,1,76.2,0.08,8,1
+CASE_1386,Medium,Traffic Accident,Night,Clear,Weekend,Low,Zone D,12.31,19,10,85.0,0.32,7,1
+CASE_1387,Low,Fall/Injury,Morning,Rainy,Weekday,High,Zone C,9.85,17,6,91.3,0.18,8,0
+CASE_1388,High,Fall/Injury,Morning,Clear,Weekday,High,Zone E,5.81,16,10,61.5,0.22,5,1
+CASE_1389,High,Fall/Injury,Morning,Clear,Weekday,High,Zone B,4.91,19,7,77.8,0.15,5,0
+CASE_1390,Critical,Traffic Accident,Morning,Clear,Weekday,High,Zone D,0.62,18,9,77.7,0.32,5,1
+CASE_1391,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,12.59,19,8,24.0,0.22,1,1
+CASE_1392,Medium,Respiratory Emergency,Evening,Rainy,Weekend,Medium,Zone D,1.77,4,8,24.8,0.32,6,0
+CASE_1393,High,Cardiac Arrest,Morning,Rainy,Weekend,Medium,Zone E,9.65,1,7,16.4,0.22,5,1
+CASE_1394,Medium,Stroke,Night,Foggy,Weekend,Low,Zone E,7.81,4,2,38.8,0.22,8,1
+CASE_1395,Critical,Traffic Accident,Evening,Clear,Weekend,Medium,Zone B,8.14,4,1,52.6,0.15,8,1
+CASE_1396,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,13.94,9,2,99.8,0.18,2,1
+CASE_1397,Medium,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone A,0.96,8,6,48.8,0.08,6,0
+CASE_1398,High,Fall/Injury,Morning,Clear,Weekend,Medium,Zone C,11.71,2,2,75.4,0.18,10,1
+CASE_1399,High,Fall/Injury,Morning,Snowy,Weekend,Medium,Zone A,1.25,6,10,72.4,0.08,10,1
+CASE_1400,Low,Traffic Accident,Morning,Rainy,Weekday,Low,Zone D,1.05,11,4,28.4,0.32,6,0
+CASE_1401,Critical,Cardiac Arrest,Afternoon,Snowy,Weekend,Low,Zone C,6.73,4,10,15.3,0.18,3,1
+CASE_1402,Medium,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone B,1.41,14,3,59.1,0.15,1,0
+CASE_1403,High,Traffic Accident,Afternoon,Snowy,Weekday,Low,Zone B,11.94,9,6,73.0,0.15,7,1
+CASE_1404,Medium,Fall/Injury,Night,Clear,Weekday,High,Zone E,8.18,2,8,99.8,0.22,10,1
+CASE_1405,High,Fall/Injury,Evening,Snowy,Weekday,Low,Zone A,0.92,1,6,42.3,0.08,5,0
+CASE_1406,Medium,Traffic Accident,Night,Clear,Weekday,Low,Zone A,1.09,4,2,90.7,0.08,10,0
+CASE_1407,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,9.38,12,5,44.4,0.08,5,1
+CASE_1408,Critical,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone E,12.19,5,6,72.0,0.22,8,1
+CASE_1409,Low,Respiratory Emergency,Afternoon,Foggy,Weekday,Low,Zone E,6.85,9,9,63.8,0.22,5,1
+CASE_1410,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone D,8.54,4,6,14.8,0.32,5,1
+CASE_1411,Critical,Cardiac Arrest,Morning,Clear,Weekend,Medium,Zone E,12.1,16,10,17.1,0.22,1,1
+CASE_1412,Critical,Respiratory Emergency,Evening,Snowy,Weekday,Low,Zone A,9.35,2,5,11.9,0.08,2,1
+CASE_1413,Medium,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone E,3.76,16,1,43.4,0.22,5,0
+CASE_1414,High,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone A,9.39,16,10,77.1,0.08,7,1
+CASE_1415,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,High,Zone A,9.61,11,5,25.5,0.08,3,1
+CASE_1416,Medium,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone A,11.14,1,5,64.5,0.08,1,1
+CASE_1417,Medium,Cardiac Arrest,Morning,Foggy,Weekday,Low,Zone C,9.5,15,6,36.0,0.18,2,0
+CASE_1418,High,Cardiac Arrest,Afternoon,Rainy,Weekend,Medium,Zone D,14.55,4,7,81.7,0.32,3,1
+CASE_1419,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,3.36,18,4,81.9,0.15,9,0
+CASE_1420,High,Traffic Accident,Morning,Foggy,Weekday,Low,Zone E,14.29,17,7,79.8,0.22,8,1
+CASE_1421,High,Cardiac Arrest,Night,Clear,Weekday,Medium,Zone B,8.31,7,5,57.2,0.15,4,1
+CASE_1422,Low,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone A,10.24,18,6,35.6,0.08,8,0
+CASE_1423,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone C,1.94,13,4,82.8,0.18,9,0
+CASE_1424,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone D,6.02,20,8,26.7,0.32,3,0
+CASE_1425,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,High,Zone E,11.66,20,9,36.1,0.22,6,0
+CASE_1426,Medium,Cardiac Arrest,Morning,Foggy,Weekday,Medium,Zone C,10.75,10,2,26.6,0.18,8,1
+CASE_1427,High,Fire/Hazmat,Morning,Rainy,Weekend,High,Zone C,1.08,1,4,70.7,0.18,10,1
+CASE_1428,Medium,Traffic Accident,Morning,Clear,Weekday,Low,Zone B,8.43,2,8,71.8,0.15,7,0
+CASE_1429,Low,Stroke,Evening,Clear,Weekday,High,Zone C,1.78,17,8,68.7,0.18,9,0
+CASE_1430,Low,Fall/Injury,Evening,Rainy,Weekday,Low,Zone E,14.94,3,9,47.4,0.22,7,0
+CASE_1431,High,Stroke,Afternoon,Foggy,Weekday,Low,Zone A,13.51,17,3,19.0,0.08,1,1
+CASE_1432,High,Fire/Hazmat,Afternoon,Snowy,Weekday,Medium,Zone E,0.81,12,1,92.0,0.22,9,0
+CASE_1433,Low,Traffic Accident,Night,Clear,Weekend,Medium,Zone C,12.95,12,9,55.7,0.18,5,1
+CASE_1434,Low,Fire/Hazmat,Morning,Rainy,Weekend,High,Zone B,13.83,20,1,46.6,0.15,6,1
+CASE_1435,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,5.63,10,3,63.0,0.22,2,0
+CASE_1436,Low,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone C,10.93,7,3,27.4,0.18,2,1
+CASE_1437,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone B,6.91,10,9,21.9,0.15,4,1
+CASE_1438,High,Respiratory Emergency,Night,Clear,Weekday,Medium,Zone A,10.0,18,1,46.5,0.08,4,1
+CASE_1439,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,5.43,6,7,30.4,0.08,5,0
+CASE_1440,Low,Respiratory Emergency,Night,Clear,Weekday,Medium,Zone E,5.18,7,2,32.0,0.22,7,0
+CASE_1441,Critical,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone C,6.65,17,7,90.3,0.18,1,1
+CASE_1442,Medium,Fall/Injury,Morning,Rainy,Weekday,High,Zone E,2.61,12,1,57.8,0.22,10,1
+CASE_1443,Medium,Stroke,Afternoon,Clear,Weekday,High,Zone A,12.55,17,10,53.5,0.08,4,1
+CASE_1444,High,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone A,5.56,18,10,72.1,0.08,9,0
+CASE_1445,Critical,Traffic Accident,Night,Clear,Weekday,Medium,Zone A,6.3,14,8,95.6,0.08,8,1
+CASE_1446,Critical,Traffic Accident,Morning,Foggy,Weekday,Medium,Zone C,13.46,11,10,20.1,0.18,3,1
+CASE_1447,High,Traffic Accident,Evening,Clear,Weekend,Medium,Zone E,7.7,2,10,85.0,0.22,6,1
+CASE_1448,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone D,8.39,1,2,62.6,0.32,9,1
+CASE_1449,Low,Traffic Accident,Evening,Clear,Weekend,High,Zone B,14.37,11,3,23.2,0.15,8,1
+CASE_1450,High,Traffic Accident,Afternoon,Snowy,Weekday,Medium,Zone E,13.36,2,8,36.7,0.22,7,1
+CASE_1451,Medium,Fire/Hazmat,Afternoon,Foggy,Weekday,High,Zone D,2.96,16,3,53.4,0.32,7,1
+CASE_1452,Medium,Respiratory Emergency,Evening,Clear,Weekday,High,Zone A,7.36,3,1,72.2,0.08,1,1
+CASE_1453,Critical,Traffic Accident,Evening,Clear,Weekday,High,Zone E,14.58,20,9,31.8,0.22,5,1
+CASE_1454,Low,Respiratory Emergency,Night,Foggy,Weekend,High,Zone B,5.9,1,8,58.1,0.15,7,1
+CASE_1455,Medium,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone A,5.89,20,4,71.6,0.08,2,1
+CASE_1456,Low,Respiratory Emergency,Evening,Rainy,Weekday,Low,Zone A,3.33,8,8,50.4,0.08,6,1
+CASE_1457,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone C,2.16,19,5,87.7,0.18,2,0
+CASE_1458,Low,Respiratory Emergency,Afternoon,Clear,Weekend,Low,Zone B,11.23,1,3,88.3,0.15,3,1
+CASE_1459,Low,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone B,11.67,5,1,52.4,0.15,1,1
+CASE_1460,Low,Fire/Hazmat,Afternoon,Clear,Weekend,Medium,Zone A,14.55,1,10,97.6,0.08,3,1
+CASE_1461,High,Stroke,Afternoon,Rainy,Weekend,Medium,Zone D,11.71,11,5,16.8,0.32,7,1
+CASE_1462,High,Fall/Injury,Night,Foggy,Weekday,High,Zone E,4.03,9,6,10.3,0.22,5,0
+CASE_1463,Medium,Respiratory Emergency,Morning,Clear,Weekend,High,Zone D,1.08,5,4,44.3,0.32,4,1
+CASE_1464,Critical,Fall/Injury,Evening,Snowy,Weekend,Low,Zone B,14.79,2,7,64.1,0.15,8,1
+CASE_1465,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,5.44,13,3,66.6,0.08,8,0
+CASE_1466,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,5.02,18,7,52.9,0.08,1,1
+CASE_1467,High,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone A,13.64,12,1,21.2,0.08,9,1
+CASE_1468,Medium,Respiratory Emergency,Night,Foggy,Weekday,Medium,Zone C,8.98,14,7,25.3,0.18,9,0
+CASE_1469,Critical,Respiratory Emergency,Night,Rainy,Weekday,Medium,Zone C,3.62,5,1,86.7,0.18,2,1
+CASE_1470,Low,Traffic Accident,Night,Rainy,Weekday,Medium,Zone D,13.39,10,1,88.1,0.32,2,1
+CASE_1471,Critical,Fire/Hazmat,Night,Snowy,Weekday,High,Zone D,14.9,20,2,70.7,0.32,8,1
+CASE_1472,Low,Fire/Hazmat,Morning,Rainy,Weekday,High,Zone B,1.76,2,2,69.8,0.15,6,0
+CASE_1473,High,Fall/Injury,Afternoon,Foggy,Weekday,Low,Zone B,13.0,4,4,63.8,0.15,3,1
+CASE_1474,Medium,Respiratory Emergency,Evening,Rainy,Weekend,Medium,Zone D,6.16,12,1,28.3,0.32,2,0
+CASE_1475,Critical,Stroke,Afternoon,Foggy,Weekend,Medium,Zone B,8.1,11,4,48.5,0.15,5,1
+CASE_1476,Low,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone A,13.76,4,2,72.6,0.08,8,1
+CASE_1477,Medium,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone B,14.61,11,4,58.4,0.15,6,1
+CASE_1478,Critical,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone B,4.3,9,4,11.7,0.15,3,1
+CASE_1479,Medium,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone A,3.59,10,9,95.8,0.08,9,1
+CASE_1480,High,Traffic Accident,Morning,Clear,Weekday,Low,Zone E,1.67,6,9,86.0,0.22,8,1
+CASE_1481,High,Stroke,Afternoon,Clear,Weekday,Medium,Zone E,8.65,15,1,33.4,0.22,10,1
+CASE_1482,Medium,Fire/Hazmat,Afternoon,Rainy,Weekend,Medium,Zone A,0.7,10,5,65.5,0.08,6,0
+CASE_1483,High,Cardiac Arrest,Afternoon,Clear,Weekend,Low,Zone A,6.47,6,7,93.1,0.08,1,0
+CASE_1484,Medium,Respiratory Emergency,Morning,Clear,Weekend,Low,Zone D,1.56,1,4,18.6,0.32,2,0
+CASE_1485,Critical,Fire/Hazmat,Evening,Clear,Weekend,High,Zone A,6.38,20,5,55.3,0.08,4,1
+CASE_1486,Low,Respiratory Emergency,Morning,Foggy,Weekday,Low,Zone B,1.08,4,2,51.1,0.15,2,0
+CASE_1487,Medium,Stroke,Afternoon,Clear,Weekday,High,Zone A,12.61,14,3,46.9,0.08,3,1
+CASE_1488,Critical,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,3.54,20,7,85.2,0.08,8,0
+CASE_1489,High,Traffic Accident,Afternoon,Rainy,Weekday,Medium,Zone D,5.26,20,10,44.3,0.32,9,1
+CASE_1490,Medium,Traffic Accident,Afternoon,Rainy,Weekend,Low,Zone E,13.12,8,7,15.7,0.22,6,1
+CASE_1491,High,Traffic Accident,Evening,Clear,Weekday,Low,Zone A,11.32,11,4,15.9,0.08,4,0
+CASE_1492,Medium,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone B,3.68,15,1,13.8,0.15,2,0
+CASE_1493,Low,Traffic Accident,Evening,Clear,Weekend,Low,Zone A,1.54,19,1,46.8,0.08,7,0
+CASE_1494,Medium,Respiratory Emergency,Evening,Foggy,Weekday,Medium,Zone A,10.88,8,4,74.7,0.08,10,1
+CASE_1495,Medium,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone E,6.17,13,4,28.3,0.22,7,0
+CASE_1496,Medium,Respiratory Emergency,Afternoon,Clear,Weekend,Medium,Zone D,11.61,18,6,68.2,0.32,10,1
+CASE_1497,Low,Stroke,Morning,Clear,Weekday,Medium,Zone C,6.96,17,7,71.8,0.18,9,0
+CASE_1498,Critical,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone D,5.52,6,9,33.0,0.32,5,1
+CASE_1499,Critical,Respiratory Emergency,Afternoon,Rainy,Weekday,Low,Zone E,7.04,15,9,64.1,0.22,10,1
+CASE_1500,High,Stroke,Afternoon,Clear,Weekday,Low,Zone E,11.35,13,10,71.6,0.22,4,1
+CASE_1501,Medium,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone A,13.58,18,5,52.0,0.08,10,1
+CASE_1502,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone A,1.22,11,10,40.3,0.08,6,1
+CASE_1503,High,Fire/Hazmat,Morning,Clear,Weekend,Medium,Zone D,8.1,13,3,65.7,0.32,2,0
+CASE_1504,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone B,0.98,1,3,98.0,0.15,2,1
+CASE_1505,Low,Cardiac Arrest,Afternoon,Snowy,Weekend,Medium,Zone E,7.29,18,6,48.4,0.22,9,1
+CASE_1506,Critical,Stroke,Evening,Rainy,Weekday,Medium,Zone D,13.34,5,1,45.3,0.32,7,1
+CASE_1507,High,Respiratory Emergency,Morning,Foggy,Weekday,Medium,Zone E,5.74,6,7,51.8,0.22,7,1
+CASE_1508,Critical,Stroke,Afternoon,Snowy,Weekend,Medium,Zone A,14.02,1,3,16.9,0.08,5,1
+CASE_1509,High,Stroke,Night,Rainy,Weekday,Low,Zone E,9.64,7,5,59.8,0.22,7,1
+CASE_1510,High,Cardiac Arrest,Morning,Clear,Weekday,Low,Zone B,14.05,4,7,39.6,0.15,9,1
+CASE_1511,Medium,Stroke,Afternoon,Rainy,Weekday,Medium,Zone E,11.48,9,7,20.9,0.22,10,1
+CASE_1512,Critical,Respiratory Emergency,Morning,Snowy,Weekend,Medium,Zone A,2.0,15,9,52.0,0.08,5,0
+CASE_1513,High,Respiratory Emergency,Evening,Rainy,Weekday,Medium,Zone C,3.85,6,1,10.3,0.18,9,1
+CASE_1514,Low,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone D,6.22,17,3,46.2,0.32,1,0
+CASE_1515,Low,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone B,2.97,20,9,19.5,0.15,3,0
+CASE_1516,Medium,Cardiac Arrest,Afternoon,Snowy,Weekend,Medium,Zone C,7.68,18,8,12.2,0.18,7,1
+CASE_1517,High,Respiratory Emergency,Night,Rainy,Weekend,Medium,Zone E,7.33,4,2,84.2,0.22,4,1
+CASE_1518,Critical,Fall/Injury,Morning,Foggy,Weekday,Medium,Zone B,14.37,9,8,92.5,0.15,2,1
+CASE_1519,Low,Fall/Injury,Morning,Clear,Weekend,Medium,Zone C,6.79,14,8,28.7,0.18,3,0
+CASE_1520,Medium,Fall/Injury,Night,Clear,Weekday,Medium,Zone A,11.89,3,2,58.5,0.08,7,1
+CASE_1521,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone E,14.16,1,8,35.0,0.22,8,1
+CASE_1522,Critical,Traffic Accident,Night,Rainy,Weekday,High,Zone C,13.22,11,3,54.4,0.18,9,1
+CASE_1523,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone B,3.53,1,7,49.3,0.15,6,0
+CASE_1524,High,Stroke,Evening,Clear,Weekday,Medium,Zone A,7.69,12,9,34.2,0.08,10,1
+CASE_1525,Medium,Traffic Accident,Afternoon,Foggy,Weekday,Medium,Zone C,5.54,9,4,73.0,0.18,9,1
+CASE_1526,Medium,Traffic Accident,Evening,Clear,Weekday,Medium,Zone A,6.3,5,6,21.4,0.08,4,1
+CASE_1527,Medium,Fire/Hazmat,Night,Snowy,Weekend,Low,Zone A,5.73,15,9,14.8,0.08,5,1
+CASE_1528,Low,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone C,12.48,18,5,79.1,0.18,1,1
+CASE_1529,High,Fire/Hazmat,Morning,Snowy,Weekday,Low,Zone A,7.06,9,1,69.9,0.08,9,1
+CASE_1530,High,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone A,8.09,13,3,54.9,0.08,9,1
+CASE_1531,Critical,Stroke,Morning,Foggy,Weekday,Medium,Zone D,14.75,13,9,52.1,0.32,9,1
+CASE_1532,Critical,Traffic Accident,Morning,Foggy,Weekday,High,Zone A,1.37,13,3,54.8,0.08,3,1
+CASE_1533,Medium,Cardiac Arrest,Afternoon,Clear,Weekend,Low,Zone B,7.58,10,10,49.3,0.15,10,1
+CASE_1534,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone A,11.72,10,2,45.4,0.08,10,1
+CASE_1535,Critical,Stroke,Afternoon,Clear,Weekday,Medium,Zone C,2.69,7,4,55.0,0.18,10,0
+CASE_1536,High,Fall/Injury,Afternoon,Rainy,Weekday,Medium,Zone D,9.37,5,5,57.6,0.32,8,1
+CASE_1537,Medium,Cardiac Arrest,Evening,Snowy,Weekend,Low,Zone D,3.97,20,7,72.3,0.32,3,1
+CASE_1538,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone B,13.08,7,7,74.0,0.15,6,1
+CASE_1539,Low,Fall/Injury,Morning,Rainy,Weekend,Medium,Zone A,5.24,20,9,44.0,0.08,5,0
+CASE_1540,Critical,Fall/Injury,Morning,Clear,Weekday,Low,Zone A,5.27,10,8,47.2,0.08,8,0
+CASE_1541,High,Fall/Injury,Afternoon,Snowy,Weekday,Medium,Zone B,9.17,10,2,43.6,0.15,3,1
+CASE_1542,Medium,Stroke,Morning,Foggy,Weekend,Medium,Zone E,3.16,13,8,58.3,0.22,1,0
+CASE_1543,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone A,4.63,15,8,50.8,0.08,9,0
+CASE_1544,High,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone B,6.54,6,5,90.1,0.15,10,1
+CASE_1545,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,5.63,20,3,72.7,0.08,9,0
+CASE_1546,Low,Cardiac Arrest,Morning,Clear,Weekend,High,Zone C,8.11,12,9,90.9,0.18,3,1
+CASE_1547,High,Respiratory Emergency,Evening,Clear,Weekday,High,Zone D,9.19,19,7,73.8,0.32,2,1
+CASE_1548,Medium,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone C,8.72,11,1,97.4,0.18,4,1
+CASE_1549,High,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone E,9.99,6,8,67.2,0.22,8,1
+CASE_1550,Medium,Traffic Accident,Night,Clear,Weekend,Medium,Zone C,4.96,1,10,96.7,0.18,6,1
+CASE_1551,High,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone A,2.33,2,5,24.2,0.08,10,0
+CASE_1552,Medium,Stroke,Morning,Clear,Weekday,Medium,Zone B,11.53,15,6,14.7,0.15,1,1
+CASE_1553,Medium,Fire/Hazmat,Night,Clear,Weekday,Medium,Zone D,12.84,4,9,62.1,0.32,8,1
+CASE_1554,High,Cardiac Arrest,Afternoon,Rainy,Weekday,Medium,Zone C,4.23,5,10,98.5,0.18,5,1
+CASE_1555,Medium,Fire/Hazmat,Afternoon,Rainy,Weekday,Medium,Zone C,6.4,15,8,47.6,0.18,6,0
+CASE_1556,Low,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone D,7.73,11,3,29.1,0.32,5,1
+CASE_1557,Low,Traffic Accident,Evening,Clear,Weekday,High,Zone C,8.23,10,5,56.9,0.18,10,0
+CASE_1558,High,Cardiac Arrest,Night,Rainy,Weekend,Medium,Zone E,10.06,17,4,68.4,0.22,5,1
+CASE_1559,High,Respiratory Emergency,Night,Foggy,Weekend,High,Zone C,1.1,2,1,38.4,0.18,3,1
+CASE_1560,High,Fall/Injury,Evening,Clear,Weekday,Low,Zone D,10.96,20,5,74.3,0.32,4,0
+CASE_1561,Medium,Fall/Injury,Afternoon,Clear,Weekend,High,Zone A,1.4,10,10,97.8,0.08,5,0
+CASE_1562,Low,Cardiac Arrest,Night,Clear,Weekday,Low,Zone D,7.29,20,7,90.7,0.32,2,0
+CASE_1563,Low,Cardiac Arrest,Morning,Clear,Weekend,Low,Zone E,12.5,3,1,36.2,0.22,6,0
+CASE_1564,Medium,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone B,7.04,19,4,39.4,0.15,2,0
+CASE_1565,Medium,Traffic Accident,Night,Clear,Weekday,Medium,Zone D,2.66,5,6,43.4,0.32,4,1
+CASE_1566,Medium,Traffic Accident,Afternoon,Rainy,Weekend,High,Zone D,14.78,3,9,45.5,0.32,1,1
+CASE_1567,Medium,Traffic Accident,Morning,Clear,Weekend,Medium,Zone A,13.39,8,8,19.0,0.08,4,0
+CASE_1568,Critical,Stroke,Morning,Clear,Weekday,High,Zone C,11.68,5,2,78.6,0.18,7,1
+CASE_1569,Medium,Fire/Hazmat,Night,Clear,Weekday,Medium,Zone A,6.47,12,3,42.9,0.08,8,1
+CASE_1570,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone E,3.17,14,10,89.2,0.22,2,0
+CASE_1571,High,Fire/Hazmat,Evening,Clear,Weekday,High,Zone E,14.15,7,5,93.4,0.22,3,1
+CASE_1572,Medium,Traffic Accident,Morning,Clear,Weekday,Low,Zone A,8.22,11,7,12.2,0.08,1,0
+CASE_1573,High,Respiratory Emergency,Evening,Snowy,Weekday,Medium,Zone A,12.86,8,3,99.0,0.08,7,1
+CASE_1574,High,Traffic Accident,Evening,Clear,Weekend,High,Zone C,5.46,5,7,73.9,0.18,4,1
+CASE_1575,Critical,Fall/Injury,Afternoon,Rainy,Weekday,High,Zone B,5.36,8,5,56.8,0.15,10,1
+CASE_1576,Low,Fire/Hazmat,Afternoon,Foggy,Weekday,High,Zone A,14.79,12,10,45.1,0.08,8,1
+CASE_1577,Critical,Fall/Injury,Morning,Clear,Weekday,High,Zone C,8.07,15,6,56.7,0.18,5,1
+CASE_1578,Medium,Traffic Accident,Night,Clear,Weekday,Low,Zone B,2.54,19,6,39.2,0.15,9,0
+CASE_1579,Medium,Fall/Injury,Evening,Clear,Weekday,High,Zone A,3.69,16,4,66.0,0.08,6,1
+CASE_1580,Medium,Cardiac Arrest,Night,Snowy,Weekday,Medium,Zone E,7.49,14,8,18.4,0.22,10,1
+CASE_1581,Critical,Stroke,Afternoon,Foggy,Weekend,High,Zone E,1.12,7,9,65.9,0.22,2,1
+CASE_1582,Medium,Respiratory Emergency,Evening,Rainy,Weekend,Medium,Zone D,7.21,8,2,34.8,0.32,1,1
+CASE_1583,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone E,6.57,7,9,11.6,0.22,1,0
+CASE_1584,High,Respiratory Emergency,Evening,Rainy,Weekday,Medium,Zone A,11.8,18,4,59.7,0.08,9,1
+CASE_1585,Medium,Fall/Injury,Night,Clear,Weekday,Medium,Zone B,5.65,6,6,62.1,0.15,1,1
+CASE_1586,Low,Cardiac Arrest,Afternoon,Clear,Weekend,Low,Zone A,14.75,19,7,48.4,0.08,3,0
+CASE_1587,Low,Fall/Injury,Morning,Clear,Weekend,High,Zone D,3.12,4,4,16.5,0.32,2,0
+CASE_1588,Low,Traffic Accident,Evening,Clear,Weekday,High,Zone E,9.07,3,8,90.4,0.22,4,1
+CASE_1589,Low,Fall/Injury,Evening,Rainy,Weekday,Low,Zone D,1.8,17,10,65.0,0.32,1,0
+CASE_1590,Low,Stroke,Afternoon,Clear,Weekend,Medium,Zone E,11.14,19,8,20.4,0.22,1,1
+CASE_1591,High,Stroke,Morning,Clear,Weekday,Medium,Zone C,14.92,15,1,56.0,0.18,4,1
+CASE_1592,Low,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone B,12.38,6,8,54.8,0.15,4,0
+CASE_1593,Medium,Respiratory Emergency,Afternoon,Snowy,Weekend,Low,Zone B,8.56,12,10,15.4,0.15,7,0
+CASE_1594,High,Cardiac Arrest,Afternoon,Rainy,Weekend,High,Zone A,7.53,19,3,64.6,0.08,8,1
+CASE_1595,Medium,Fall/Injury,Evening,Clear,Weekday,Medium,Zone A,12.61,6,5,82.7,0.08,8,1
+CASE_1596,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone D,14.07,11,10,77.4,0.32,8,1
+CASE_1597,Low,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone B,14.84,20,8,28.3,0.15,9,0
+CASE_1598,Low,Traffic Accident,Afternoon,Foggy,Weekday,Low,Zone C,6.25,20,6,87.6,0.18,1,0
+CASE_1599,Low,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone C,14.87,10,4,40.8,0.18,9,1
+CASE_1600,Low,Fall/Injury,Morning,Clear,Weekday,Low,Zone B,2.76,16,4,95.2,0.15,10,0
+CASE_1601,Medium,Cardiac Arrest,Evening,Clear,Weekend,Low,Zone C,4.18,18,4,16.5,0.18,8,1
+CASE_1602,Low,Fall/Injury,Night,Clear,Weekend,Medium,Zone C,1.79,14,6,53.8,0.18,1,0
+CASE_1603,Low,Traffic Accident,Afternoon,Snowy,Weekday,High,Zone B,4.44,4,7,63.7,0.15,7,0
+CASE_1604,Low,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone E,11.64,12,5,32.3,0.22,9,0
+CASE_1605,Medium,Respiratory Emergency,Night,Clear,Weekday,Low,Zone C,12.87,20,10,79.4,0.18,4,0
+CASE_1606,Medium,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone C,11.79,8,8,66.4,0.18,9,1
+CASE_1607,Medium,Traffic Accident,Morning,Clear,Weekday,High,Zone E,9.65,7,7,11.6,0.22,1,1
+CASE_1608,Medium,Fall/Injury,Night,Foggy,Weekday,Medium,Zone E,7.95,9,8,64.8,0.22,9,1
+CASE_1609,High,Cardiac Arrest,Afternoon,Clear,Weekend,High,Zone E,10.78,17,4,54.2,0.22,6,1
+CASE_1610,Low,Stroke,Afternoon,Snowy,Weekday,Medium,Zone B,6.17,10,8,27.6,0.15,4,0
+CASE_1611,High,Cardiac Arrest,Morning,Rainy,Weekend,Medium,Zone A,12.7,3,6,99.6,0.08,5,1
+CASE_1612,High,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone B,10.32,8,3,90.7,0.15,7,1
+CASE_1613,Low,Fall/Injury,Morning,Clear,Weekday,Medium,Zone B,10.62,14,8,36.3,0.15,10,1
+CASE_1614,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone E,8.27,7,7,58.7,0.22,4,1
+CASE_1615,Critical,Cardiac Arrest,Afternoon,Rainy,Weekend,Medium,Zone C,13.34,16,10,38.5,0.18,8,1
+CASE_1616,Low,Traffic Accident,Evening,Clear,Weekend,High,Zone A,4.15,18,5,79.8,0.08,3,1
+CASE_1617,Medium,Traffic Accident,Night,Clear,Weekday,High,Zone A,6.03,11,4,93.7,0.08,2,1
+CASE_1618,High,Stroke,Afternoon,Clear,Weekday,Low,Zone A,11.78,6,1,42.3,0.08,1,1
+CASE_1619,High,Traffic Accident,Night,Rainy,Weekday,Low,Zone C,7.64,20,10,82.5,0.18,6,1
+CASE_1620,Low,Fall/Injury,Night,Clear,Weekend,Medium,Zone D,13.39,14,3,54.9,0.32,2,0
+CASE_1621,Medium,Stroke,Evening,Clear,Weekday,Low,Zone E,5.52,13,2,45.7,0.22,8,0
+CASE_1622,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone E,5.86,4,8,94.5,0.22,10,0
+CASE_1623,Medium,Fire/Hazmat,Evening,Clear,Weekend,High,Zone A,13.39,20,8,55.9,0.08,4,0
+CASE_1624,High,Traffic Accident,Night,Snowy,Weekday,High,Zone B,7.23,20,5,52.1,0.15,9,1
+CASE_1625,Medium,Fire/Hazmat,Evening,Clear,Weekday,Medium,Zone A,7.98,11,5,70.5,0.08,4,0
+CASE_1626,Medium,Cardiac Arrest,Afternoon,Snowy,Weekday,High,Zone B,5.33,18,4,33.5,0.15,4,1
+CASE_1627,High,Fall/Injury,Afternoon,Rainy,Weekend,Medium,Zone E,4.51,1,1,39.2,0.22,8,1
+CASE_1628,Low,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone C,10.01,12,1,93.9,0.18,8,0
+CASE_1629,Medium,Traffic Accident,Afternoon,Rainy,Weekday,Medium,Zone D,2.24,18,6,71.1,0.32,5,1
+CASE_1630,High,Fall/Injury,Morning,Clear,Weekday,Medium,Zone C,13.25,7,4,84.4,0.18,3,1
+CASE_1631,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone A,11.8,12,4,34.4,0.08,2,0
+CASE_1632,Medium,Cardiac Arrest,Evening,Rainy,Weekday,Low,Zone A,3.27,1,3,58.9,0.08,9,1
+CASE_1633,Medium,Traffic Accident,Night,Clear,Weekday,Medium,Zone C,10.56,4,9,97.4,0.18,9,0
+CASE_1634,Low,Fall/Injury,Morning,Rainy,Weekday,Medium,Zone D,9.24,18,3,38.7,0.32,5,0
+CASE_1635,Medium,Fall/Injury,Night,Clear,Weekend,High,Zone A,3.18,15,8,24.4,0.08,8,1
+CASE_1636,Medium,Fire/Hazmat,Afternoon,Foggy,Weekend,Medium,Zone D,4.46,3,2,56.0,0.32,7,0
+CASE_1637,Medium,Fall/Injury,Evening,Clear,Weekday,Medium,Zone E,6.43,7,4,44.9,0.22,3,0
+CASE_1638,Medium,Fire/Hazmat,Evening,Clear,Weekday,Medium,Zone B,10.64,6,1,24.4,0.15,5,1
+CASE_1639,Medium,Fall/Injury,Evening,Clear,Weekday,Low,Zone D,9.76,15,5,90.0,0.32,9,0
+CASE_1640,Low,Traffic Accident,Night,Rainy,Weekend,Medium,Zone B,8.22,15,2,99.2,0.15,4,0
+CASE_1641,Medium,Cardiac Arrest,Afternoon,Rainy,Weekday,High,Zone D,11.64,6,1,61.2,0.32,3,1
+CASE_1642,Medium,Fall/Injury,Night,Clear,Weekday,Medium,Zone D,11.49,8,1,79.7,0.32,7,1
+CASE_1643,Medium,Fall/Injury,Morning,Snowy,Weekday,High,Zone E,9.46,8,2,87.3,0.22,8,1
+CASE_1644,Low,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone B,11.91,1,5,73.1,0.15,5,1
+CASE_1645,High,Traffic Accident,Evening,Clear,Weekday,Low,Zone B,5.35,13,9,14.0,0.15,8,1
+CASE_1646,Medium,Fire/Hazmat,Evening,Snowy,Weekday,High,Zone A,13.28,13,6,24.2,0.08,5,1
+CASE_1647,High,Respiratory Emergency,Afternoon,Snowy,Weekday,High,Zone A,9.42,11,4,16.4,0.08,9,1
+CASE_1648,High,Respiratory Emergency,Night,Rainy,Weekend,High,Zone D,12.42,4,3,10.9,0.32,7,1
+CASE_1649,Medium,Respiratory Emergency,Morning,Snowy,Weekday,Medium,Zone E,8.42,7,8,37.5,0.22,5,1
+CASE_1650,Low,Traffic Accident,Morning,Clear,Weekday,High,Zone B,3.67,12,3,45.3,0.15,9,0
+CASE_1651,Medium,Traffic Accident,Evening,Snowy,Weekday,High,Zone A,8.36,13,1,31.7,0.08,5,1
+CASE_1652,Medium,Traffic Accident,Afternoon,Clear,Weekday,High,Zone B,5.88,12,4,15.8,0.15,8,0
+CASE_1653,High,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone C,10.61,16,5,57.7,0.18,4,1
+CASE_1654,Medium,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone B,7.4,6,5,34.6,0.15,9,1
+CASE_1655,Low,Respiratory Emergency,Morning,Clear,Weekday,High,Zone A,12.62,14,5,81.6,0.08,6,0
+CASE_1656,Medium,Stroke,Evening,Clear,Weekday,Medium,Zone D,10.33,19,8,10.7,0.32,6,1
+CASE_1657,Medium,Stroke,Afternoon,Clear,Weekday,Medium,Zone A,10.43,16,8,85.8,0.08,3,1
+CASE_1658,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone C,3.65,4,4,95.9,0.18,3,1
+CASE_1659,Medium,Fall/Injury,Evening,Clear,Weekend,Medium,Zone D,14.77,5,9,74.5,0.32,4,1
+CASE_1660,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone B,12.7,9,1,76.0,0.15,1,1
+CASE_1661,Critical,Stroke,Evening,Clear,Weekday,Low,Zone C,11.94,3,5,94.0,0.18,6,1
+CASE_1662,High,Traffic Accident,Afternoon,Clear,Weekday,High,Zone D,5.29,10,5,28.8,0.32,1,1
+CASE_1663,Medium,Fall/Injury,Evening,Rainy,Weekday,Medium,Zone D,8.27,17,5,99.5,0.32,4,0
+CASE_1664,Low,Fall/Injury,Evening,Snowy,Weekday,Medium,Zone B,2.49,19,8,79.6,0.15,7,0
+CASE_1665,Low,Traffic Accident,Evening,Rainy,Weekday,Low,Zone B,8.31,10,9,75.4,0.15,6,1
+CASE_1666,Medium,Cardiac Arrest,Morning,Clear,Weekend,Low,Zone E,2.62,12,3,42.5,0.22,8,0
+CASE_1667,Low,Fall/Injury,Evening,Rainy,Weekday,Low,Zone D,8.52,7,9,59.1,0.32,4,1
+CASE_1668,Low,Fall/Injury,Evening,Clear,Weekday,Medium,Zone B,9.91,18,8,68.9,0.15,9,0
+CASE_1669,Medium,Traffic Accident,Evening,Clear,Weekend,Low,Zone A,6.16,19,3,65.8,0.08,10,0
+CASE_1670,Low,Fall/Injury,Afternoon,Clear,Weekend,High,Zone A,7.73,15,2,73.4,0.08,8,0
+CASE_1671,High,Traffic Accident,Night,Snowy,Weekday,Low,Zone A,13.2,7,4,17.4,0.08,5,1
+CASE_1672,Low,Fall/Injury,Evening,Clear,Weekday,Low,Zone C,2.07,12,2,42.0,0.18,6,0
+CASE_1673,Medium,Traffic Accident,Morning,Clear,Weekday,Low,Zone A,11.98,7,4,49.1,0.08,5,1
+CASE_1674,Medium,Stroke,Afternoon,Clear,Weekday,Low,Zone B,2.98,10,5,33.5,0.15,6,0
+CASE_1675,Critical,Traffic Accident,Night,Snowy,Weekday,Medium,Zone D,1.03,20,2,25.5,0.32,1,1
+CASE_1676,Low,Traffic Accident,Morning,Rainy,Weekday,High,Zone B,3.19,10,8,22.5,0.15,4,0
+CASE_1677,Medium,Cardiac Arrest,Night,Clear,Weekend,Medium,Zone D,11.59,5,1,43.0,0.32,9,1
+CASE_1678,Critical,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone D,6.37,18,3,54.4,0.32,4,0
+CASE_1679,High,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone A,13.15,9,7,15.7,0.08,2,1
+CASE_1680,High,Traffic Accident,Afternoon,Rainy,Weekday,Medium,Zone D,8.11,16,10,95.2,0.32,6,1
+CASE_1681,Medium,Stroke,Morning,Clear,Weekend,High,Zone D,0.82,7,1,78.9,0.32,2,0
+CASE_1682,Low,Cardiac Arrest,Night,Snowy,Weekday,Low,Zone B,10.89,10,2,75.8,0.15,3,1
+CASE_1683,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,2.1,5,3,25.6,0.08,7,0
+CASE_1684,Critical,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone C,11.95,7,2,64.3,0.18,4,1
+CASE_1685,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone E,2.94,5,2,57.7,0.22,1,0
+CASE_1686,Medium,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone C,5.51,15,6,98.4,0.18,9,0
+CASE_1687,Medium,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone A,11.54,19,7,77.3,0.08,6,0
+CASE_1688,High,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone D,14.34,10,6,61.8,0.32,9,1
+CASE_1689,Low,Respiratory Emergency,Night,Clear,Weekday,Low,Zone B,5.89,8,6,86.6,0.15,3,1
+CASE_1690,Medium,Respiratory Emergency,Afternoon,Rainy,Weekday,Medium,Zone C,12.53,9,9,24.0,0.18,5,1
+CASE_1691,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone D,3.27,11,8,11.4,0.32,9,1
+CASE_1692,Medium,Cardiac Arrest,Afternoon,Rainy,Weekday,High,Zone C,12.2,2,8,72.1,0.18,6,1
+CASE_1693,Medium,Respiratory Emergency,Afternoon,Snowy,Weekday,Low,Zone E,10.03,3,6,18.8,0.22,2,1
+CASE_1694,Low,Fire/Hazmat,Afternoon,Clear,Weekday,High,Zone D,3.29,13,5,20.4,0.32,1,1
+CASE_1695,High,Respiratory Emergency,Night,Rainy,Weekday,High,Zone C,4.89,11,9,77.0,0.18,9,1
+CASE_1696,Medium,Fall/Injury,Afternoon,Rainy,Weekend,High,Zone A,2.41,10,2,34.3,0.08,1,0
+CASE_1697,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,6.05,15,7,66.6,0.22,5,1
+CASE_1698,Low,Fall/Injury,Morning,Snowy,Weekday,Medium,Zone E,3.45,6,6,92.6,0.22,1,0
+CASE_1699,Medium,Fall/Injury,Night,Clear,Weekday,Medium,Zone A,9.84,1,7,38.5,0.08,5,1
+CASE_1700,Medium,Respiratory Emergency,Morning,Clear,Weekend,Low,Zone C,14.92,14,4,29.5,0.18,5,1
+CASE_1701,Low,Fire/Hazmat,Morning,Rainy,Weekend,Medium,Zone B,0.67,18,9,19.6,0.15,7,0
+CASE_1702,Medium,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone D,8.34,11,7,21.7,0.32,7,0
+CASE_1703,Low,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone D,8.82,8,2,15.6,0.32,10,1
+CASE_1704,Low,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone A,13.76,3,4,17.9,0.08,1,1
+CASE_1705,Critical,Stroke,Afternoon,Snowy,Weekday,Medium,Zone E,7.84,14,5,48.9,0.22,9,1
+CASE_1706,Medium,Cardiac Arrest,Evening,Foggy,Weekend,Medium,Zone A,8.38,2,2,38.9,0.08,1,0
+CASE_1707,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone D,7.34,16,10,73.6,0.32,5,1
+CASE_1708,Medium,Cardiac Arrest,Evening,Rainy,Weekday,Medium,Zone C,4.4,6,8,88.3,0.18,7,1
+CASE_1709,High,Traffic Accident,Evening,Foggy,Weekend,Low,Zone B,1.31,1,1,80.6,0.15,8,1
+CASE_1710,High,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone A,6.43,14,3,57.8,0.08,2,1
+CASE_1711,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone A,1.26,10,1,19.2,0.08,1,0
+CASE_1712,Medium,Traffic Accident,Afternoon,Rainy,Weekday,High,Zone D,8.48,6,5,73.9,0.32,4,1
+CASE_1713,Medium,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone C,4.96,9,8,42.7,0.18,4,0
+CASE_1714,Medium,Cardiac Arrest,Afternoon,Snowy,Weekend,High,Zone A,8.24,7,7,17.7,0.08,10,1
+CASE_1715,Critical,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone A,2.45,2,9,85.8,0.08,6,1
+CASE_1716,High,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone A,14.02,11,2,40.4,0.08,1,1
+CASE_1717,Critical,Fire/Hazmat,Night,Clear,Weekday,Low,Zone D,13.47,14,8,29.6,0.32,1,0
+CASE_1718,Low,Stroke,Afternoon,Clear,Weekend,Low,Zone D,3.25,5,8,88.4,0.32,3,1
+CASE_1719,High,Cardiac Arrest,Night,Clear,Weekday,Low,Zone A,5.48,9,6,91.2,0.08,5,1
+CASE_1720,Critical,Stroke,Afternoon,Rainy,Weekday,Medium,Zone C,9.4,7,3,40.5,0.18,6,1
+CASE_1721,Low,Fall/Injury,Morning,Clear,Weekend,Low,Zone A,1.89,14,2,41.9,0.08,5,0
+CASE_1722,Low,Fall/Injury,Morning,Snowy,Weekday,Medium,Zone E,5.64,16,8,62.2,0.22,5,1
+CASE_1723,High,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone E,4.14,16,6,76.0,0.22,9,0
+CASE_1724,Medium,Traffic Accident,Morning,Clear,Weekend,Medium,Zone D,13.77,7,4,15.7,0.32,2,0
+CASE_1725,High,Traffic Accident,Morning,Clear,Weekend,Medium,Zone E,12.86,10,5,63.4,0.22,1,1
+CASE_1726,Low,Cardiac Arrest,Night,Clear,Weekday,Medium,Zone E,8.91,6,5,95.8,0.22,6,1
+CASE_1727,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone E,8.05,17,9,33.6,0.22,9,0
+CASE_1728,Medium,Traffic Accident,Evening,Foggy,Weekday,Low,Zone C,14.0,1,9,91.8,0.18,7,0
+CASE_1729,Low,Respiratory Emergency,Morning,Snowy,Weekday,Medium,Zone B,14.02,2,8,95.5,0.15,8,1
+CASE_1730,Low,Fall/Injury,Morning,Clear,Weekday,Medium,Zone A,14.56,14,8,34.2,0.08,5,0
+CASE_1731,High,Respiratory Emergency,Morning,Clear,Weekend,High,Zone B,2.32,4,2,77.9,0.15,10,1
+CASE_1732,High,Cardiac Arrest,Evening,Foggy,Weekday,Medium,Zone C,2.83,9,3,31.5,0.18,4,1
+CASE_1733,Medium,Fire/Hazmat,Night,Clear,Weekday,Medium,Zone A,10.31,6,8,76.4,0.08,6,1
+CASE_1734,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone B,8.35,17,5,81.8,0.15,3,1
+CASE_1735,High,Fall/Injury,Morning,Clear,Weekend,Low,Zone C,0.77,11,7,32.2,0.18,1,0
+CASE_1736,Medium,Fire/Hazmat,Afternoon,Foggy,Weekday,Medium,Zone A,1.4,4,8,74.4,0.08,4,0
+CASE_1737,High,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone C,13.38,9,6,83.1,0.18,9,1
+CASE_1738,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone E,13.1,16,5,42.3,0.22,4,1
+CASE_1739,Medium,Cardiac Arrest,Evening,Foggy,Weekday,Low,Zone D,5.68,3,8,25.1,0.32,1,1
+CASE_1740,Medium,Traffic Accident,Evening,Clear,Weekday,Low,Zone D,13.42,4,1,18.3,0.32,4,0
+CASE_1741,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone C,9.11,3,1,61.8,0.18,7,0
+CASE_1742,High,Traffic Accident,Morning,Clear,Weekday,Low,Zone C,12.19,13,1,98.0,0.18,3,1
+CASE_1743,Medium,Cardiac Arrest,Night,Snowy,Weekday,Medium,Zone A,6.7,19,3,84.1,0.08,10,0
+CASE_1744,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone E,2.14,1,10,49.2,0.22,6,1
+CASE_1745,High,Fall/Injury,Morning,Foggy,Weekday,Medium,Zone A,6.79,6,6,58.3,0.08,1,0
+CASE_1746,Medium,Respiratory Emergency,Morning,Rainy,Weekday,High,Zone A,7.13,3,6,35.2,0.08,4,0
+CASE_1747,Medium,Cardiac Arrest,Morning,Clear,Weekday,High,Zone D,8.49,3,5,24.7,0.32,3,1
+CASE_1748,Critical,Stroke,Afternoon,Foggy,Weekday,Medium,Zone A,2.03,16,7,53.4,0.08,1,0
+CASE_1749,High,Fall/Injury,Evening,Clear,Weekday,Low,Zone B,14.88,10,5,51.7,0.15,3,1
+CASE_1750,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,4.04,17,2,57.0,0.08,4,0
+CASE_1751,Critical,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone A,3.38,7,4,95.8,0.08,5,1
+CASE_1752,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone A,8.14,13,1,64.4,0.08,6,0
+CASE_1753,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,8.29,11,7,64.5,0.08,2,0
+CASE_1754,Low,Fire/Hazmat,Night,Clear,Weekend,Low,Zone D,6.88,10,4,21.5,0.32,2,0
+CASE_1755,High,Traffic Accident,Night,Clear,Weekend,Medium,Zone E,11.69,7,4,99.7,0.22,6,1
+CASE_1756,High,Respiratory Emergency,Morning,Snowy,Weekday,Low,Zone B,7.99,6,4,79.6,0.15,5,1
+CASE_1757,Medium,Stroke,Evening,Clear,Weekday,Medium,Zone E,9.34,1,3,88.9,0.22,1,1
+CASE_1758,High,Fall/Injury,Afternoon,Foggy,Weekday,Medium,Zone A,10.99,17,8,47.3,0.08,3,1
+CASE_1759,High,Cardiac Arrest,Night,Clear,Weekday,Medium,Zone B,0.86,12,4,55.2,0.15,5,0
+CASE_1760,Low,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone A,8.77,4,8,57.0,0.08,2,1
+CASE_1761,Medium,Cardiac Arrest,Night,Clear,Weekday,Medium,Zone C,13.32,3,9,27.5,0.18,1,0
+CASE_1762,Medium,Fall/Injury,Evening,Clear,Weekday,Medium,Zone B,0.75,6,1,72.1,0.15,9,0
+CASE_1763,High,Respiratory Emergency,Morning,Clear,Weekend,Low,Zone C,6.38,16,4,91.3,0.18,5,0
+CASE_1764,Low,Cardiac Arrest,Afternoon,Rainy,Weekday,Medium,Zone D,13.93,13,6,24.7,0.32,2,1
+CASE_1765,Medium,Fire/Hazmat,Night,Foggy,Weekend,Medium,Zone C,5.62,9,8,17.8,0.18,10,1
+CASE_1766,High,Respiratory Emergency,Night,Foggy,Weekend,Medium,Zone C,7.15,11,6,76.4,0.18,4,1
+CASE_1767,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone E,14.73,20,6,34.6,0.22,3,0
+CASE_1768,Medium,Respiratory Emergency,Evening,Snowy,Weekday,Medium,Zone B,3.39,13,10,66.1,0.15,7,0
+CASE_1769,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone B,1.45,19,4,72.6,0.15,1,0
+CASE_1770,Low,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone D,12.96,3,9,39.0,0.32,10,1
+CASE_1771,High,Traffic Accident,Afternoon,Snowy,Weekday,Medium,Zone C,13.09,12,7,83.4,0.18,4,1
+CASE_1772,Low,Stroke,Morning,Rainy,Weekday,Medium,Zone A,7.35,19,6,59.5,0.08,7,0
+CASE_1773,Medium,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone B,7.96,8,1,88.2,0.15,10,1
+CASE_1774,High,Respiratory Emergency,Afternoon,Clear,Weekend,Low,Zone C,12.62,14,2,78.7,0.18,5,1
+CASE_1775,Low,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone B,11.21,9,6,88.2,0.15,4,0
+CASE_1776,Medium,Cardiac Arrest,Morning,Rainy,Weekend,Medium,Zone A,4.34,17,1,11.8,0.08,4,1
+CASE_1777,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,0.74,6,5,31.9,0.22,2,1
+CASE_1778,High,Respiratory Emergency,Morning,Foggy,Weekend,Medium,Zone D,7.46,4,1,18.1,0.32,8,1
+CASE_1779,High,Traffic Accident,Morning,Clear,Weekday,Low,Zone C,12.95,4,3,49.8,0.18,4,1
+CASE_1780,High,Cardiac Arrest,Morning,Clear,Weekday,High,Zone D,13.49,19,7,90.1,0.32,2,1
+CASE_1781,Medium,Stroke,Morning,Clear,Weekend,Medium,Zone E,14.37,12,5,52.1,0.22,9,1
+CASE_1782,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,High,Zone A,13.25,2,10,86.5,0.08,10,1
+CASE_1783,Medium,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone B,8.91,17,1,39.4,0.15,7,0
+CASE_1784,Low,Stroke,Afternoon,Rainy,Weekday,Medium,Zone C,6.95,15,1,40.6,0.18,3,1
+CASE_1785,Critical,Traffic Accident,Afternoon,Snowy,Weekday,Low,Zone D,11.74,10,8,90.6,0.32,7,1
+CASE_1786,Medium,Fire/Hazmat,Night,Foggy,Weekday,Low,Zone A,11.23,3,9,48.3,0.08,1,0
+CASE_1787,Medium,Traffic Accident,Night,Snowy,Weekend,Low,Zone E,8.3,20,7,81.1,0.22,1,0
+CASE_1788,Medium,Fire/Hazmat,Afternoon,Snowy,Weekday,Medium,Zone C,1.77,4,3,31.3,0.18,4,0
+CASE_1789,Critical,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone B,13.93,1,6,95.4,0.15,4,1
+CASE_1790,Low,Fall/Injury,Morning,Snowy,Weekend,Medium,Zone B,7.11,1,3,61.7,0.15,4,1
+CASE_1791,Medium,Fire/Hazmat,Night,Clear,Weekday,Medium,Zone A,5.77,18,10,78.3,0.08,9,0
+CASE_1792,Medium,Respiratory Emergency,Morning,Clear,Weekday,High,Zone D,9.63,4,4,18.1,0.32,6,1
+CASE_1793,High,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone E,10.27,15,4,54.3,0.22,3,1
+CASE_1794,Low,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone B,3.55,10,3,91.1,0.15,6,0
+CASE_1795,High,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone E,12.64,17,10,88.9,0.22,2,0
+CASE_1796,Critical,Cardiac Arrest,Morning,Foggy,Weekday,Medium,Zone E,4.7,12,6,14.2,0.22,2,1
+CASE_1797,Medium,Fall/Injury,Evening,Clear,Weekday,Medium,Zone C,3.21,20,5,37.3,0.18,7,0
+CASE_1798,High,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone D,6.39,12,9,49.9,0.32,3,1
+CASE_1799,Critical,Traffic Accident,Evening,Clear,Weekday,Low,Zone B,11.09,16,9,25.5,0.15,7,1
+CASE_1800,High,Fall/Injury,Morning,Clear,Weekend,Medium,Zone C,14.5,5,3,75.7,0.18,3,1
+CASE_1801,Low,Fire/Hazmat,Morning,Clear,Weekday,High,Zone A,12.23,16,9,26.6,0.08,2,0
+CASE_1802,Medium,Fire/Hazmat,Night,Clear,Weekday,Low,Zone D,14.14,17,3,41.2,0.32,4,1
+CASE_1803,High,Fire/Hazmat,Morning,Clear,Weekend,High,Zone A,2.54,15,4,69.7,0.08,4,1
+CASE_1804,Medium,Respiratory Emergency,Evening,Clear,Weekday,High,Zone E,1.53,13,1,53.4,0.22,3,0
+CASE_1805,High,Fire/Hazmat,Afternoon,Rainy,Weekend,Low,Zone E,8.59,8,5,76.5,0.22,9,1
+CASE_1806,Critical,Fall/Injury,Morning,Rainy,Weekday,Low,Zone A,4.71,2,9,96.5,0.08,6,1
+CASE_1807,Critical,Traffic Accident,Night,Clear,Weekend,Medium,Zone B,12.51,8,2,20.5,0.15,5,1
+CASE_1808,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone C,10.24,10,4,73.9,0.18,6,1
+CASE_1809,Low,Fall/Injury,Night,Clear,Weekday,Medium,Zone C,14.58,7,10,30.7,0.18,8,1
+CASE_1810,Critical,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone B,4.19,10,2,47.3,0.15,5,1
+CASE_1811,High,Fall/Injury,Night,Clear,Weekday,Medium,Zone C,7.54,4,8,13.0,0.18,4,1
+CASE_1812,Low,Fall/Injury,Morning,Clear,Weekend,Low,Zone B,7.77,11,9,22.2,0.15,7,0
+CASE_1813,Critical,Traffic Accident,Afternoon,Rainy,Weekday,High,Zone A,3.97,9,3,38.8,0.08,5,1
+CASE_1814,High,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,9.06,4,9,40.8,0.08,4,0
+CASE_1815,Medium,Fall/Injury,Night,Clear,Weekend,Medium,Zone A,6.93,3,6,91.0,0.08,5,1
+CASE_1816,Medium,Respiratory Emergency,Night,Clear,Weekday,High,Zone D,6.98,11,6,76.8,0.32,4,0
+CASE_1817,Medium,Cardiac Arrest,Evening,Foggy,Weekday,Medium,Zone E,5.76,3,7,97.5,0.22,8,1
+CASE_1818,Low,Cardiac Arrest,Night,Snowy,Weekday,Low,Zone B,0.75,18,5,63.9,0.15,8,0
+CASE_1819,Medium,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone C,8.07,19,6,31.8,0.18,1,1
+CASE_1820,High,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone A,5.36,14,1,39.5,0.08,3,1
+CASE_1821,Low,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone C,0.52,11,3,38.8,0.18,4,0
+CASE_1822,Medium,Fall/Injury,Afternoon,Foggy,Weekday,High,Zone A,4.97,2,9,39.4,0.08,2,1
+CASE_1823,Medium,Traffic Accident,Afternoon,Foggy,Weekday,Low,Zone C,4.54,2,5,70.6,0.18,5,1
+CASE_1824,Medium,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone E,6.2,2,5,57.8,0.22,8,0
+CASE_1825,Critical,Stroke,Morning,Snowy,Weekday,Medium,Zone A,2.41,10,8,44.7,0.08,2,0
+CASE_1826,Medium,Fall/Injury,Evening,Clear,Weekday,Low,Zone D,7.86,15,2,23.4,0.32,9,0
+CASE_1827,Medium,Cardiac Arrest,Morning,Clear,Weekday,High,Zone A,10.54,12,7,12.0,0.08,7,1
+CASE_1828,High,Respiratory Emergency,Afternoon,Rainy,Weekday,High,Zone B,9.64,11,9,29.7,0.15,6,1
+CASE_1829,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone A,12.15,17,7,19.7,0.08,8,1
+CASE_1830,Medium,Respiratory Emergency,Evening,Foggy,Weekday,Low,Zone B,7.05,18,5,80.7,0.15,2,0
+CASE_1831,Medium,Fall/Injury,Evening,Clear,Weekday,Low,Zone A,8.03,14,6,20.1,0.08,5,1
+CASE_1832,Low,Cardiac Arrest,Evening,Clear,Weekend,Medium,Zone B,12.25,17,4,75.2,0.15,4,1
+CASE_1833,Low,Traffic Accident,Morning,Foggy,Weekday,Low,Zone B,6.7,15,7,44.7,0.15,8,0
+CASE_1834,Medium,Traffic Accident,Afternoon,Foggy,Weekend,Medium,Zone B,10.67,12,1,16.6,0.15,1,0
+CASE_1835,Medium,Fire/Hazmat,Morning,Clear,Weekday,High,Zone D,6.8,16,4,83.1,0.32,3,1
+CASE_1836,Critical,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone E,6.56,6,3,62.2,0.22,10,1
+CASE_1837,Medium,Cardiac Arrest,Afternoon,Rainy,Weekday,High,Zone B,11.52,2,4,31.2,0.15,8,1
+CASE_1838,Medium,Fall/Injury,Morning,Clear,Weekend,Medium,Zone A,3.04,2,1,90.5,0.08,5,0
+CASE_1839,High,Traffic Accident,Afternoon,Foggy,Weekday,Medium,Zone B,5.41,16,2,14.1,0.15,4,0
+CASE_1840,Low,Traffic Accident,Night,Foggy,Weekday,High,Zone E,3.75,2,9,28.2,0.22,6,1
+CASE_1841,High,Fall/Injury,Night,Clear,Weekend,Medium,Zone C,5.71,8,7,77.7,0.18,5,1
+CASE_1842,Low,Fire/Hazmat,Afternoon,Clear,Weekday,High,Zone C,3.84,7,6,73.8,0.18,3,0
+CASE_1843,Critical,Fire/Hazmat,Morning,Clear,Weekend,Low,Zone A,8.9,1,2,36.0,0.08,5,0
+CASE_1844,Low,Respiratory Emergency,Morning,Foggy,Weekday,Low,Zone B,12.07,4,1,15.6,0.15,4,1
+CASE_1845,Medium,Traffic Accident,Afternoon,Clear,Weekend,High,Zone B,11.91,11,2,87.2,0.15,1,0
+CASE_1846,Low,Fall/Injury,Night,Clear,Weekend,Medium,Zone E,5.79,20,7,38.2,0.22,1,0
+CASE_1847,Critical,Traffic Accident,Morning,Clear,Weekday,High,Zone E,14.84,7,2,27.6,0.22,7,1
+CASE_1848,Medium,Respiratory Emergency,Evening,Clear,Weekday,High,Zone A,9.11,18,3,56.4,0.08,4,1
+CASE_1849,Medium,Traffic Accident,Morning,Clear,Weekday,Low,Zone C,6.29,4,8,91.9,0.18,1,0
+CASE_1850,Low,Fall/Injury,Night,Clear,Weekend,Medium,Zone A,12.62,17,7,13.9,0.08,6,1
+CASE_1851,High,Traffic Accident,Afternoon,Foggy,Weekday,Medium,Zone B,11.08,11,9,78.9,0.15,1,1
+CASE_1852,Medium,Traffic Accident,Evening,Foggy,Weekday,Medium,Zone E,11.36,11,4,61.5,0.22,8,1
+CASE_1853,High,Fire/Hazmat,Afternoon,Rainy,Weekday,Medium,Zone C,3.34,20,7,48.3,0.18,9,0
+CASE_1854,Medium,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone B,7.29,11,1,77.0,0.15,3,0
+CASE_1855,Low,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone A,13.0,15,2,96.9,0.08,7,1
+CASE_1856,Low,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone E,7.81,14,7,30.6,0.22,5,1
+CASE_1857,Medium,Cardiac Arrest,Night,Clear,Weekday,Low,Zone C,10.41,17,2,22.9,0.18,3,1
+CASE_1858,Medium,Cardiac Arrest,Night,Foggy,Weekday,High,Zone C,9.03,2,6,92.2,0.18,5,1
+CASE_1859,Low,Traffic Accident,Night,Rainy,Weekday,Medium,Zone A,12.71,18,10,70.2,0.08,10,1
+CASE_1860,High,Stroke,Evening,Clear,Weekday,High,Zone B,4.63,16,9,49.4,0.15,7,0
+CASE_1861,Medium,Traffic Accident,Evening,Foggy,Weekend,Medium,Zone E,8.84,12,5,61.6,0.22,7,0
+CASE_1862,Medium,Fire/Hazmat,Morning,Foggy,Weekend,Low,Zone C,2.29,10,10,77.1,0.18,9,0
+CASE_1863,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone B,10.51,16,7,79.6,0.15,8,1
+CASE_1864,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone C,11.11,3,1,92.8,0.18,4,1
+CASE_1865,Medium,Respiratory Emergency,Evening,Clear,Weekday,High,Zone D,1.12,8,8,48.4,0.32,5,1
+CASE_1866,Low,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone B,10.3,2,9,36.4,0.15,5,1
+CASE_1867,Low,Fall/Injury,Morning,Clear,Weekday,Medium,Zone A,6.51,1,5,67.6,0.08,10,1
+CASE_1868,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,2.3,14,6,47.4,0.18,2,1
+CASE_1869,Critical,Traffic Accident,Evening,Foggy,Weekday,Medium,Zone D,6.59,4,8,63.5,0.32,7,1
+CASE_1870,Medium,Stroke,Afternoon,Clear,Weekend,Low,Zone D,3.32,4,4,47.8,0.32,7,1
+CASE_1871,Medium,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone E,6.53,9,2,23.8,0.22,9,1
+CASE_1872,High,Stroke,Morning,Rainy,Weekday,Medium,Zone B,6.07,3,10,52.2,0.15,9,1
+CASE_1873,Medium,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone A,11.21,5,8,72.2,0.08,4,0
+CASE_1874,Low,Fall/Injury,Afternoon,Snowy,Weekend,High,Zone E,11.73,1,2,81.9,0.22,5,1
+CASE_1875,Low,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone B,9.3,19,5,54.4,0.15,7,0
+CASE_1876,High,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone C,0.83,1,6,24.9,0.18,10,0
+CASE_1877,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone D,14.0,10,5,47.3,0.32,7,1
+CASE_1878,Low,Respiratory Emergency,Afternoon,Rainy,Weekday,Low,Zone C,10.45,12,6,80.8,0.18,10,0
+CASE_1879,Medium,Traffic Accident,Evening,Clear,Weekday,High,Zone A,1.0,10,6,47.2,0.08,8,1
+CASE_1880,Medium,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone D,12.37,2,3,72.7,0.32,8,1
+CASE_1881,High,Stroke,Afternoon,Clear,Weekday,Low,Zone E,3.4,16,3,55.6,0.22,2,0
+CASE_1882,Low,Traffic Accident,Evening,Clear,Weekday,Medium,Zone C,8.9,8,9,31.7,0.18,9,0
+CASE_1883,Low,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone C,7.27,14,3,81.7,0.18,4,0
+CASE_1884,High,Cardiac Arrest,Morning,Foggy,Weekend,Medium,Zone A,6.59,15,3,17.6,0.08,1,0
+CASE_1885,Low,Fire/Hazmat,Night,Foggy,Weekday,Medium,Zone A,13.4,16,2,57.2,0.08,1,0
+CASE_1886,High,Respiratory Emergency,Afternoon,Clear,Weekend,Low,Zone B,6.84,11,7,28.8,0.15,5,1
+CASE_1887,Medium,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone B,1.59,12,10,16.0,0.15,7,0
+CASE_1888,Low,Stroke,Morning,Clear,Weekday,High,Zone E,14.23,2,10,55.3,0.22,5,1
+CASE_1889,Medium,Stroke,Evening,Clear,Weekday,Low,Zone D,13.85,4,4,55.0,0.32,3,1
+CASE_1890,High,Traffic Accident,Afternoon,Clear,Weekday,High,Zone D,10.42,3,1,73.6,0.32,7,1
+CASE_1891,High,Fall/Injury,Morning,Foggy,Weekend,Low,Zone C,7.28,9,6,77.0,0.18,1,0
+CASE_1892,High,Fall/Injury,Evening,Foggy,Weekend,High,Zone A,1.85,18,5,75.5,0.08,1,0
+CASE_1893,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone E,11.97,19,2,46.9,0.22,2,0
+CASE_1894,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone B,1.59,7,6,66.9,0.15,1,0
+CASE_1895,Medium,Stroke,Morning,Snowy,Weekday,Low,Zone A,1.49,4,1,61.9,0.08,9,0
+CASE_1896,Medium,Respiratory Emergency,Morning,Snowy,Weekday,Low,Zone C,8.29,6,3,47.9,0.18,4,0
+CASE_1897,High,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone E,2.82,19,4,63.7,0.22,7,0
+CASE_1898,Low,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone E,0.61,1,3,95.3,0.22,5,0
+CASE_1899,Low,Cardiac Arrest,Night,Clear,Weekend,Medium,Zone A,6.64,16,6,27.4,0.08,7,1
+CASE_1900,Medium,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone E,2.49,11,4,91.5,0.22,7,0
+CASE_1901,Low,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone B,2.83,4,1,14.8,0.15,1,0
+CASE_1902,Low,Cardiac Arrest,Morning,Clear,Weekend,Medium,Zone A,1.62,18,5,37.8,0.08,1,0
+CASE_1903,Medium,Respiratory Emergency,Afternoon,Rainy,Weekend,Medium,Zone E,3.47,5,5,35.9,0.22,3,0
+CASE_1904,Medium,Respiratory Emergency,Night,Clear,Weekday,Medium,Zone E,10.87,6,9,66.4,0.22,10,1
+CASE_1905,High,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone C,12.23,2,8,21.8,0.18,2,1
+CASE_1906,High,Fire/Hazmat,Night,Clear,Weekday,Medium,Zone C,7.06,12,8,89.4,0.18,7,1
+CASE_1907,Medium,Traffic Accident,Morning,Snowy,Weekday,Medium,Zone E,7.85,9,5,84.6,0.22,3,1
+CASE_1908,Medium,Traffic Accident,Evening,Snowy,Weekday,High,Zone D,0.97,20,8,68.7,0.32,7,1
+CASE_1909,Medium,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone E,1.51,12,10,51.3,0.22,9,0
+CASE_1910,Medium,Traffic Accident,Night,Clear,Weekend,Low,Zone C,4.23,13,7,94.0,0.18,1,0
+CASE_1911,Medium,Cardiac Arrest,Afternoon,Foggy,Weekend,Medium,Zone E,8.39,17,1,84.8,0.22,3,1
+CASE_1912,High,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone E,11.22,5,7,54.9,0.22,6,1
+CASE_1913,Medium,Fire/Hazmat,Morning,Clear,Weekday,High,Zone A,9.27,20,8,73.2,0.08,9,0
+CASE_1914,Medium,Traffic Accident,Morning,Clear,Weekday,High,Zone E,6.19,13,3,61.0,0.22,5,0
+CASE_1915,Medium,Fall/Injury,Night,Clear,Weekday,Low,Zone C,2.22,13,9,62.9,0.18,3,0
+CASE_1916,Medium,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone B,11.82,10,8,39.8,0.15,8,0
+CASE_1917,Critical,Stroke,Afternoon,Foggy,Weekend,Medium,Zone C,5.77,15,2,51.6,0.18,5,0
+CASE_1918,High,Respiratory Emergency,Evening,Rainy,Weekday,Medium,Zone A,11.17,15,6,17.0,0.08,6,1
+CASE_1919,Low,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone C,7.94,18,4,42.2,0.18,2,0
+CASE_1920,High,Traffic Accident,Night,Foggy,Weekday,Medium,Zone E,11.21,18,3,72.6,0.22,4,1
+CASE_1921,Medium,Fall/Injury,Evening,Clear,Weekday,Medium,Zone A,13.66,2,6,95.8,0.08,1,1
+CASE_1922,High,Stroke,Afternoon,Clear,Weekday,Medium,Zone B,13.85,11,10,96.7,0.15,4,1
+CASE_1923,High,Traffic Accident,Night,Clear,Weekend,Low,Zone E,8.26,13,9,60.0,0.22,1,1
+CASE_1924,Medium,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone B,7.92,11,2,64.6,0.15,4,1
+CASE_1925,Low,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone B,4.35,4,10,26.7,0.15,2,1
+CASE_1926,Medium,Stroke,Afternoon,Clear,Weekday,High,Zone B,14.07,15,10,72.6,0.15,6,1
+CASE_1927,Medium,Fire/Hazmat,Morning,Rainy,Weekday,Medium,Zone C,7.14,11,10,16.4,0.18,6,0
+CASE_1928,High,Fall/Injury,Evening,Rainy,Weekday,Medium,Zone C,2.35,18,5,35.6,0.18,8,0
+CASE_1929,Medium,Traffic Accident,Night,Rainy,Weekend,High,Zone E,6.77,16,6,70.2,0.22,9,1
+CASE_1930,Low,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone C,2.34,10,4,37.9,0.18,8,0
+CASE_1931,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone E,7.79,12,7,14.5,0.22,1,1
+CASE_1932,Critical,Cardiac Arrest,Night,Clear,Weekday,Low,Zone C,8.64,13,2,84.9,0.18,3,1
+CASE_1933,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone B,5.4,9,7,37.9,0.15,6,0
+CASE_1934,Low,Fall/Injury,Afternoon,Foggy,Weekday,Medium,Zone D,1.54,13,2,15.7,0.32,1,1
+CASE_1935,Medium,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone D,14.18,6,1,16.7,0.32,8,1
+CASE_1936,Low,Fall/Injury,Night,Clear,Weekday,High,Zone C,11.71,6,5,32.7,0.18,6,1
+CASE_1937,Critical,Respiratory Emergency,Afternoon,Rainy,Weekend,Low,Zone A,12.66,11,2,26.0,0.08,1,1
+CASE_1938,Low,Fire/Hazmat,Evening,Clear,Weekday,Low,Zone A,5.82,19,8,79.7,0.08,10,0
+CASE_1939,Medium,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone B,11.53,11,8,39.0,0.15,2,1
+CASE_1940,Medium,Traffic Accident,Afternoon,Snowy,Weekday,Medium,Zone B,7.54,10,1,82.4,0.15,6,1
+CASE_1941,Medium,Fall/Injury,Afternoon,Snowy,Weekday,Medium,Zone D,3.42,15,4,25.6,0.32,10,1
+CASE_1942,High,Traffic Accident,Evening,Rainy,Weekend,Medium,Zone A,2.3,13,9,54.4,0.08,8,0
+CASE_1943,High,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone D,5.5,8,5,71.9,0.32,5,1
+CASE_1944,Medium,Fall/Injury,Evening,Clear,Weekday,Medium,Zone B,2.49,5,10,68.7,0.15,1,1
+CASE_1945,Low,Cardiac Arrest,Night,Rainy,Weekend,Medium,Zone B,14.97,2,6,64.1,0.15,10,1
+CASE_1946,Low,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone C,1.21,16,3,93.2,0.18,2,0
+CASE_1947,Critical,Respiratory Emergency,Evening,Clear,Weekend,High,Zone A,6.9,13,5,30.6,0.08,4,1
+CASE_1948,High,Traffic Accident,Evening,Snowy,Weekday,Low,Zone E,7.06,19,1,54.4,0.22,4,0
+CASE_1949,Medium,Fire/Hazmat,Evening,Clear,Weekday,High,Zone A,4.86,9,8,89.6,0.08,7,1
+CASE_1950,High,Stroke,Afternoon,Rainy,Weekday,Low,Zone B,8.78,15,6,17.0,0.15,2,1
+CASE_1951,High,Fall/Injury,Morning,Clear,Weekend,Medium,Zone E,2.67,6,2,15.0,0.22,7,1
+CASE_1952,Low,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone C,11.87,8,4,31.0,0.18,7,1
+CASE_1953,Critical,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone B,5.32,14,4,67.0,0.15,7,1
+CASE_1954,Medium,Fire/Hazmat,Afternoon,Snowy,Weekday,High,Zone B,9.07,5,9,33.4,0.15,3,1
+CASE_1955,Medium,Fall/Injury,Evening,Clear,Weekday,High,Zone D,10.88,17,9,27.1,0.32,6,1
+CASE_1956,Medium,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone E,13.39,7,5,51.3,0.22,6,1
+CASE_1957,Low,Stroke,Evening,Rainy,Weekend,Medium,Zone E,12.62,9,3,65.2,0.22,4,1
+CASE_1958,Low,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone B,9.32,16,1,32.4,0.15,1,0
+CASE_1959,High,Stroke,Evening,Foggy,Weekend,High,Zone E,6.13,18,6,37.1,0.22,9,1
+CASE_1960,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,7.8,13,8,65.2,0.08,2,0
+CASE_1961,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,11.65,18,1,95.1,0.08,9,1
+CASE_1962,Medium,Traffic Accident,Afternoon,Foggy,Weekday,Medium,Zone E,13.22,10,1,70.7,0.22,8,1
+CASE_1963,Medium,Fire/Hazmat,Evening,Rainy,Weekday,Medium,Zone A,2.0,1,7,80.5,0.08,1,0
+CASE_1964,Medium,Stroke,Afternoon,Clear,Weekday,High,Zone A,6.08,18,7,43.0,0.08,7,1
+CASE_1965,Medium,Fall/Injury,Morning,Clear,Weekday,Low,Zone A,11.75,19,2,34.5,0.08,10,0
+CASE_1966,High,Fall/Injury,Night,Snowy,Weekday,Low,Zone B,6.76,2,3,50.9,0.15,3,1
+CASE_1967,Medium,Respiratory Emergency,Evening,Clear,Weekend,Medium,Zone D,5.32,4,2,82.6,0.32,10,1
+CASE_1968,Medium,Fire/Hazmat,Night,Rainy,Weekday,Medium,Zone C,6.46,11,6,51.1,0.18,10,1
+CASE_1969,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone A,9.24,3,8,86.2,0.08,9,1
+CASE_1970,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,15.0,9,8,99.0,0.18,5,1
+CASE_1971,Critical,Traffic Accident,Night,Rainy,Weekday,High,Zone E,7.65,10,1,16.5,0.22,3,1
+CASE_1972,High,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone E,3.52,2,9,14.1,0.22,8,1
+CASE_1973,Medium,Fall/Injury,Evening,Clear,Weekday,Medium,Zone B,2.86,7,8,23.5,0.15,3,0
+CASE_1974,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,1.11,15,9,44.6,0.22,7,0
+CASE_1975,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone D,8.6,19,9,21.8,0.32,7,0
+CASE_1976,Medium,Stroke,Morning,Rainy,Weekday,High,Zone A,8.4,10,6,88.4,0.08,7,1
+CASE_1977,Low,Cardiac Arrest,Morning,Snowy,Weekend,Medium,Zone A,3.48,20,3,12.1,0.08,1,0
+CASE_1978,Medium,Fall/Injury,Morning,Rainy,Weekday,Medium,Zone A,10.58,14,1,38.4,0.08,5,0
+CASE_1979,Medium,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone D,11.25,4,8,26.6,0.32,1,1
+CASE_1980,Medium,Respiratory Emergency,Night,Clear,Weekend,Medium,Zone A,4.26,11,10,93.8,0.08,7,1
+CASE_1981,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone C,5.49,3,3,70.3,0.18,8,1
+CASE_1982,Low,Fall/Injury,Evening,Foggy,Weekday,High,Zone A,14.86,17,7,92.1,0.08,7,1
+CASE_1983,Low,Stroke,Evening,Snowy,Weekday,Medium,Zone E,5.93,7,10,97.5,0.22,1,0
+CASE_1984,High,Respiratory Emergency,Afternoon,Snowy,Weekday,Low,Zone B,11.53,11,6,54.7,0.15,3,1
+CASE_1985,Medium,Fire/Hazmat,Morning,Clear,Weekday,Low,Zone E,7.06,18,3,31.1,0.22,10,0
+CASE_1986,High,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone E,12.0,14,6,27.4,0.22,3,1
+CASE_1987,Medium,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone A,11.65,14,3,30.1,0.08,7,1
+CASE_1988,Medium,Fall/Injury,Evening,Clear,Weekend,High,Zone C,10.18,6,9,73.8,0.18,4,1
+CASE_1989,High,Stroke,Evening,Clear,Weekday,Medium,Zone A,12.89,9,1,13.6,0.08,3,1
+CASE_1990,High,Traffic Accident,Night,Foggy,Weekday,Medium,Zone E,14.12,3,8,14.6,0.22,6,1
+CASE_1991,High,Stroke,Afternoon,Clear,Weekday,Medium,Zone C,8.91,17,5,64.7,0.18,10,1
+CASE_1992,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone A,3.94,12,4,67.8,0.08,6,0
+CASE_1993,Medium,Traffic Accident,Evening,Clear,Weekday,Medium,Zone A,6.28,4,1,69.9,0.08,10,0
+CASE_1994,Medium,Cardiac Arrest,Morning,Foggy,Weekday,High,Zone B,11.5,20,9,43.5,0.15,5,1
+CASE_1995,Low,Stroke,Night,Clear,Weekday,Medium,Zone E,9.94,16,9,82.5,0.22,6,0
+CASE_1996,Critical,Traffic Accident,Morning,Rainy,Weekday,High,Zone D,3.08,10,5,58.0,0.32,3,1
+CASE_1997,Low,Traffic Accident,Afternoon,Foggy,Weekend,Medium,Zone E,1.24,7,9,19.5,0.22,10,1
+CASE_1998,Critical,Traffic Accident,Evening,Clear,Weekday,Low,Zone B,10.4,10,10,81.7,0.15,5,1
+CASE_1999,Medium,Stroke,Afternoon,Rainy,Weekend,Medium,Zone A,4.14,7,9,95.8,0.08,9,0
+CASE_2000,Low,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone E,7.75,18,7,15.4,0.22,4,0
+CASE_2001,Medium,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone A,11.33,9,8,45.2,0.08,2,0
+CASE_2002,High,Traffic Accident,Night,Snowy,Weekend,Medium,Zone E,8.66,18,1,53.9,0.22,5,0
+CASE_2003,High,Fall/Injury,Afternoon,Rainy,Weekday,Medium,Zone B,1.71,17,4,23.2,0.15,3,0
+CASE_2004,High,Respiratory Emergency,Night,Clear,Weekday,Low,Zone A,3.19,11,10,88.1,0.08,3,1
+CASE_2005,High,Stroke,Morning,Clear,Weekday,High,Zone D,3.68,1,10,35.6,0.32,4,1
+CASE_2006,High,Fire/Hazmat,Evening,Clear,Weekday,Medium,Zone E,4.24,17,4,80.5,0.22,4,0
+CASE_2007,High,Cardiac Arrest,Evening,Clear,Weekday,High,Zone E,8.7,4,9,70.4,0.22,5,1
+CASE_2008,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone A,7.81,4,3,63.8,0.08,7,0
+CASE_2009,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone A,3.45,14,10,27.3,0.08,4,0
+CASE_2010,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone C,1.48,9,10,29.9,0.18,7,0
+CASE_2011,Critical,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone C,2.99,13,1,14.3,0.18,9,1
+CASE_2012,Critical,Traffic Accident,Afternoon,Clear,Weekday,High,Zone D,14.77,16,5,31.7,0.32,3,1
+CASE_2013,Low,Traffic Accident,Evening,Clear,Weekday,Low,Zone A,7.29,1,7,41.1,0.08,5,1
+CASE_2014,High,Fall/Injury,Morning,Clear,Weekday,High,Zone E,13.08,3,4,85.0,0.22,4,1
+CASE_2015,Critical,Traffic Accident,Morning,Snowy,Weekday,High,Zone C,12.81,19,9,43.0,0.18,9,1
+CASE_2016,Low,Fall/Injury,Morning,Clear,Weekday,Medium,Zone E,7.92,8,6,77.9,0.22,5,1
+CASE_2017,Medium,Respiratory Emergency,Afternoon,Clear,Weekend,High,Zone C,10.75,18,6,49.5,0.18,10,1
+CASE_2018,Critical,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone B,3.29,6,3,80.6,0.15,2,0
+CASE_2019,Low,Fall/Injury,Night,Rainy,Weekday,High,Zone E,10.48,20,10,97.9,0.22,10,1
+CASE_2020,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone C,4.45,6,10,31.6,0.18,1,0
+CASE_2021,Medium,Respiratory Emergency,Afternoon,Snowy,Weekend,Low,Zone E,12.56,5,5,87.6,0.22,7,1
+CASE_2022,Critical,Fall/Injury,Night,Foggy,Weekday,High,Zone E,1.71,12,10,66.0,0.22,1,0
+CASE_2023,Critical,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone D,11.71,9,6,83.6,0.32,8,1
+CASE_2024,Critical,Cardiac Arrest,Night,Rainy,Weekday,Medium,Zone C,1.95,9,4,68.6,0.18,9,1
+CASE_2025,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,13.28,17,3,48.2,0.08,7,1
+CASE_2026,High,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone A,4.91,19,5,30.5,0.08,9,1
+CASE_2027,High,Fall/Injury,Morning,Foggy,Weekday,Medium,Zone A,9.99,17,7,16.3,0.08,10,0
+CASE_2028,Medium,Fall/Injury,Evening,Clear,Weekend,High,Zone A,7.57,16,6,58.2,0.08,6,0
+CASE_2029,High,Fall/Injury,Morning,Clear,Weekday,Low,Zone B,5.81,12,2,99.1,0.15,7,1
+CASE_2030,Low,Traffic Accident,Afternoon,Rainy,Weekday,Low,Zone B,9.86,3,1,76.4,0.15,3,1
+CASE_2031,Medium,Respiratory Emergency,Afternoon,Clear,Weekend,Low,Zone B,14.24,14,5,39.5,0.15,9,1
+CASE_2032,Medium,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone B,1.1,17,5,84.4,0.15,3,0
+CASE_2033,Low,Cardiac Arrest,Evening,Clear,Weekend,Medium,Zone A,13.82,16,6,79.2,0.08,6,0
+CASE_2034,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,9.33,12,3,35.3,0.08,4,1
+CASE_2035,High,Traffic Accident,Afternoon,Snowy,Weekend,High,Zone D,12.21,2,1,11.3,0.32,9,1
+CASE_2036,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone C,6.07,8,4,20.6,0.18,1,0
+CASE_2037,High,Fire/Hazmat,Night,Clear,Weekend,Low,Zone B,7.34,12,4,89.0,0.15,9,0
+CASE_2038,Low,Cardiac Arrest,Evening,Clear,Weekend,High,Zone C,13.1,16,10,85.3,0.18,4,1
+CASE_2039,Medium,Respiratory Emergency,Night,Rainy,Weekday,Medium,Zone E,6.52,8,2,36.6,0.22,10,1
+CASE_2040,Medium,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone B,8.25,16,8,35.7,0.15,5,1
+CASE_2041,High,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone C,0.79,10,6,81.4,0.18,1,0
+CASE_2042,Medium,Cardiac Arrest,Morning,Rainy,Weekend,High,Zone E,2.8,20,3,94.4,0.22,1,0
+CASE_2043,High,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone E,9.8,15,1,80.1,0.22,6,1
+CASE_2044,High,Fall/Injury,Evening,Foggy,Weekday,Medium,Zone B,10.9,4,3,64.5,0.15,10,1
+CASE_2045,High,Fall/Injury,Evening,Clear,Weekday,Medium,Zone C,8.95,15,8,31.8,0.18,1,1
+CASE_2046,Medium,Respiratory Emergency,Afternoon,Rainy,Weekday,Low,Zone A,2.58,4,4,57.3,0.08,2,1
+CASE_2047,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,6.96,11,3,31.0,0.18,3,0
+CASE_2048,High,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone E,5.65,6,4,82.7,0.22,7,1
+CASE_2049,Low,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone C,7.69,4,4,44.8,0.18,2,1
+CASE_2050,High,Traffic Accident,Morning,Snowy,Weekend,Low,Zone E,13.12,9,2,85.0,0.22,5,1
+CASE_2051,Medium,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone B,11.75,9,4,44.3,0.15,9,0
+CASE_2052,Critical,Traffic Accident,Morning,Foggy,Weekday,Medium,Zone E,1.72,3,9,84.2,0.22,10,1
+CASE_2053,High,Traffic Accident,Morning,Clear,Weekday,High,Zone C,13.41,5,4,40.0,0.18,8,1
+CASE_2054,Critical,Fall/Injury,Afternoon,Clear,Weekday,High,Zone A,7.34,15,1,49.6,0.08,8,1
+CASE_2055,Medium,Fire/Hazmat,Evening,Clear,Weekend,Medium,Zone C,11.29,9,1,65.4,0.18,2,1
+CASE_2056,High,Fall/Injury,Afternoon,Snowy,Weekend,Medium,Zone B,2.53,2,1,16.3,0.15,1,1
+CASE_2057,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone A,10.23,3,5,95.3,0.08,9,1
+CASE_2058,Medium,Cardiac Arrest,Afternoon,Snowy,Weekday,Low,Zone E,3.93,12,6,61.6,0.22,10,0
+CASE_2059,High,Fire/Hazmat,Afternoon,Foggy,Weekday,Medium,Zone B,6.86,16,6,55.7,0.15,4,0
+CASE_2060,High,Traffic Accident,Night,Foggy,Weekend,Medium,Zone D,0.74,5,6,85.5,0.32,9,1
+CASE_2061,Critical,Cardiac Arrest,Night,Clear,Weekend,Low,Zone B,2.7,10,9,87.9,0.15,7,1
+CASE_2062,High,Respiratory Emergency,Afternoon,Rainy,Weekend,High,Zone A,1.84,15,1,57.0,0.08,6,1
+CASE_2063,Medium,Fall/Injury,Afternoon,Rainy,Weekday,High,Zone E,3.98,14,10,93.5,0.22,10,0
+CASE_2064,Medium,Fall/Injury,Evening,Clear,Weekday,Low,Zone B,1.95,14,6,15.8,0.15,9,1
+CASE_2065,High,Traffic Accident,Morning,Rainy,Weekday,Low,Zone C,10.53,13,8,20.2,0.18,10,1
+CASE_2066,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone C,0.92,16,8,63.7,0.18,4,0
+CASE_2067,Low,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone C,9.46,8,3,41.9,0.18,1,1
+CASE_2068,Medium,Traffic Accident,Night,Clear,Weekday,Medium,Zone E,2.54,8,5,51.8,0.22,5,0
+CASE_2069,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone D,14.2,17,10,39.5,0.32,6,1
+CASE_2070,Medium,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone B,14.03,17,4,46.4,0.15,6,0
+CASE_2071,Medium,Fall/Injury,Evening,Clear,Weekend,High,Zone E,3.77,3,1,84.0,0.22,1,1
+CASE_2072,Low,Traffic Accident,Afternoon,Rainy,Weekday,Medium,Zone A,9.41,1,9,63.4,0.08,7,1
+CASE_2073,Low,Traffic Accident,Morning,Clear,Weekday,Low,Zone C,0.91,17,5,99.8,0.18,8,0
+CASE_2074,Critical,Respiratory Emergency,Night,Clear,Weekday,Medium,Zone E,14.01,16,2,80.8,0.22,5,1
+CASE_2075,Medium,Stroke,Afternoon,Clear,Weekend,Medium,Zone C,8.08,17,2,34.6,0.18,2,0
+CASE_2076,Medium,Fire/Hazmat,Evening,Clear,Weekend,Medium,Zone E,1.13,2,7,33.8,0.22,2,0
+CASE_2077,High,Cardiac Arrest,Morning,Rainy,Weekend,Low,Zone D,5.47,14,4,40.2,0.32,5,0
+CASE_2078,Medium,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone E,1.61,7,1,85.9,0.22,7,0
+CASE_2079,Critical,Fire/Hazmat,Afternoon,Rainy,Weekday,High,Zone E,6.2,19,5,12.5,0.22,7,0
+CASE_2080,High,Fall/Injury,Morning,Clear,Weekday,High,Zone B,10.21,1,2,30.7,0.15,4,1
+CASE_2081,Low,Stroke,Morning,Rainy,Weekday,Medium,Zone A,7.31,17,7,91.4,0.08,3,0
+CASE_2082,Medium,Traffic Accident,Evening,Clear,Weekday,Medium,Zone C,6.06,10,9,67.6,0.18,9,1
+CASE_2083,High,Respiratory Emergency,Morning,Clear,Weekend,Medium,Zone D,2.23,6,1,30.4,0.32,7,1
+CASE_2084,Critical,Fall/Injury,Morning,Rainy,Weekday,Medium,Zone A,4.05,7,2,29.7,0.08,2,1
+CASE_2085,Medium,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone A,1.95,6,6,87.6,0.08,1,1
+CASE_2086,High,Respiratory Emergency,Evening,Rainy,Weekday,High,Zone B,12.21,5,8,90.4,0.15,2,1
+CASE_2087,Low,Cardiac Arrest,Morning,Rainy,Weekend,Medium,Zone E,2.46,2,7,33.1,0.22,3,0
+CASE_2088,Critical,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone D,9.13,18,9,47.8,0.32,5,1
+CASE_2089,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,5.47,17,2,85.1,0.15,3,0
+CASE_2090,Critical,Respiratory Emergency,Morning,Clear,Weekday,High,Zone A,3.78,7,9,79.4,0.08,10,0
+CASE_2091,High,Fire/Hazmat,Morning,Foggy,Weekday,Medium,Zone B,9.77,19,4,83.3,0.15,9,0
+CASE_2092,High,Traffic Accident,Evening,Rainy,Weekday,Low,Zone A,7.13,7,3,56.7,0.08,10,1
+CASE_2093,Medium,Stroke,Morning,Clear,Weekend,Medium,Zone A,6.3,7,7,92.0,0.08,4,1
+CASE_2094,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone E,9.1,16,5,39.3,0.22,7,1
+CASE_2095,Low,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone E,7.62,12,5,24.1,0.22,4,1
+CASE_2096,Medium,Fire/Hazmat,Evening,Snowy,Weekday,Medium,Zone A,4.9,15,2,73.8,0.08,3,0
+CASE_2097,Low,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone A,8.61,15,6,58.5,0.08,10,1
+CASE_2098,High,Cardiac Arrest,Afternoon,Clear,Weekend,Medium,Zone B,10.21,11,6,86.9,0.15,1,1
+CASE_2099,Medium,Respiratory Emergency,Morning,Snowy,Weekday,High,Zone C,0.89,2,4,17.3,0.18,9,1
+CASE_2100,Low,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone A,7.26,3,5,85.9,0.08,1,0
+CASE_2101,Critical,Fall/Injury,Afternoon,Clear,Weekend,High,Zone B,1.34,19,7,36.4,0.15,1,1
+CASE_2102,High,Fire/Hazmat,Afternoon,Foggy,Weekday,Medium,Zone A,3.2,20,8,68.9,0.08,1,0
+CASE_2103,Critical,Respiratory Emergency,Afternoon,Rainy,Weekend,Medium,Zone D,8.63,15,6,13.6,0.32,5,1
+CASE_2104,Critical,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone D,13.06,16,5,64.9,0.32,7,1
+CASE_2105,Low,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone C,13.3,1,3,74.6,0.18,7,1
+CASE_2106,Medium,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone B,1.51,15,7,43.2,0.15,10,0
+CASE_2107,High,Cardiac Arrest,Morning,Clear,Weekend,Medium,Zone E,6.58,12,8,29.4,0.22,1,1
+CASE_2108,High,Respiratory Emergency,Evening,Snowy,Weekday,Low,Zone E,8.95,7,3,58.4,0.22,6,1
+CASE_2109,Low,Fall/Injury,Night,Clear,Weekend,Medium,Zone A,2.63,7,5,85.0,0.08,9,0
+CASE_2110,High,Fall/Injury,Night,Rainy,Weekend,Medium,Zone A,11.6,11,2,39.1,0.08,6,1
+CASE_2111,Medium,Traffic Accident,Night,Foggy,Weekday,Low,Zone C,11.29,20,10,32.7,0.18,4,1
+CASE_2112,Medium,Fall/Injury,Evening,Clear,Weekday,Low,Zone A,13.6,11,10,35.1,0.08,10,1
+CASE_2113,Medium,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone B,0.62,17,4,95.4,0.15,9,0
+CASE_2114,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,3.64,3,4,42.3,0.18,3,1
+CASE_2115,Medium,Stroke,Evening,Foggy,Weekday,High,Zone C,12.49,16,8,10.3,0.18,10,1
+CASE_2116,Low,Fall/Injury,Afternoon,Snowy,Weekday,High,Zone B,10.22,5,3,80.4,0.15,4,1
+CASE_2117,High,Cardiac Arrest,Afternoon,Clear,Weekend,Medium,Zone C,13.47,2,5,72.9,0.18,4,1
+CASE_2118,Medium,Traffic Accident,Evening,Rainy,Weekend,Medium,Zone E,1.33,7,5,21.6,0.22,4,1
+CASE_2119,Low,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone A,9.16,10,2,98.6,0.08,6,1
+CASE_2120,High,Traffic Accident,Afternoon,Foggy,Weekend,Medium,Zone D,8.75,5,9,64.7,0.32,7,1
+CASE_2121,Critical,Traffic Accident,Night,Clear,Weekday,Low,Zone A,1.02,15,4,55.1,0.08,9,0
+CASE_2122,High,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone A,7.95,12,9,44.4,0.08,3,1
+CASE_2123,High,Respiratory Emergency,Afternoon,Snowy,Weekend,Medium,Zone C,9.34,10,9,90.9,0.18,8,1
+CASE_2124,High,Fall/Injury,Night,Clear,Weekday,Low,Zone A,3.27,17,2,32.0,0.08,8,1
+CASE_2125,Medium,Fall/Injury,Evening,Clear,Weekend,Medium,Zone A,4.46,20,9,35.7,0.08,1,0
+CASE_2126,Low,Fall/Injury,Afternoon,Clear,Weekday,High,Zone A,9.79,20,9,21.0,0.08,5,0
+CASE_2127,Medium,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone C,7.29,11,2,78.3,0.18,10,0
+CASE_2128,Medium,Fire/Hazmat,Afternoon,Clear,Weekend,Medium,Zone D,12.94,8,6,63.6,0.32,5,1
+CASE_2129,Medium,Stroke,Night,Foggy,Weekend,High,Zone A,5.46,15,9,64.8,0.08,8,1
+CASE_2130,High,Stroke,Afternoon,Clear,Weekday,Medium,Zone D,4.37,2,4,29.7,0.32,8,0
+CASE_2131,Medium,Stroke,Afternoon,Clear,Weekend,Low,Zone A,14.78,17,2,68.6,0.08,2,0
+CASE_2132,Low,Fire/Hazmat,Morning,Rainy,Weekday,Medium,Zone C,13.71,6,7,78.9,0.18,3,1
+CASE_2133,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone B,0.92,13,9,42.2,0.15,2,0
+CASE_2134,High,Traffic Accident,Night,Clear,Weekend,Medium,Zone D,11.68,8,6,82.1,0.32,1,1
+CASE_2135,Low,Fall/Injury,Afternoon,Rainy,Weekday,Low,Zone E,2.1,11,4,41.4,0.22,2,0
+CASE_2136,High,Fall/Injury,Evening,Snowy,Weekday,Medium,Zone E,0.9,15,1,78.2,0.22,10,0
+CASE_2137,Medium,Fall/Injury,Morning,Rainy,Weekday,High,Zone A,4.47,13,4,13.0,0.08,6,1
+CASE_2138,Medium,Respiratory Emergency,Evening,Rainy,Weekday,Medium,Zone E,4.41,18,3,59.6,0.22,1,0
+CASE_2139,Medium,Cardiac Arrest,Night,Clear,Weekday,High,Zone A,12.38,18,7,97.3,0.08,6,1
+CASE_2140,High,Traffic Accident,Afternoon,Foggy,Weekday,Medium,Zone E,10.8,17,10,98.3,0.22,1,1
+CASE_2141,Medium,Fire/Hazmat,Morning,Clear,Weekday,High,Zone B,14.73,13,5,35.4,0.15,2,1
+CASE_2142,High,Respiratory Emergency,Afternoon,Rainy,Weekend,Low,Zone B,10.82,3,3,49.7,0.15,8,1
+CASE_2143,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,6.56,7,2,15.7,0.08,6,1
+CASE_2144,Medium,Traffic Accident,Afternoon,Foggy,Weekend,Low,Zone A,10.63,12,2,88.6,0.08,9,0
+CASE_2145,High,Traffic Accident,Night,Rainy,Weekday,Medium,Zone D,14.99,4,5,61.2,0.32,1,1
+CASE_2146,High,Stroke,Evening,Rainy,Weekday,Medium,Zone E,10.8,11,8,44.7,0.22,5,1
+CASE_2147,High,Fall/Injury,Night,Clear,Weekday,Medium,Zone C,11.54,14,8,20.1,0.18,7,1
+CASE_2148,High,Fall/Injury,Evening,Clear,Weekday,High,Zone D,14.11,18,5,95.2,0.32,9,1
+CASE_2149,High,Respiratory Emergency,Morning,Rainy,Weekday,High,Zone D,2.15,7,2,57.7,0.32,9,1
+CASE_2150,High,Fall/Injury,Afternoon,Rainy,Weekday,Low,Zone B,10.72,5,4,35.5,0.15,4,0
+CASE_2151,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,12.84,16,7,41.5,0.08,4,1
+CASE_2152,High,Fall/Injury,Night,Foggy,Weekday,Medium,Zone A,14.34,11,6,34.4,0.08,4,1
+CASE_2153,High,Respiratory Emergency,Evening,Snowy,Weekday,Medium,Zone B,3.56,3,10,64.2,0.15,3,1
+CASE_2154,High,Respiratory Emergency,Evening,Clear,Weekday,High,Zone A,7.81,16,7,93.7,0.08,8,1
+CASE_2155,High,Fall/Injury,Afternoon,Snowy,Weekday,Medium,Zone A,10.37,11,5,87.1,0.08,5,1
+CASE_2156,Low,Fire/Hazmat,Morning,Clear,Weekend,High,Zone A,4.09,10,2,51.4,0.08,7,1
+CASE_2157,High,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone A,9.21,2,8,84.4,0.08,10,0
+CASE_2158,High,Stroke,Afternoon,Clear,Weekday,Medium,Zone E,4.23,16,2,48.1,0.22,6,0
+CASE_2159,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,5.34,17,8,32.7,0.08,9,0
+CASE_2160,High,Respiratory Emergency,Evening,Rainy,Weekend,Low,Zone C,6.9,10,7,98.5,0.18,3,1
+CASE_2161,Low,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone C,8.17,18,3,37.3,0.18,6,0
+CASE_2162,Medium,Traffic Accident,Afternoon,Rainy,Weekend,High,Zone C,7.02,12,4,39.1,0.18,3,0
+CASE_2163,High,Respiratory Emergency,Afternoon,Rainy,Weekday,Medium,Zone A,7.65,8,7,99.1,0.08,2,1
+CASE_2164,Low,Cardiac Arrest,Morning,Rainy,Weekend,Medium,Zone B,4.83,3,4,22.1,0.15,3,1
+CASE_2165,High,Respiratory Emergency,Night,Clear,Weekend,Medium,Zone A,2.8,20,9,78.4,0.08,2,0
+CASE_2166,High,Fire/Hazmat,Morning,Snowy,Weekend,Low,Zone B,1.19,3,7,94.2,0.15,2,1
+CASE_2167,Medium,Cardiac Arrest,Morning,Clear,Weekday,Low,Zone A,3.34,6,1,56.1,0.08,10,0
+CASE_2168,Low,Fall/Injury,Morning,Clear,Weekday,Medium,Zone C,8.94,2,1,10.2,0.18,7,1
+CASE_2169,Medium,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone D,11.9,3,4,43.8,0.32,10,1
+CASE_2170,High,Fall/Injury,Afternoon,Clear,Weekday,High,Zone C,2.95,17,9,20.0,0.18,3,1
+CASE_2171,Critical,Traffic Accident,Afternoon,Snowy,Weekend,Medium,Zone B,2.07,9,4,47.5,0.15,8,1
+CASE_2172,High,Traffic Accident,Morning,Clear,Weekday,High,Zone B,11.36,4,5,81.1,0.15,2,1
+CASE_2173,Medium,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone E,4.92,2,1,49.5,0.22,7,0
+CASE_2174,High,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone A,14.3,9,2,48.9,0.08,3,1
+CASE_2175,Medium,Traffic Accident,Evening,Clear,Weekday,Medium,Zone D,10.86,14,4,60.1,0.32,9,0
+CASE_2176,High,Fall/Injury,Night,Foggy,Weekday,Medium,Zone D,5.24,11,4,62.4,0.32,7,1
+CASE_2177,Low,Stroke,Morning,Rainy,Weekend,High,Zone B,4.7,2,10,87.1,0.15,9,1
+CASE_2178,High,Stroke,Afternoon,Clear,Weekday,Medium,Zone B,8.09,2,6,37.8,0.15,2,1
+CASE_2179,Medium,Fall/Injury,Night,Clear,Weekday,Low,Zone C,1.65,5,6,84.0,0.18,6,0
+CASE_2180,Critical,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone A,2.21,7,8,60.9,0.08,5,0
+CASE_2181,Medium,Traffic Accident,Evening,Clear,Weekday,High,Zone A,3.05,4,9,37.0,0.08,2,1
+CASE_2182,High,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone A,11.73,14,1,36.6,0.08,4,1
+CASE_2183,Critical,Traffic Accident,Night,Rainy,Weekday,Medium,Zone A,7.95,2,1,42.5,0.08,4,1
+CASE_2184,Low,Respiratory Emergency,Evening,Clear,Weekend,Medium,Zone C,0.65,12,6,66.0,0.18,8,0
+CASE_2185,Critical,Respiratory Emergency,Night,Foggy,Weekend,High,Zone E,10.27,10,4,30.8,0.22,7,1
+CASE_2186,High,Traffic Accident,Evening,Clear,Weekend,Low,Zone A,6.64,1,4,92.8,0.08,5,1
+CASE_2187,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,7.91,19,1,61.7,0.22,9,0
+CASE_2188,Medium,Stroke,Night,Clear,Weekend,Low,Zone E,3.6,16,9,92.8,0.22,1,0
+CASE_2189,High,Fall/Injury,Afternoon,Rainy,Weekend,Medium,Zone E,8.5,15,3,14.2,0.22,4,1
+CASE_2190,Low,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone E,14.7,14,5,40.8,0.22,5,1
+CASE_2191,Medium,Fire/Hazmat,Evening,Clear,Weekday,Low,Zone B,1.56,9,10,12.1,0.15,8,0
+CASE_2192,Medium,Fire/Hazmat,Evening,Clear,Weekend,Low,Zone A,4.62,15,1,34.5,0.08,3,1
+CASE_2193,High,Traffic Accident,Night,Clear,Weekend,Medium,Zone C,4.02,7,8,87.6,0.18,5,1
+CASE_2194,Low,Traffic Accident,Morning,Snowy,Weekend,Low,Zone C,4.1,4,3,13.3,0.18,3,0
+CASE_2195,High,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone E,5.99,18,1,49.3,0.22,7,1
+CASE_2196,Critical,Fire/Hazmat,Evening,Clear,Weekend,High,Zone E,12.36,8,10,20.6,0.22,10,1
+CASE_2197,Critical,Stroke,Morning,Rainy,Weekend,Medium,Zone C,13.74,12,6,47.5,0.18,3,1
+CASE_2198,High,Cardiac Arrest,Afternoon,Foggy,Weekday,Medium,Zone B,3.43,15,1,85.5,0.15,7,1
+CASE_2199,Low,Traffic Accident,Afternoon,Foggy,Weekday,High,Zone A,8.37,15,3,66.1,0.08,2,1
+CASE_2200,High,Respiratory Emergency,Afternoon,Clear,Weekend,Low,Zone A,9.74,17,5,76.3,0.08,7,1
+CASE_2201,Low,Respiratory Emergency,Night,Clear,Weekday,Medium,Zone C,8.07,2,4,41.4,0.18,9,1
+CASE_2202,Low,Traffic Accident,Evening,Clear,Weekday,Medium,Zone C,6.79,12,7,95.0,0.18,5,0
+CASE_2203,Medium,Stroke,Evening,Clear,Weekday,Medium,Zone E,3.28,3,6,73.8,0.22,6,0
+CASE_2204,Medium,Fall/Injury,Night,Foggy,Weekend,High,Zone C,7.58,7,3,48.0,0.18,10,1
+CASE_2205,High,Stroke,Afternoon,Clear,Weekday,High,Zone E,6.32,6,8,48.4,0.22,3,1
+CASE_2206,High,Stroke,Evening,Clear,Weekday,Medium,Zone C,12.04,14,8,92.7,0.18,10,0
+CASE_2207,Medium,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone E,11.57,5,2,61.9,0.22,5,1
+CASE_2208,Medium,Respiratory Emergency,Night,Clear,Weekend,Low,Zone A,2.44,4,7,73.6,0.08,5,1
+CASE_2209,Critical,Fall/Injury,Morning,Rainy,Weekday,Medium,Zone E,1.78,15,1,47.5,0.22,3,0
+CASE_2210,Medium,Traffic Accident,Night,Clear,Weekend,Low,Zone D,13.67,7,2,30.1,0.32,8,0
+CASE_2211,Medium,Fall/Injury,Morning,Clear,Weekend,Medium,Zone A,8.26,3,8,75.1,0.08,6,1
+CASE_2212,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,12.94,13,1,64.7,0.08,3,1
+CASE_2213,High,Fall/Injury,Evening,Clear,Weekday,Low,Zone E,1.34,10,2,55.1,0.22,1,0
+CASE_2214,High,Traffic Accident,Afternoon,Clear,Weekday,High,Zone A,8.13,2,1,66.2,0.08,10,1
+CASE_2215,Medium,Cardiac Arrest,Evening,Rainy,Weekday,Low,Zone C,8.32,12,5,28.7,0.18,1,0
+CASE_2216,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone B,12.98,12,7,81.5,0.15,10,1
+CASE_2217,High,Cardiac Arrest,Evening,Rainy,Weekend,Medium,Zone D,1.92,19,6,95.3,0.32,2,1
+CASE_2218,High,Fall/Injury,Morning,Foggy,Weekend,Medium,Zone E,3.99,19,6,90.2,0.22,10,0
+CASE_2219,Medium,Fall/Injury,Morning,Foggy,Weekday,Medium,Zone B,6.39,3,6,38.9,0.15,5,0
+CASE_2220,Critical,Respiratory Emergency,Afternoon,Foggy,Weekday,Low,Zone B,13.05,6,8,46.5,0.15,7,1
+CASE_2221,Low,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,14.11,2,5,82.8,0.22,1,1
+CASE_2222,Medium,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone D,14.89,13,10,63.6,0.32,1,0
+CASE_2223,Critical,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone E,14.41,9,7,59.3,0.22,4,1
+CASE_2224,Medium,Traffic Accident,Afternoon,Snowy,Weekend,Medium,Zone B,0.59,13,3,93.4,0.15,10,0
+CASE_2225,High,Stroke,Morning,Foggy,Weekend,Medium,Zone A,1.19,14,9,58.2,0.08,6,0
+CASE_2226,Medium,Traffic Accident,Afternoon,Snowy,Weekday,Medium,Zone B,2.64,19,10,56.3,0.15,9,1
+CASE_2227,Medium,Traffic Accident,Night,Clear,Weekend,High,Zone D,5.56,11,3,13.8,0.32,1,1
+CASE_2228,Critical,Cardiac Arrest,Morning,Foggy,Weekday,Low,Zone A,12.53,14,6,16.2,0.08,10,1
+CASE_2229,Medium,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone B,13.44,16,3,10.7,0.15,5,1
+CASE_2230,High,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,3.21,10,1,92.2,0.08,9,1
+CASE_2231,Medium,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone B,9.49,20,1,46.8,0.15,8,1
+CASE_2232,Medium,Traffic Accident,Evening,Clear,Weekend,Low,Zone E,13.8,16,3,52.2,0.22,7,1
+CASE_2233,Low,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone A,7.22,2,4,86.1,0.08,10,1
+CASE_2234,High,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone D,2.0,16,2,64.8,0.32,2,0
+CASE_2235,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone E,7.14,14,9,64.9,0.22,9,0
+CASE_2236,High,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone A,5.95,18,8,36.7,0.08,8,1
+CASE_2237,Medium,Fire/Hazmat,Evening,Snowy,Weekday,High,Zone D,8.88,6,3,85.1,0.32,10,1
+CASE_2238,Critical,Fall/Injury,Morning,Rainy,Weekday,Medium,Zone E,6.86,7,7,24.9,0.22,10,1
+CASE_2239,Low,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone E,0.75,13,4,14.8,0.22,9,1
+CASE_2240,High,Respiratory Emergency,Night,Snowy,Weekday,Low,Zone A,14.91,2,5,27.2,0.08,9,1
+CASE_2241,High,Respiratory Emergency,Afternoon,Foggy,Weekday,High,Zone A,8.38,15,4,34.1,0.08,9,1
+CASE_2242,High,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone A,7.37,17,9,35.4,0.08,3,0
+CASE_2243,High,Fall/Injury,Night,Clear,Weekend,Medium,Zone D,14.34,13,7,70.3,0.32,7,1
+CASE_2244,High,Fall/Injury,Evening,Clear,Weekday,Low,Zone D,2.76,7,4,29.6,0.32,1,1
+CASE_2245,High,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone D,3.24,1,8,70.9,0.32,9,1
+CASE_2246,Low,Respiratory Emergency,Evening,Rainy,Weekday,Medium,Zone B,12.22,3,2,18.2,0.15,9,1
+CASE_2247,Low,Respiratory Emergency,Night,Snowy,Weekday,Medium,Zone A,4.28,20,7,23.2,0.08,3,0
+CASE_2248,Critical,Stroke,Afternoon,Clear,Weekday,Medium,Zone C,12.09,18,1,55.8,0.18,5,0
+CASE_2249,High,Fall/Injury,Afternoon,Snowy,Weekday,High,Zone C,4.44,7,8,93.0,0.18,8,1
+CASE_2250,High,Respiratory Emergency,Afternoon,Snowy,Weekday,Medium,Zone D,0.98,17,6,87.4,0.32,6,0
+CASE_2251,Medium,Cardiac Arrest,Night,Foggy,Weekday,Medium,Zone B,8.0,12,5,97.2,0.15,10,1
+CASE_2252,Low,Fall/Injury,Evening,Clear,Weekday,High,Zone B,3.35,16,9,68.5,0.15,10,0
+CASE_2253,Low,Cardiac Arrest,Morning,Foggy,Weekday,High,Zone B,11.49,10,9,70.8,0.15,9,1
+CASE_2254,High,Traffic Accident,Night,Clear,Weekend,Medium,Zone A,9.8,16,3,66.3,0.08,3,1
+CASE_2255,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone B,13.89,20,9,66.1,0.15,7,1
+CASE_2256,Medium,Fall/Injury,Morning,Clear,Weekday,Low,Zone A,11.85,18,9,23.2,0.08,6,1
+CASE_2257,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone B,3.12,15,2,58.9,0.15,5,0
+CASE_2258,Low,Traffic Accident,Afternoon,Rainy,Weekend,High,Zone A,12.1,11,5,44.7,0.08,4,1
+CASE_2259,Medium,Stroke,Night,Clear,Weekday,Low,Zone A,9.81,18,2,49.8,0.08,5,1
+CASE_2260,Medium,Traffic Accident,Morning,Clear,Weekday,Low,Zone D,10.2,6,1,57.1,0.32,4,0
+CASE_2261,High,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone B,12.57,1,7,21.6,0.15,3,1
+CASE_2262,Medium,Respiratory Emergency,Afternoon,Rainy,Weekday,Medium,Zone D,8.82,7,4,42.4,0.32,7,1
+CASE_2263,Medium,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone D,7.26,12,5,15.7,0.32,6,1
+CASE_2264,Low,Fall/Injury,Night,Snowy,Weekend,Medium,Zone C,9.73,20,4,98.2,0.18,4,0
+CASE_2265,Low,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone E,4.82,4,6,20.7,0.22,9,1
+CASE_2266,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone A,3.15,10,2,33.3,0.08,1,1
+CASE_2267,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone D,9.44,2,8,90.2,0.32,1,0
+CASE_2268,High,Fall/Injury,Night,Clear,Weekday,High,Zone E,3.89,9,4,53.4,0.22,9,1
+CASE_2269,Medium,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone E,1.66,10,8,22.2,0.22,7,0
+CASE_2270,High,Traffic Accident,Morning,Clear,Weekday,Low,Zone A,0.51,20,3,44.6,0.08,2,0
+CASE_2271,High,Cardiac Arrest,Morning,Foggy,Weekday,Low,Zone B,9.32,11,5,20.4,0.15,10,1
+CASE_2272,High,Fall/Injury,Afternoon,Rainy,Weekday,Medium,Zone A,5.75,14,3,28.0,0.08,5,1
+CASE_2273,Low,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone C,11.41,3,7,14.7,0.18,4,1
+CASE_2274,Medium,Stroke,Afternoon,Clear,Weekend,Low,Zone D,5.94,1,3,49.4,0.32,1,0
+CASE_2275,Low,Stroke,Morning,Snowy,Weekday,Medium,Zone B,7.55,7,8,82.6,0.15,9,1
+CASE_2276,Medium,Stroke,Morning,Clear,Weekday,Low,Zone C,6.4,4,9,62.7,0.18,6,1
+CASE_2277,Critical,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone D,9.93,7,2,64.6,0.32,6,1
+CASE_2278,Low,Traffic Accident,Night,Rainy,Weekday,High,Zone B,5.66,16,3,28.1,0.15,4,1
+CASE_2279,Medium,Fall/Injury,Afternoon,Rainy,Weekday,Medium,Zone E,14.47,10,7,41.0,0.22,2,1
+CASE_2280,High,Respiratory Emergency,Night,Clear,Weekday,Low,Zone D,14.07,15,5,86.1,0.32,8,1
+CASE_2281,High,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone A,12.8,16,10,17.9,0.08,8,1
+CASE_2282,Medium,Stroke,Morning,Clear,Weekend,High,Zone C,13.84,6,7,87.2,0.18,3,1
+CASE_2283,Low,Stroke,Night,Rainy,Weekday,Low,Zone A,7.01,4,2,53.5,0.08,7,1
+CASE_2284,Medium,Respiratory Emergency,Afternoon,Clear,Weekend,High,Zone C,8.28,4,4,85.3,0.18,7,1
+CASE_2285,Medium,Cardiac Arrest,Evening,Clear,Weekend,Low,Zone E,11.26,4,1,38.6,0.22,5,1
+CASE_2286,Low,Traffic Accident,Night,Clear,Weekday,High,Zone E,10.59,17,5,40.5,0.22,5,0
+CASE_2287,Medium,Stroke,Morning,Clear,Weekend,Medium,Zone B,13.41,13,8,77.6,0.15,8,1
+CASE_2288,Low,Fire/Hazmat,Morning,Foggy,Weekday,Medium,Zone B,10.89,2,1,80.6,0.15,4,1
+CASE_2289,Low,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone A,14.97,20,7,30.7,0.08,1,1
+CASE_2290,Medium,Cardiac Arrest,Afternoon,Rainy,Weekday,Medium,Zone C,5.55,6,7,97.6,0.18,1,0
+CASE_2291,Low,Stroke,Morning,Clear,Weekday,Medium,Zone A,12.58,1,7,17.6,0.08,9,1
+CASE_2292,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone C,10.62,8,1,16.2,0.18,4,1
+CASE_2293,High,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone A,10.53,18,3,63.6,0.08,1,0
+CASE_2294,High,Fire/Hazmat,Evening,Clear,Weekend,Low,Zone B,5.22,4,2,75.0,0.15,2,1
+CASE_2295,Medium,Cardiac Arrest,Morning,Foggy,Weekend,Low,Zone A,11.89,5,5,96.5,0.08,10,1
+CASE_2296,Low,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone E,13.56,5,2,46.4,0.22,7,1
+CASE_2297,Low,Cardiac Arrest,Evening,Clear,Weekend,Low,Zone D,3.67,15,5,12.3,0.32,2,0
+CASE_2298,High,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone B,9.57,10,5,64.3,0.15,1,0
+CASE_2299,High,Stroke,Morning,Rainy,Weekday,Low,Zone A,6.19,8,4,36.1,0.08,10,1
+CASE_2300,Low,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone C,14.85,7,7,49.0,0.18,9,1
+CASE_2301,Critical,Fire/Hazmat,Morning,Clear,Weekday,Low,Zone A,7.44,12,10,54.0,0.08,5,1
+CASE_2302,Low,Respiratory Emergency,Evening,Clear,Weekend,Medium,Zone C,3.81,11,6,15.8,0.18,4,0
+CASE_2303,Medium,Traffic Accident,Night,Snowy,Weekday,Low,Zone E,6.04,13,2,53.7,0.22,4,1
+CASE_2304,High,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone C,9.98,15,4,48.4,0.18,1,1
+CASE_2305,High,Traffic Accident,Afternoon,Foggy,Weekday,Low,Zone C,1.6,17,7,74.1,0.18,3,0
+CASE_2306,High,Traffic Accident,Afternoon,Snowy,Weekday,High,Zone C,9.25,18,9,68.1,0.18,1,1
+CASE_2307,High,Cardiac Arrest,Afternoon,Clear,Weekend,Low,Zone E,14.0,8,9,26.7,0.22,5,1
+CASE_2308,Medium,Traffic Accident,Night,Rainy,Weekday,Medium,Zone E,12.83,6,3,28.6,0.22,5,1
+CASE_2309,High,Respiratory Emergency,Night,Clear,Weekday,Low,Zone C,1.48,11,1,32.6,0.18,9,0
+CASE_2310,Low,Fall/Injury,Afternoon,Foggy,Weekday,Low,Zone B,14.9,9,9,26.1,0.15,8,1
+CASE_2311,High,Fall/Injury,Evening,Clear,Weekday,Medium,Zone C,10.63,5,8,69.1,0.18,5,0
+CASE_2312,Medium,Fall/Injury,Night,Clear,Weekend,Medium,Zone A,2.85,7,7,99.5,0.08,5,1
+CASE_2313,High,Cardiac Arrest,Night,Clear,Weekday,High,Zone C,0.68,15,6,68.7,0.18,7,0
+CASE_2314,Medium,Traffic Accident,Afternoon,Clear,Weekday,High,Zone C,2.98,4,10,64.6,0.18,2,1
+CASE_2315,High,Fall/Injury,Afternoon,Foggy,Weekday,Medium,Zone A,12.65,19,7,46.9,0.08,7,1
+CASE_2316,Medium,Respiratory Emergency,Afternoon,Clear,Weekend,Medium,Zone A,0.81,13,9,38.1,0.08,1,0
+CASE_2317,High,Cardiac Arrest,Night,Rainy,Weekday,Medium,Zone C,3.88,1,6,92.0,0.18,5,1
+CASE_2318,Low,Stroke,Morning,Clear,Weekday,Medium,Zone E,11.48,1,10,97.2,0.22,6,1
+CASE_2319,Low,Fall/Injury,Afternoon,Foggy,Weekend,High,Zone C,9.0,14,3,54.7,0.18,10,1
+CASE_2320,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone D,11.85,9,3,36.1,0.32,1,1
+CASE_2321,Low,Cardiac Arrest,Afternoon,Clear,Weekend,Medium,Zone B,11.32,12,4,79.3,0.15,9,0
+CASE_2322,High,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone C,1.23,18,10,21.9,0.18,9,0
+CASE_2323,Medium,Respiratory Emergency,Night,Rainy,Weekday,Low,Zone B,13.44,9,10,78.9,0.15,1,1
+CASE_2324,Critical,Fall/Injury,Morning,Clear,Weekday,High,Zone D,3.79,8,8,83.7,0.32,4,1
+CASE_2325,Medium,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone A,8.52,14,10,21.2,0.08,8,1
+CASE_2326,Low,Stroke,Morning,Clear,Weekend,Medium,Zone C,9.84,9,9,97.9,0.18,2,0
+CASE_2327,High,Respiratory Emergency,Morning,Rainy,Weekday,Low,Zone B,2.95,20,8,98.7,0.15,8,1
+CASE_2328,High,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone B,14.66,2,10,94.3,0.15,10,1
+CASE_2329,Medium,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone E,7.58,1,2,54.6,0.22,9,1
+CASE_2330,Medium,Fall/Injury,Afternoon,Clear,Weekday,High,Zone A,1.34,13,4,32.1,0.08,9,0
+CASE_2331,High,Fall/Injury,Afternoon,Snowy,Weekend,Low,Zone B,14.09,10,4,62.4,0.15,1,1
+CASE_2332,Medium,Traffic Accident,Morning,Foggy,Weekday,High,Zone C,9.0,8,2,47.8,0.18,9,1
+CASE_2333,Critical,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone E,10.64,7,8,28.5,0.22,4,1
+CASE_2334,Critical,Stroke,Night,Clear,Weekday,Low,Zone B,8.12,12,3,48.1,0.15,8,1
+CASE_2335,High,Fall/Injury,Night,Clear,Weekday,Medium,Zone D,12.6,17,2,69.8,0.32,9,1
+CASE_2336,Low,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone E,0.98,12,7,16.4,0.22,3,0
+CASE_2337,High,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone B,4.39,16,1,40.0,0.15,6,1
+CASE_2338,Low,Respiratory Emergency,Night,Rainy,Weekday,High,Zone B,7.31,10,6,11.6,0.15,3,0
+CASE_2339,Low,Fall/Injury,Morning,Clear,Weekday,Medium,Zone B,1.61,12,3,77.5,0.15,1,0
+CASE_2340,Medium,Stroke,Evening,Foggy,Weekday,Medium,Zone E,10.74,11,3,67.7,0.22,10,0
+CASE_2341,Medium,Respiratory Emergency,Night,Clear,Weekday,Low,Zone A,6.21,14,5,15.6,0.08,6,0
+CASE_2342,High,Fall/Injury,Morning,Rainy,Weekend,Medium,Zone B,4.45,20,3,96.8,0.15,5,0
+CASE_2343,High,Traffic Accident,Morning,Clear,Weekend,High,Zone D,0.55,13,4,12.0,0.32,3,1
+CASE_2344,High,Respiratory Emergency,Night,Clear,Weekday,Medium,Zone C,10.94,2,3,63.1,0.18,4,1
+CASE_2345,Medium,Fall/Injury,Afternoon,Clear,Weekend,High,Zone B,12.59,20,7,79.9,0.15,2,1
+CASE_2346,Medium,Traffic Accident,Morning,Clear,Weekend,High,Zone C,6.23,7,3,80.9,0.18,10,0
+CASE_2347,Medium,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone A,8.68,1,10,13.1,0.08,10,1
+CASE_2348,Critical,Traffic Accident,Afternoon,Rainy,Weekday,Low,Zone B,3.8,3,4,91.6,0.15,4,0
+CASE_2349,Low,Traffic Accident,Evening,Foggy,Weekend,High,Zone C,9.52,20,2,92.7,0.18,4,1
+CASE_2350,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone E,0.68,12,2,60.5,0.22,3,0
+CASE_2351,Medium,Respiratory Emergency,Night,Clear,Weekday,Low,Zone B,7.59,5,9,53.4,0.15,6,1
+CASE_2352,Medium,Fire/Hazmat,Afternoon,Clear,Weekend,Low,Zone E,9.84,12,1,14.0,0.22,1,0
+CASE_2353,High,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone C,13.81,3,1,60.6,0.18,9,1
+CASE_2354,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,6.03,20,10,46.8,0.08,10,0
+CASE_2355,High,Cardiac Arrest,Afternoon,Rainy,Weekend,Low,Zone D,11.6,5,1,79.6,0.32,3,0
+CASE_2356,Critical,Fall/Injury,Morning,Foggy,Weekend,Low,Zone A,9.17,1,3,46.3,0.08,3,1
+CASE_2357,Medium,Traffic Accident,Night,Foggy,Weekday,High,Zone E,13.94,16,2,71.5,0.22,3,1
+CASE_2358,Medium,Stroke,Night,Clear,Weekend,Medium,Zone E,6.28,9,3,19.1,0.22,7,0
+CASE_2359,Medium,Fall/Injury,Afternoon,Snowy,Weekday,Medium,Zone B,5.13,10,5,22.0,0.15,8,1
+CASE_2360,Critical,Fall/Injury,Evening,Rainy,Weekday,Medium,Zone B,13.36,10,9,22.6,0.15,2,1
+CASE_2361,Medium,Traffic Accident,Morning,Clear,Weekend,Medium,Zone B,1.21,13,2,14.1,0.15,1,0
+CASE_2362,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone B,2.48,16,1,58.7,0.15,5,0
+CASE_2363,High,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone B,1.69,20,6,81.5,0.15,8,1
+CASE_2364,High,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone B,12.73,4,3,64.9,0.15,3,1
+CASE_2365,Low,Fall/Injury,Night,Clear,Weekday,Medium,Zone C,0.65,14,7,61.7,0.18,6,0
+CASE_2366,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone A,12.99,17,6,71.3,0.08,3,1
+CASE_2367,Critical,Traffic Accident,Afternoon,Clear,Weekend,High,Zone E,7.04,5,7,40.6,0.22,6,1
+CASE_2368,Low,Traffic Accident,Evening,Clear,Weekend,Medium,Zone E,0.56,13,5,42.6,0.22,4,0
+CASE_2369,Medium,Fall/Injury,Morning,Foggy,Weekday,High,Zone C,6.32,3,1,38.3,0.18,7,1
+CASE_2370,Critical,Traffic Accident,Afternoon,Rainy,Weekend,High,Zone E,3.21,5,3,74.1,0.22,10,1
+CASE_2371,Low,Respiratory Emergency,Afternoon,Rainy,Weekday,Low,Zone A,9.55,16,3,24.5,0.08,1,0
+CASE_2372,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,10.35,19,7,11.2,0.08,1,1
+CASE_2373,Medium,Fall/Injury,Evening,Rainy,Weekend,Medium,Zone C,7.57,19,3,63.7,0.18,5,1
+CASE_2374,Medium,Stroke,Afternoon,Clear,Weekday,High,Zone C,1.09,17,5,94.8,0.18,9,0
+CASE_2375,High,Fall/Injury,Evening,Clear,Weekday,Medium,Zone C,10.01,18,4,64.8,0.18,5,1
+CASE_2376,Medium,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone E,12.71,18,4,80.5,0.22,4,0
+CASE_2377,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,10.94,8,7,70.6,0.22,8,1
+CASE_2378,Medium,Cardiac Arrest,Evening,Clear,Weekend,Low,Zone C,12.53,18,1,54.8,0.18,5,1
+CASE_2379,Medium,Fall/Injury,Morning,Clear,Weekday,Low,Zone D,3.41,9,7,74.7,0.32,1,0
+CASE_2380,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,13.39,19,8,84.2,0.08,7,0
+CASE_2381,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone A,5.17,10,3,30.2,0.08,4,1
+CASE_2382,Critical,Cardiac Arrest,Afternoon,Foggy,Weekday,Medium,Zone D,0.69,2,3,40.3,0.32,10,0
+CASE_2383,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,12.73,17,4,30.1,0.15,5,0
+CASE_2384,High,Cardiac Arrest,Evening,Rainy,Weekday,Low,Zone B,14.16,13,6,50.7,0.15,6,1
+CASE_2385,Medium,Stroke,Afternoon,Clear,Weekend,Medium,Zone B,10.01,11,7,89.7,0.15,7,1
+CASE_2386,High,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone C,3.86,16,1,41.1,0.18,2,1
+CASE_2387,Low,Respiratory Emergency,Night,Foggy,Weekday,High,Zone A,4.15,20,4,43.7,0.08,1,0
+CASE_2388,Critical,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone C,7.27,7,7,87.4,0.18,3,1
+CASE_2389,Medium,Fall/Injury,Night,Clear,Weekday,Medium,Zone A,13.52,3,2,56.4,0.08,10,1
+CASE_2390,Medium,Traffic Accident,Morning,Rainy,Weekend,Low,Zone A,2.67,16,1,58.2,0.08,1,0
+CASE_2391,Low,Stroke,Afternoon,Clear,Weekend,Low,Zone B,12.48,19,1,87.5,0.15,4,0
+CASE_2392,Low,Stroke,Night,Snowy,Weekday,Medium,Zone A,4.72,20,10,54.1,0.08,6,0
+CASE_2393,Medium,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone E,12.22,16,6,71.3,0.22,5,1
+CASE_2394,Medium,Fire/Hazmat,Evening,Clear,Weekday,Medium,Zone A,13.84,2,5,17.7,0.08,4,1
+CASE_2395,High,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone A,6.7,14,1,26.1,0.08,7,0
+CASE_2396,Medium,Stroke,Morning,Clear,Weekday,Medium,Zone C,5.79,20,10,46.4,0.18,6,0
+CASE_2397,Medium,Stroke,Afternoon,Snowy,Weekday,Medium,Zone C,12.13,10,3,54.5,0.18,3,1
+CASE_2398,High,Traffic Accident,Afternoon,Rainy,Weekday,Medium,Zone A,8.18,19,7,96.9,0.08,9,0
+CASE_2399,High,Respiratory Emergency,Night,Clear,Weekday,Medium,Zone A,10.42,11,9,97.4,0.08,5,0
+CASE_2400,Low,Cardiac Arrest,Morning,Clear,Weekday,Low,Zone E,9.53,18,9,86.6,0.22,10,0
+CASE_2401,Low,Cardiac Arrest,Night,Rainy,Weekday,Medium,Zone D,2.72,11,6,38.4,0.32,1,0
+CASE_2402,Low,Fire/Hazmat,Night,Clear,Weekday,High,Zone B,12.75,9,3,96.8,0.15,6,1
+CASE_2403,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone C,3.34,19,1,72.0,0.18,5,0
+CASE_2404,High,Fall/Injury,Afternoon,Clear,Weekday,High,Zone B,14.02,20,3,45.4,0.15,10,1
+CASE_2405,Medium,Stroke,Night,Clear,Weekday,Medium,Zone B,4.13,10,10,73.2,0.15,8,1
+CASE_2406,High,Stroke,Night,Rainy,Weekday,Low,Zone C,11.14,3,2,11.5,0.18,4,1
+CASE_2407,High,Fire/Hazmat,Afternoon,Foggy,Weekday,Medium,Zone E,4.63,3,5,23.2,0.22,1,0
+CASE_2408,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,5.11,8,8,84.7,0.08,2,1
+CASE_2409,High,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone E,5.0,6,5,68.1,0.22,8,1
+CASE_2410,Medium,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone A,11.34,20,1,42.8,0.08,10,1
+CASE_2411,Low,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone A,8.57,1,3,55.1,0.08,8,1
+CASE_2412,Medium,Cardiac Arrest,Evening,Clear,Weekend,Low,Zone A,13.3,20,5,91.5,0.08,5,1
+CASE_2413,Low,Traffic Accident,Morning,Snowy,Weekday,Low,Zone A,4.96,6,7,66.8,0.08,6,1
+CASE_2414,Medium,Fall/Injury,Morning,Clear,Weekday,Medium,Zone E,10.53,2,5,45.8,0.22,2,1
+CASE_2415,Critical,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone C,11.42,19,10,20.8,0.18,9,0
+CASE_2416,Low,Traffic Accident,Afternoon,Clear,Weekday,High,Zone A,2.7,7,5,36.4,0.08,6,0
+CASE_2417,Low,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone E,6.31,11,7,98.1,0.22,9,1
+CASE_2418,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone E,7.5,11,8,49.4,0.22,10,0
+CASE_2419,Critical,Cardiac Arrest,Afternoon,Rainy,Weekday,Medium,Zone D,5.66,4,8,52.5,0.32,3,1
+CASE_2420,Medium,Fall/Injury,Morning,Clear,Weekend,Medium,Zone E,5.17,20,7,54.9,0.22,6,0
+CASE_2421,Medium,Fall/Injury,Afternoon,Rainy,Weekday,Low,Zone A,10.45,16,3,89.6,0.08,10,1
+CASE_2422,Low,Fall/Injury,Night,Clear,Weekday,High,Zone E,3.63,5,2,64.4,0.22,5,1
+CASE_2423,Low,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone D,10.79,7,1,72.4,0.32,9,1
+CASE_2424,Critical,Stroke,Afternoon,Clear,Weekend,High,Zone E,14.06,16,6,45.0,0.22,10,1
+CASE_2425,Critical,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone D,8.7,15,9,12.6,0.32,1,1
+CASE_2426,Low,Respiratory Emergency,Night,Clear,Weekday,Low,Zone B,9.37,5,3,93.8,0.15,9,1
+CASE_2427,Critical,Fall/Injury,Morning,Clear,Weekend,Medium,Zone D,1.5,1,5,95.4,0.32,5,1
+CASE_2428,High,Stroke,Evening,Rainy,Weekday,Low,Zone B,13.03,20,9,95.4,0.15,1,1
+CASE_2429,High,Respiratory Emergency,Evening,Rainy,Weekend,Medium,Zone B,4.64,9,9,94.9,0.15,10,1
+CASE_2430,Medium,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone A,9.42,5,7,83.4,0.08,8,1
+CASE_2431,Medium,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone E,14.7,6,4,71.6,0.22,7,0
+CASE_2432,Medium,Fall/Injury,Evening,Clear,Weekend,High,Zone B,9.13,3,2,86.0,0.15,6,1
+CASE_2433,High,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone C,11.01,6,2,64.0,0.18,2,0
+CASE_2434,Low,Fall/Injury,Afternoon,Clear,Weekday,High,Zone B,6.96,8,4,22.1,0.15,5,0
+CASE_2435,Low,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone E,1.38,6,1,45.2,0.22,3,0
+CASE_2436,Medium,Traffic Accident,Morning,Clear,Weekend,Medium,Zone B,12.07,16,4,97.4,0.15,2,0
+CASE_2437,High,Respiratory Emergency,Evening,Clear,Weekday,High,Zone D,1.01,16,6,41.6,0.32,10,1
+CASE_2438,Medium,Fire/Hazmat,Morning,Clear,Weekday,High,Zone E,10.66,3,6,88.1,0.22,1,0
+CASE_2439,High,Fire/Hazmat,Evening,Clear,Weekend,Medium,Zone B,0.83,17,7,18.4,0.15,9,1
+CASE_2440,Critical,Traffic Accident,Afternoon,Rainy,Weekday,Low,Zone B,13.0,6,5,40.1,0.15,2,1
+CASE_2441,Low,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone D,2.79,6,9,41.6,0.32,1,0
+CASE_2442,High,Traffic Accident,Morning,Clear,Weekday,Low,Zone E,7.96,19,2,14.6,0.22,7,1
+CASE_2443,Medium,Fire/Hazmat,Night,Rainy,Weekday,Medium,Zone D,9.16,20,2,20.7,0.32,9,1
+CASE_2444,High,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone A,7.13,15,4,27.4,0.08,6,0
+CASE_2445,Low,Fall/Injury,Morning,Rainy,Weekday,High,Zone E,5.44,19,4,85.4,0.22,8,0
+CASE_2446,High,Stroke,Afternoon,Clear,Weekend,High,Zone B,7.28,2,4,15.7,0.15,7,0
+CASE_2447,High,Fall/Injury,Evening,Clear,Weekend,Medium,Zone C,5.02,8,1,36.9,0.18,9,1
+CASE_2448,Critical,Respiratory Emergency,Afternoon,Rainy,Weekday,Low,Zone E,6.85,7,4,10.9,0.22,7,1
+CASE_2449,High,Cardiac Arrest,Morning,Clear,Weekday,High,Zone A,5.7,8,5,72.6,0.08,6,1
+CASE_2450,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone D,8.71,13,9,65.8,0.32,1,0
+CASE_2451,High,Fall/Injury,Morning,Clear,Weekday,Medium,Zone C,3.95,15,3,68.0,0.18,9,1
+CASE_2452,High,Fall/Injury,Morning,Clear,Weekday,Low,Zone E,14.84,12,3,43.7,0.22,10,1
+CASE_2453,Medium,Traffic Accident,Afternoon,Rainy,Weekday,Medium,Zone A,7.76,15,5,28.7,0.08,5,1
+CASE_2454,Low,Fire/Hazmat,Evening,Snowy,Weekend,High,Zone B,3.32,14,10,74.8,0.15,2,0
+CASE_2455,Critical,Traffic Accident,Morning,Foggy,Weekday,Low,Zone E,7.42,7,6,83.0,0.22,8,1
+CASE_2456,High,Respiratory Emergency,Afternoon,Rainy,Weekday,Medium,Zone A,13.06,17,3,22.5,0.08,4,1
+CASE_2457,High,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone A,0.82,5,1,53.8,0.08,3,1
+CASE_2458,Medium,Fall/Injury,Night,Clear,Weekday,High,Zone E,10.35,20,10,32.4,0.22,1,1
+CASE_2459,High,Fall/Injury,Night,Clear,Weekday,High,Zone B,8.45,10,8,25.1,0.15,5,1
+CASE_2460,Medium,Traffic Accident,Evening,Clear,Weekday,Low,Zone E,2.96,19,1,76.1,0.22,3,0
+CASE_2461,High,Traffic Accident,Morning,Clear,Weekday,Low,Zone A,12.35,18,2,58.4,0.08,4,1
+CASE_2462,Low,Fall/Injury,Morning,Foggy,Weekend,Medium,Zone B,5.85,10,3,29.5,0.15,9,0
+CASE_2463,High,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone D,4.76,2,6,37.9,0.32,7,1
+CASE_2464,Critical,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone D,12.51,6,4,97.0,0.32,5,1
+CASE_2465,Low,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone C,9.76,3,4,86.4,0.18,8,1
+CASE_2466,Critical,Respiratory Emergency,Evening,Snowy,Weekend,Low,Zone C,13.52,19,9,89.2,0.18,6,1
+CASE_2467,Medium,Fall/Injury,Night,Rainy,Weekend,Medium,Zone E,9.63,5,6,51.4,0.22,10,1
+CASE_2468,High,Stroke,Evening,Rainy,Weekday,Low,Zone A,11.24,7,2,66.1,0.08,2,1
+CASE_2469,High,Traffic Accident,Afternoon,Clear,Weekday,High,Zone B,12.63,7,7,43.9,0.15,7,1
+CASE_2470,Medium,Cardiac Arrest,Evening,Snowy,Weekday,Low,Zone A,1.29,10,3,17.0,0.08,1,0
+CASE_2471,High,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone C,11.75,1,9,46.1,0.18,3,1
+CASE_2472,High,Fall/Injury,Morning,Snowy,Weekend,High,Zone B,9.4,11,6,63.5,0.15,1,1
+CASE_2473,Medium,Fall/Injury,Evening,Clear,Weekday,Medium,Zone B,1.51,7,8,35.8,0.15,1,0
+CASE_2474,Medium,Stroke,Morning,Clear,Weekend,Medium,Zone C,7.87,6,1,86.3,0.18,5,1
+CASE_2475,High,Stroke,Afternoon,Clear,Weekend,Low,Zone A,1.7,6,2,23.6,0.08,6,0
+CASE_2476,High,Fire/Hazmat,Afternoon,Rainy,Weekend,Medium,Zone A,11.17,13,6,43.0,0.08,3,1
+CASE_2477,High,Respiratory Emergency,Evening,Clear,Weekend,Medium,Zone D,8.42,16,3,21.2,0.32,3,1
+CASE_2478,High,Respiratory Emergency,Evening,Snowy,Weekday,Medium,Zone B,14.33,13,1,46.4,0.15,3,1
+CASE_2479,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone E,3.16,2,6,13.6,0.22,1,0
+CASE_2480,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone D,9.29,19,5,34.5,0.32,5,0
+CASE_2481,Low,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone A,3.57,19,9,46.1,0.08,1,0
+CASE_2482,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,9.4,19,6,53.0,0.18,10,0
+CASE_2483,Low,Fire/Hazmat,Evening,Clear,Weekend,Medium,Zone A,10.98,18,5,58.9,0.08,10,1
+CASE_2484,Medium,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone D,10.97,6,1,34.7,0.32,3,1
+CASE_2485,Medium,Respiratory Emergency,Night,Rainy,Weekday,Medium,Zone E,12.32,2,1,57.1,0.22,6,1
+CASE_2486,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone C,12.88,19,1,55.8,0.18,6,1
+CASE_2487,High,Cardiac Arrest,Evening,Foggy,Weekday,Medium,Zone D,1.62,6,7,38.5,0.32,3,0
+CASE_2488,Medium,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone A,5.48,20,6,84.7,0.08,9,0
+CASE_2489,Medium,Respiratory Emergency,Night,Snowy,Weekday,Medium,Zone B,10.46,15,5,59.1,0.15,8,1
+CASE_2490,Medium,Cardiac Arrest,Morning,Clear,Weekday,High,Zone E,7.73,6,4,39.9,0.22,3,1
+CASE_2491,Medium,Fall/Injury,Evening,Clear,Weekday,Low,Zone A,3.26,3,8,95.3,0.08,5,0
+CASE_2492,Medium,Stroke,Afternoon,Clear,Weekday,Medium,Zone B,8.51,11,8,86.1,0.15,5,1
+CASE_2493,Low,Stroke,Afternoon,Clear,Weekday,Medium,Zone B,6.41,8,5,98.4,0.15,5,1
+CASE_2494,High,Fall/Injury,Afternoon,Snowy,Weekday,Medium,Zone D,6.16,18,4,72.3,0.32,3,1
+CASE_2495,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone B,12.24,17,2,44.0,0.15,5,1
+CASE_2496,High,Stroke,Afternoon,Clear,Weekday,Low,Zone E,6.41,19,7,35.3,0.22,5,0
+CASE_2497,Medium,Stroke,Night,Snowy,Weekday,Medium,Zone A,0.88,19,5,69.7,0.08,4,1
+CASE_2498,Medium,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone B,1.34,17,3,98.3,0.15,4,0
+CASE_2499,High,Fall/Injury,Evening,Rainy,Weekday,High,Zone D,12.92,4,9,66.4,0.32,2,1
+CASE_2500,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,14.43,7,9,89.3,0.08,9,1
+CASE_2501,Medium,Stroke,Morning,Snowy,Weekend,High,Zone D,10.48,5,10,39.6,0.32,7,1
+CASE_2502,Low,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone A,5.78,16,8,46.6,0.08,1,0
+CASE_2503,Medium,Cardiac Arrest,Afternoon,Clear,Weekend,Medium,Zone A,14.11,6,1,91.6,0.08,5,1
+CASE_2504,Medium,Stroke,Afternoon,Clear,Weekday,Medium,Zone A,10.11,14,3,78.1,0.08,2,0
+CASE_2505,Medium,Fall/Injury,Morning,Foggy,Weekday,High,Zone E,12.74,20,2,98.3,0.22,10,1
+CASE_2506,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,High,Zone C,11.6,2,4,79.7,0.18,6,1
+CASE_2507,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone D,6.0,18,2,50.4,0.32,7,1
+CASE_2508,High,Stroke,Afternoon,Rainy,Weekday,Medium,Zone B,7.44,18,8,57.8,0.15,2,0
+CASE_2509,High,Cardiac Arrest,Afternoon,Foggy,Weekday,Medium,Zone C,3.2,13,1,91.0,0.18,6,1
+CASE_2510,High,Traffic Accident,Morning,Snowy,Weekday,Low,Zone C,4.73,18,4,59.6,0.18,3,1
+CASE_2511,High,Cardiac Arrest,Night,Foggy,Weekday,Medium,Zone E,11.78,17,5,33.0,0.22,9,1
+CASE_2512,Critical,Fire/Hazmat,Night,Clear,Weekday,High,Zone D,13.46,13,10,49.2,0.32,4,1
+CASE_2513,Low,Stroke,Evening,Clear,Weekday,Medium,Zone D,11.0,12,4,56.5,0.32,3,0
+CASE_2514,Low,Stroke,Morning,Rainy,Weekday,Medium,Zone A,7.25,3,8,18.7,0.08,3,0
+CASE_2515,Low,Fire/Hazmat,Evening,Snowy,Weekday,Medium,Zone C,1.75,7,2,76.9,0.18,2,0
+CASE_2516,High,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone C,1.33,1,9,19.8,0.18,9,1
+CASE_2517,High,Traffic Accident,Evening,Clear,Weekend,Low,Zone E,5.93,5,2,46.4,0.22,8,1
+CASE_2518,Medium,Cardiac Arrest,Morning,Rainy,Weekday,Medium,Zone B,7.23,1,2,82.4,0.15,5,1
+CASE_2519,Critical,Traffic Accident,Evening,Clear,Weekday,High,Zone B,9.33,4,2,52.1,0.15,9,1
+CASE_2520,Low,Traffic Accident,Evening,Clear,Weekday,Medium,Zone B,0.59,1,10,85.8,0.15,2,0
+CASE_2521,Critical,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone A,14.85,13,8,40.8,0.08,6,1
+CASE_2522,Medium,Traffic Accident,Evening,Clear,Weekend,Low,Zone A,5.78,14,3,96.2,0.08,7,0
+CASE_2523,Low,Cardiac Arrest,Afternoon,Rainy,Weekday,Low,Zone E,12.8,15,10,28.9,0.22,6,1
+CASE_2524,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,8.26,17,10,13.4,0.18,3,0
+CASE_2525,Medium,Cardiac Arrest,Morning,Rainy,Weekday,Medium,Zone E,2.39,12,8,88.5,0.22,10,1
+CASE_2526,Medium,Fire/Hazmat,Evening,Clear,Weekend,Low,Zone E,12.06,7,7,77.7,0.22,10,0
+CASE_2527,Medium,Fall/Injury,Morning,Clear,Weekday,High,Zone B,10.79,19,10,30.9,0.15,10,1
+CASE_2528,High,Fire/Hazmat,Afternoon,Rainy,Weekend,Medium,Zone C,8.15,3,4,98.6,0.18,9,1
+CASE_2529,Medium,Respiratory Emergency,Afternoon,Clear,Weekend,Medium,Zone A,7.96,18,7,55.2,0.08,8,0
+CASE_2530,Medium,Traffic Accident,Afternoon,Clear,Weekday,High,Zone E,1.77,4,8,95.6,0.22,8,1
+CASE_2531,High,Fall/Injury,Morning,Clear,Weekend,Low,Zone B,10.01,3,6,55.5,0.15,8,1
+CASE_2532,High,Traffic Accident,Evening,Clear,Weekday,High,Zone B,13.71,12,6,52.5,0.15,9,1
+CASE_2533,Medium,Traffic Accident,Evening,Clear,Weekend,Low,Zone B,1.85,12,3,50.4,0.15,1,0
+CASE_2534,Medium,Traffic Accident,Morning,Snowy,Weekday,Medium,Zone C,4.32,17,5,40.1,0.18,8,1
+CASE_2535,Low,Cardiac Arrest,Morning,Rainy,Weekday,High,Zone B,13.58,6,10,58.0,0.15,2,0
+CASE_2536,Low,Traffic Accident,Morning,Rainy,Weekday,High,Zone B,4.62,15,2,50.7,0.15,4,0
+CASE_2537,High,Traffic Accident,Night,Clear,Weekend,Medium,Zone D,9.98,2,5,13.3,0.32,1,1
+CASE_2538,Low,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone E,8.25,8,5,33.4,0.22,6,0
+CASE_2539,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone B,9.15,14,7,29.2,0.15,10,1
+CASE_2540,High,Traffic Accident,Morning,Clear,Weekday,High,Zone C,6.53,5,4,88.1,0.18,1,0
+CASE_2541,Low,Stroke,Evening,Clear,Weekday,Low,Zone E,4.85,3,6,63.9,0.22,5,0
+CASE_2542,Medium,Cardiac Arrest,Night,Clear,Weekday,High,Zone A,1.2,10,9,78.7,0.08,9,0
+CASE_2543,Medium,Traffic Accident,Evening,Foggy,Weekday,Medium,Zone E,11.29,7,4,96.1,0.22,1,1
+CASE_2544,Critical,Stroke,Evening,Clear,Weekday,Medium,Zone A,11.32,11,6,68.0,0.08,9,1
+CASE_2545,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone D,10.23,15,9,98.4,0.32,4,1
+CASE_2546,High,Cardiac Arrest,Morning,Rainy,Weekday,Medium,Zone C,9.83,2,10,38.1,0.18,3,1
+CASE_2547,Medium,Respiratory Emergency,Morning,Clear,Weekday,High,Zone C,4.03,5,1,26.8,0.18,8,0
+CASE_2548,Low,Traffic Accident,Afternoon,Snowy,Weekday,Medium,Zone E,0.82,11,8,46.3,0.22,6,1
+CASE_2549,High,Respiratory Emergency,Morning,Rainy,Weekend,High,Zone A,12.23,8,1,52.4,0.08,7,1
+CASE_2550,Critical,Stroke,Afternoon,Foggy,Weekday,Low,Zone B,7.62,13,4,90.6,0.15,9,0
+CASE_2551,High,Cardiac Arrest,Afternoon,Clear,Weekend,Medium,Zone C,4.95,11,3,60.4,0.18,5,1
+CASE_2552,High,Respiratory Emergency,Night,Rainy,Weekend,High,Zone E,1.98,17,4,36.3,0.22,2,1
+CASE_2553,High,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone A,1.41,15,7,76.8,0.08,3,0
+CASE_2554,Medium,Cardiac Arrest,Evening,Rainy,Weekday,Medium,Zone E,5.56,1,9,55.5,0.22,3,0
+CASE_2555,Medium,Fall/Injury,Evening,Clear,Weekend,Medium,Zone B,12.17,19,9,24.6,0.15,4,0
+CASE_2556,High,Traffic Accident,Morning,Clear,Weekday,High,Zone A,13.82,16,10,61.9,0.08,10,1
+CASE_2557,Medium,Respiratory Emergency,Evening,Clear,Weekday,High,Zone D,13.5,19,1,92.0,0.32,7,1
+CASE_2558,High,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone A,13.84,13,10,85.8,0.08,10,1
+CASE_2559,Critical,Respiratory Emergency,Evening,Snowy,Weekday,High,Zone C,13.66,4,1,62.8,0.18,6,1
+CASE_2560,Medium,Traffic Accident,Afternoon,Rainy,Weekend,Medium,Zone A,8.14,11,9,43.9,0.08,3,1
+CASE_2561,Medium,Stroke,Night,Rainy,Weekday,Low,Zone B,3.68,18,4,17.8,0.15,7,0
+CASE_2562,High,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone C,12.07,18,3,52.3,0.18,4,1
+CASE_2563,Medium,Respiratory Emergency,Afternoon,Rainy,Weekday,Medium,Zone C,3.6,10,9,77.7,0.18,10,1
+CASE_2564,High,Respiratory Emergency,Night,Clear,Weekday,High,Zone B,4.37,17,5,42.4,0.15,8,0
+CASE_2565,Medium,Fall/Injury,Morning,Snowy,Weekday,Low,Zone B,3.88,13,6,31.2,0.15,7,0
+CASE_2566,High,Respiratory Emergency,Evening,Foggy,Weekday,Low,Zone A,7.97,14,1,93.8,0.08,7,0
+CASE_2567,Low,Fall/Injury,Evening,Clear,Weekend,Medium,Zone C,5.17,7,1,83.9,0.18,9,0
+CASE_2568,High,Fall/Injury,Evening,Snowy,Weekday,Low,Zone E,2.74,10,7,67.4,0.22,8,0
+CASE_2569,Medium,Stroke,Night,Clear,Weekend,Medium,Zone E,7.07,3,10,22.3,0.22,1,0
+CASE_2570,Medium,Traffic Accident,Night,Clear,Weekday,Low,Zone A,13.17,2,8,23.0,0.08,7,1
+CASE_2571,Low,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone A,8.77,19,8,19.3,0.08,3,0
+CASE_2572,High,Stroke,Evening,Clear,Weekday,Low,Zone E,13.24,7,7,65.5,0.22,4,1
+CASE_2573,High,Fire/Hazmat,Evening,Rainy,Weekday,Low,Zone C,3.34,5,9,20.4,0.18,6,1
+CASE_2574,Medium,Stroke,Evening,Clear,Weekday,Medium,Zone C,2.92,3,1,85.8,0.18,5,1
+CASE_2575,Low,Traffic Accident,Morning,Clear,Weekday,Low,Zone D,8.85,2,2,99.4,0.32,8,1
+CASE_2576,Low,Traffic Accident,Evening,Clear,Weekend,Medium,Zone B,7.22,6,3,43.0,0.15,2,1
+CASE_2577,High,Respiratory Emergency,Night,Rainy,Weekend,High,Zone C,10.07,14,5,50.8,0.18,5,1
+CASE_2578,High,Fall/Injury,Night,Foggy,Weekday,Medium,Zone E,12.02,7,4,74.1,0.22,5,1
+CASE_2579,Medium,Respiratory Emergency,Afternoon,Rainy,Weekday,High,Zone D,11.39,2,4,94.3,0.32,3,1
+CASE_2580,Medium,Respiratory Emergency,Morning,Rainy,Weekday,Low,Zone A,14.16,11,8,90.5,0.08,10,1
+CASE_2581,Medium,Stroke,Afternoon,Clear,Weekday,Low,Zone A,6.27,3,8,15.2,0.08,5,1
+CASE_2582,Medium,Traffic Accident,Evening,Clear,Weekday,High,Zone A,3.49,9,7,25.2,0.08,4,1
+CASE_2583,Medium,Stroke,Evening,Clear,Weekday,Medium,Zone D,8.49,8,1,77.9,0.32,5,0
+CASE_2584,Critical,Respiratory Emergency,Afternoon,Clear,Weekend,Medium,Zone B,2.11,11,10,72.0,0.15,10,0
+CASE_2585,Low,Traffic Accident,Morning,Rainy,Weekend,Medium,Zone A,4.69,18,4,22.0,0.08,9,0
+CASE_2586,High,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone E,3.51,1,1,55.2,0.22,7,0
+CASE_2587,Medium,Fall/Injury,Afternoon,Rainy,Weekday,Low,Zone A,6.25,15,5,80.3,0.08,1,0
+CASE_2588,Medium,Cardiac Arrest,Night,Clear,Weekday,Medium,Zone A,2.11,4,3,29.7,0.08,3,0
+CASE_2589,High,Traffic Accident,Evening,Clear,Weekend,Medium,Zone A,0.96,4,3,88.4,0.08,9,1
+CASE_2590,High,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone A,10.02,10,4,14.8,0.08,4,0
+CASE_2591,Critical,Traffic Accident,Afternoon,Snowy,Weekday,High,Zone B,9.35,11,2,80.4,0.15,4,1
+CASE_2592,Low,Respiratory Emergency,Morning,Rainy,Weekend,Medium,Zone E,10.77,18,7,65.4,0.22,10,0
+CASE_2593,Low,Respiratory Emergency,Night,Snowy,Weekday,Low,Zone E,10.08,15,4,38.4,0.22,6,1
+CASE_2594,High,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone C,2.16,3,5,74.9,0.18,3,0
+CASE_2595,Medium,Fall/Injury,Afternoon,Foggy,Weekday,Medium,Zone B,4.72,7,2,80.4,0.15,3,1
+CASE_2596,Medium,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,2.38,7,6,94.1,0.18,9,0
+CASE_2597,Low,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone A,12.72,17,9,43.1,0.08,5,0
+CASE_2598,Low,Traffic Accident,Evening,Foggy,Weekday,Low,Zone A,11.33,20,8,71.7,0.08,7,0
+CASE_2599,High,Fall/Injury,Evening,Clear,Weekday,Medium,Zone E,3.42,16,8,64.2,0.22,5,1
+CASE_2600,Low,Cardiac Arrest,Afternoon,Rainy,Weekday,Medium,Zone A,5.45,16,2,57.3,0.08,6,0
+CASE_2601,Medium,Respiratory Emergency,Afternoon,Clear,Weekend,High,Zone A,14.52,8,4,90.1,0.08,8,1
+CASE_2602,Medium,Traffic Accident,Morning,Clear,Weekday,High,Zone C,9.12,3,8,10.3,0.18,8,1
+CASE_2603,Medium,Traffic Accident,Evening,Foggy,Weekday,High,Zone C,12.12,20,1,35.4,0.18,2,1
+CASE_2604,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,4.34,15,8,58.4,0.08,9,0
+CASE_2605,Medium,Traffic Accident,Afternoon,Rainy,Weekend,Medium,Zone A,3.55,1,3,26.0,0.08,10,1
+CASE_2606,Low,Stroke,Night,Clear,Weekend,Medium,Zone B,11.87,10,8,91.7,0.15,6,1
+CASE_2607,High,Traffic Accident,Night,Rainy,Weekday,Low,Zone D,10.45,2,6,68.3,0.32,7,1
+CASE_2608,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone A,10.37,7,7,53.0,0.08,3,0
+CASE_2609,Medium,Fire/Hazmat,Afternoon,Clear,Weekend,Medium,Zone B,8.51,14,2,83.3,0.15,4,1
+CASE_2610,High,Respiratory Emergency,Morning,Clear,Weekday,High,Zone C,8.67,16,1,50.6,0.18,6,1
+CASE_2611,High,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone E,11.17,15,6,60.3,0.22,7,1
+CASE_2612,Medium,Traffic Accident,Evening,Foggy,Weekend,Low,Zone B,4.42,7,3,10.2,0.15,6,1
+CASE_2613,Medium,Fall/Injury,Morning,Clear,Weekday,High,Zone A,5.62,13,4,42.9,0.08,5,0
+CASE_2614,Medium,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone C,13.14,10,9,22.5,0.18,2,1
+CASE_2615,High,Cardiac Arrest,Evening,Clear,Weekend,Medium,Zone D,4.98,9,3,72.1,0.32,7,1
+CASE_2616,Critical,Respiratory Emergency,Night,Clear,Weekday,Medium,Zone A,8.42,9,2,53.1,0.08,5,1
+CASE_2617,High,Stroke,Morning,Rainy,Weekend,Low,Zone B,10.69,6,2,37.2,0.15,9,1
+CASE_2618,Medium,Fall/Injury,Afternoon,Foggy,Weekend,High,Zone A,15.0,12,2,52.1,0.08,4,1
+CASE_2619,High,Traffic Accident,Morning,Clear,Weekday,Low,Zone A,6.81,20,6,28.9,0.08,10,1
+CASE_2620,Medium,Fall/Injury,Morning,Snowy,Weekday,Medium,Zone C,6.71,20,2,93.3,0.18,2,1
+CASE_2621,Low,Traffic Accident,Night,Clear,Weekday,Low,Zone B,12.72,14,7,14.9,0.15,7,1
+CASE_2622,Medium,Traffic Accident,Evening,Clear,Weekday,Low,Zone E,12.18,20,7,87.9,0.22,7,1
+CASE_2623,Critical,Stroke,Evening,Rainy,Weekend,Low,Zone C,11.1,7,7,56.0,0.18,1,1
+CASE_2624,Low,Traffic Accident,Morning,Clear,Weekday,Low,Zone C,7.22,8,2,65.7,0.18,5,1
+CASE_2625,High,Traffic Accident,Evening,Rainy,Weekday,Low,Zone B,5.2,8,7,37.2,0.15,3,0
+CASE_2626,Medium,Cardiac Arrest,Afternoon,Snowy,Weekday,Medium,Zone C,9.33,8,10,97.0,0.18,9,1
+CASE_2627,Medium,Stroke,Afternoon,Clear,Weekend,Medium,Zone A,13.21,2,8,35.4,0.08,9,1
+CASE_2628,Low,Fall/Injury,Afternoon,Foggy,Weekday,Medium,Zone E,13.31,14,8,63.0,0.22,7,1
+CASE_2629,Medium,Fall/Injury,Morning,Rainy,Weekday,Medium,Zone E,2.07,10,2,99.4,0.22,9,1
+CASE_2630,High,Fall/Injury,Evening,Clear,Weekday,High,Zone A,6.71,18,5,89.3,0.08,2,0
+CASE_2631,Medium,Traffic Accident,Afternoon,Rainy,Weekday,High,Zone A,7.24,18,6,58.3,0.08,10,1
+CASE_2632,High,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone A,14.68,18,9,99.1,0.08,8,1
+CASE_2633,High,Traffic Accident,Morning,Foggy,Weekday,High,Zone D,10.33,16,6,73.1,0.32,10,1
+CASE_2634,Critical,Cardiac Arrest,Morning,Rainy,Weekday,Medium,Zone D,6.41,20,10,28.8,0.32,10,1
+CASE_2635,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone E,0.88,5,6,46.5,0.22,10,1
+CASE_2636,Medium,Fire/Hazmat,Afternoon,Clear,Weekend,Medium,Zone D,8.7,20,10,40.1,0.32,1,0
+CASE_2637,Low,Cardiac Arrest,Evening,Rainy,Weekday,Medium,Zone B,1.89,5,10,41.0,0.15,3,0
+CASE_2638,Critical,Traffic Accident,Morning,Clear,Weekday,Medium,Zone C,12.6,20,6,78.4,0.18,8,1
+CASE_2639,Critical,Traffic Accident,Morning,Clear,Weekday,Medium,Zone D,11.41,10,9,62.6,0.32,8,1
+CASE_2640,Medium,Traffic Accident,Afternoon,Clear,Weekday,High,Zone C,7.18,17,10,13.4,0.18,10,1
+CASE_2641,High,Fire/Hazmat,Evening,Clear,Weekday,High,Zone C,6.72,13,7,89.0,0.18,8,1
+CASE_2642,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone C,13.51,17,1,36.7,0.18,7,1
+CASE_2643,High,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone C,4.68,18,1,99.7,0.18,2,0
+CASE_2644,Low,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone C,4.11,13,4,95.9,0.18,3,0
+CASE_2645,High,Traffic Accident,Afternoon,Rainy,Weekday,Low,Zone C,14.12,17,2,94.6,0.18,9,1
+CASE_2646,Low,Respiratory Emergency,Morning,Clear,Weekend,Medium,Zone D,12.23,15,3,83.0,0.32,2,0
+CASE_2647,High,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone C,12.4,12,7,29.9,0.18,7,1
+CASE_2648,High,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone C,3.33,10,7,57.9,0.18,1,0
+CASE_2649,High,Fire/Hazmat,Afternoon,Clear,Weekday,High,Zone D,2.58,13,3,30.2,0.32,3,1
+CASE_2650,Low,Fall/Injury,Evening,Clear,Weekday,Medium,Zone B,0.88,11,2,33.4,0.15,1,0
+CASE_2651,Medium,Traffic Accident,Evening,Clear,Weekday,Medium,Zone A,3.94,3,1,65.0,0.08,6,0
+CASE_2652,Medium,Stroke,Morning,Clear,Weekday,Low,Zone A,11.73,10,9,13.7,0.08,4,0
+CASE_2653,Medium,Traffic Accident,Afternoon,Snowy,Weekday,Low,Zone C,3.98,11,10,97.3,0.18,1,1
+CASE_2654,Low,Cardiac Arrest,Morning,Rainy,Weekday,High,Zone C,11.07,6,3,92.7,0.18,5,0
+CASE_2655,Critical,Traffic Accident,Morning,Rainy,Weekday,Medium,Zone E,4.15,1,9,44.3,0.22,4,1
+CASE_2656,Medium,Traffic Accident,Evening,Rainy,Weekend,High,Zone B,6.23,6,4,56.4,0.15,10,1
+CASE_2657,Medium,Respiratory Emergency,Night,Rainy,Weekday,High,Zone B,14.76,5,10,52.0,0.15,10,1
+CASE_2658,Medium,Fall/Injury,Night,Clear,Weekday,Medium,Zone A,4.05,7,6,89.4,0.08,2,0
+CASE_2659,Medium,Fire/Hazmat,Evening,Rainy,Weekend,Low,Zone A,5.96,12,7,72.0,0.08,7,1
+CASE_2660,High,Respiratory Emergency,Morning,Clear,Weekday,High,Zone D,4.87,12,10,35.0,0.32,8,1
+CASE_2661,Medium,Respiratory Emergency,Morning,Rainy,Weekday,High,Zone A,2.09,7,6,50.2,0.08,4,1
+CASE_2662,Critical,Cardiac Arrest,Evening,Rainy,Weekday,Medium,Zone C,7.6,2,1,48.6,0.18,9,1
+CASE_2663,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone D,5.99,1,6,96.3,0.32,3,1
+CASE_2664,Critical,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone C,10.58,18,6,25.8,0.18,6,0
+CASE_2665,High,Respiratory Emergency,Evening,Clear,Weekend,Medium,Zone E,12.36,12,5,18.1,0.22,7,0
+CASE_2666,Medium,Stroke,Evening,Rainy,Weekday,Medium,Zone B,8.39,7,3,89.3,0.15,7,1
+CASE_2667,Critical,Traffic Accident,Evening,Rainy,Weekday,High,Zone B,0.97,19,10,90.7,0.15,6,0
+CASE_2668,Low,Cardiac Arrest,Morning,Snowy,Weekend,Medium,Zone E,9.47,3,3,88.5,0.22,9,1
+CASE_2669,High,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone E,1.3,10,10,56.0,0.22,1,0
+CASE_2670,Medium,Traffic Accident,Night,Rainy,Weekday,Medium,Zone A,9.44,11,7,69.4,0.08,9,1
+CASE_2671,High,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone A,10.43,5,8,60.7,0.08,9,1
+CASE_2672,High,Fall/Injury,Evening,Snowy,Weekday,Low,Zone A,3.37,2,3,16.3,0.08,4,1
+CASE_2673,High,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone B,12.38,8,3,63.6,0.15,5,1
+CASE_2674,High,Fall/Injury,Night,Clear,Weekday,Low,Zone E,13.71,14,7,11.2,0.22,3,1
+CASE_2675,Medium,Traffic Accident,Morning,Clear,Weekday,Low,Zone C,12.29,8,10,39.2,0.18,7,1
+CASE_2676,Low,Traffic Accident,Afternoon,Rainy,Weekend,Medium,Zone B,4.92,6,7,93.9,0.15,2,1
+CASE_2677,Medium,Traffic Accident,Morning,Foggy,Weekday,Medium,Zone E,9.01,1,9,37.4,0.22,8,0
+CASE_2678,Low,Stroke,Evening,Clear,Weekday,Medium,Zone C,13.76,1,6,94.6,0.18,9,1
+CASE_2679,High,Traffic Accident,Morning,Clear,Weekday,Low,Zone B,5.15,8,7,32.5,0.15,6,0
+CASE_2680,Medium,Fall/Injury,Morning,Foggy,Weekday,Low,Zone E,12.39,11,10,38.3,0.22,9,1
+CASE_2681,Critical,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone E,0.64,18,1,66.6,0.22,6,0
+CASE_2682,High,Fall/Injury,Night,Rainy,Weekday,Medium,Zone E,0.55,10,7,78.5,0.22,3,0
+CASE_2683,High,Traffic Accident,Morning,Clear,Weekend,Low,Zone C,11.52,12,2,55.1,0.18,10,0
+CASE_2684,Low,Fall/Injury,Morning,Clear,Weekday,High,Zone D,11.54,20,7,89.4,0.32,3,0
+CASE_2685,High,Respiratory Emergency,Evening,Rainy,Weekday,Medium,Zone A,11.94,16,3,13.6,0.08,2,1
+CASE_2686,Critical,Fire/Hazmat,Afternoon,Rainy,Weekday,Low,Zone C,13.99,5,9,93.0,0.18,5,1
+CASE_2687,Medium,Traffic Accident,Night,Clear,Weekday,Medium,Zone E,2.21,16,5,27.7,0.22,4,0
+CASE_2688,High,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone B,3.86,12,7,89.6,0.15,6,0
+CASE_2689,High,Cardiac Arrest,Evening,Snowy,Weekend,Medium,Zone D,13.6,6,8,46.1,0.32,5,1
+CASE_2690,Low,Stroke,Morning,Clear,Weekend,Low,Zone C,3.07,5,2,84.9,0.18,6,0
+CASE_2691,Medium,Respiratory Emergency,Morning,Snowy,Weekday,Medium,Zone A,10.39,1,1,70.4,0.08,4,1
+CASE_2692,Medium,Fall/Injury,Evening,Clear,Weekday,Medium,Zone D,8.19,19,7,25.8,0.32,3,1
+CASE_2693,Low,Traffic Accident,Afternoon,Clear,Weekend,High,Zone A,1.71,10,6,92.6,0.08,1,0
+CASE_2694,Medium,Traffic Accident,Evening,Foggy,Weekday,Low,Zone C,4.64,14,6,32.1,0.18,5,0
+CASE_2695,Low,Cardiac Arrest,Afternoon,Rainy,Weekday,Medium,Zone A,8.05,3,2,32.0,0.08,6,1
+CASE_2696,Low,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone E,12.86,6,3,83.3,0.22,5,1
+CASE_2697,Low,Fall/Injury,Afternoon,Rainy,Weekend,High,Zone B,10.76,5,4,19.5,0.15,5,0
+CASE_2698,Critical,Fire/Hazmat,Night,Clear,Weekday,High,Zone A,9.52,17,3,30.0,0.08,6,1
+CASE_2699,Medium,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone A,7.69,18,2,55.3,0.08,4,0
+CASE_2700,Critical,Fall/Injury,Afternoon,Foggy,Weekend,Low,Zone E,4.83,12,3,84.7,0.22,4,0
+CASE_2701,Medium,Fall/Injury,Afternoon,Rainy,Weekday,Medium,Zone D,2.23,5,6,23.3,0.32,8,1
+CASE_2702,Medium,Traffic Accident,Afternoon,Rainy,Weekend,Low,Zone D,6.43,9,9,59.3,0.32,8,0
+CASE_2703,Medium,Stroke,Afternoon,Clear,Weekend,Medium,Zone C,0.91,12,4,74.0,0.18,3,0
+CASE_2704,Medium,Fire/Hazmat,Night,Clear,Weekday,Low,Zone C,3.56,20,6,87.5,0.18,7,0
+CASE_2705,Low,Stroke,Afternoon,Clear,Weekday,Medium,Zone A,6.77,9,1,94.2,0.08,5,0
+CASE_2706,High,Fall/Injury,Night,Clear,Weekday,High,Zone C,6.57,3,6,80.6,0.18,5,1
+CASE_2707,Medium,Traffic Accident,Morning,Rainy,Weekday,High,Zone A,1.14,1,3,68.8,0.08,3,1
+CASE_2708,High,Traffic Accident,Evening,Clear,Weekday,Medium,Zone E,9.04,15,9,49.0,0.22,2,1
+CASE_2709,High,Fire/Hazmat,Night,Snowy,Weekday,Medium,Zone D,8.47,10,4,20.1,0.32,3,0
+CASE_2710,Low,Cardiac Arrest,Morning,Clear,Weekday,High,Zone B,1.63,14,7,73.9,0.15,7,0
+CASE_2711,Low,Fall/Injury,Night,Clear,Weekend,Low,Zone A,14.18,7,4,99.3,0.08,3,0
+CASE_2712,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone D,1.94,4,6,76.3,0.32,2,1
+CASE_2713,Medium,Fall/Injury,Night,Clear,Weekday,Medium,Zone A,12.9,5,7,11.5,0.08,4,1
+CASE_2714,Low,Fire/Hazmat,Evening,Clear,Weekday,Low,Zone A,0.5,20,2,54.7,0.08,5,0
+CASE_2715,Critical,Traffic Accident,Afternoon,Foggy,Weekday,Medium,Zone A,13.29,16,10,65.3,0.08,7,1
+CASE_2716,Low,Traffic Accident,Morning,Clear,Weekday,Low,Zone C,0.79,3,6,72.1,0.18,1,0
+CASE_2717,High,Cardiac Arrest,Afternoon,Foggy,Weekday,Medium,Zone D,11.49,17,8,74.8,0.32,8,1
+CASE_2718,Critical,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone B,5.74,13,6,60.2,0.15,10,1
+CASE_2719,Medium,Traffic Accident,Morning,Foggy,Weekend,Medium,Zone A,11.2,6,2,30.1,0.08,3,0
+CASE_2720,Low,Traffic Accident,Morning,Clear,Weekend,Low,Zone C,6.33,5,4,94.8,0.18,6,1
+CASE_2721,Low,Stroke,Afternoon,Foggy,Weekday,High,Zone D,1.53,16,1,72.7,0.32,4,0
+CASE_2722,Medium,Fire/Hazmat,Evening,Clear,Weekend,Medium,Zone A,11.63,11,7,31.3,0.08,5,1
+CASE_2723,Low,Traffic Accident,Morning,Rainy,Weekend,Medium,Zone A,1.53,17,8,39.0,0.08,10,0
+CASE_2724,High,Traffic Accident,Morning,Foggy,Weekday,Medium,Zone E,13.87,5,10,93.0,0.22,6,1
+CASE_2725,Low,Fire/Hazmat,Evening,Clear,Weekend,Medium,Zone E,1.24,6,2,89.9,0.22,2,0
+CASE_2726,Medium,Cardiac Arrest,Morning,Clear,Weekend,Low,Zone E,7.45,10,10,46.5,0.22,3,1
+CASE_2727,Critical,Cardiac Arrest,Morning,Clear,Weekday,Medium,Zone E,10.98,1,5,13.4,0.22,8,1
+CASE_2728,High,Traffic Accident,Morning,Foggy,Weekday,Low,Zone A,6.2,10,8,14.4,0.08,8,0
+CASE_2729,High,Respiratory Emergency,Night,Clear,Weekday,Low,Zone A,3.65,17,8,35.6,0.08,1,1
+CASE_2730,Medium,Traffic Accident,Evening,Clear,Weekday,Medium,Zone B,11.51,3,5,66.6,0.15,10,1
+CASE_2731,High,Fire/Hazmat,Afternoon,Clear,Weekend,Low,Zone B,11.87,2,8,62.6,0.15,8,1
+CASE_2732,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone E,13.88,17,6,67.0,0.22,2,1
+CASE_2733,Medium,Respiratory Emergency,Afternoon,Snowy,Weekend,Medium,Zone D,5.95,4,5,74.6,0.32,10,1
+CASE_2734,Low,Traffic Accident,Evening,Clear,Weekend,Medium,Zone D,7.84,2,4,11.7,0.32,10,1
+CASE_2735,High,Respiratory Emergency,Evening,Rainy,Weekday,Medium,Zone A,5.77,5,5,19.5,0.08,8,1
+CASE_2736,Medium,Fall/Injury,Evening,Foggy,Weekday,Medium,Zone E,4.23,10,4,42.4,0.22,10,1
+CASE_2737,Low,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone E,11.39,1,1,23.9,0.22,5,1
+CASE_2738,Medium,Fall/Injury,Morning,Rainy,Weekday,Medium,Zone A,5.42,1,3,16.8,0.08,1,0
+CASE_2739,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone E,6.71,4,8,67.7,0.22,8,1
+CASE_2740,High,Fire/Hazmat,Night,Rainy,Weekday,Medium,Zone B,6.35,7,7,83.4,0.15,5,1
+CASE_2741,High,Stroke,Afternoon,Clear,Weekday,Medium,Zone A,10.83,14,7,77.7,0.08,1,0
+CASE_2742,High,Fall/Injury,Evening,Rainy,Weekend,Medium,Zone D,13.81,14,3,83.5,0.32,4,1
+CASE_2743,Low,Cardiac Arrest,Night,Clear,Weekday,High,Zone D,10.17,18,9,69.9,0.32,1,1
+CASE_2744,Medium,Cardiac Arrest,Morning,Clear,Weekday,High,Zone A,7.34,2,6,76.2,0.08,9,1
+CASE_2745,Medium,Traffic Accident,Evening,Clear,Weekday,Low,Zone B,11.8,1,8,34.5,0.15,10,1
+CASE_2746,Low,Fall/Injury,Evening,Clear,Weekend,Low,Zone E,9.79,16,8,99.4,0.22,2,0
+CASE_2747,Medium,Respiratory Emergency,Night,Rainy,Weekday,Low,Zone D,1.38,18,3,26.5,0.32,8,0
+CASE_2748,High,Respiratory Emergency,Night,Clear,Weekday,Low,Zone D,1.89,16,4,29.3,0.32,4,0
+CASE_2749,Low,Stroke,Evening,Rainy,Weekend,Low,Zone A,1.05,6,6,36.0,0.08,9,1
+CASE_2750,Medium,Stroke,Morning,Clear,Weekday,Medium,Zone A,7.12,10,2,97.8,0.08,2,1
+CASE_2751,Medium,Fire/Hazmat,Evening,Rainy,Weekday,High,Zone B,12.47,2,7,98.9,0.15,3,1
+CASE_2752,Low,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,5.04,7,2,81.5,0.08,2,0
+CASE_2753,Medium,Fall/Injury,Evening,Clear,Weekend,Low,Zone A,6.07,17,5,66.6,0.08,10,0
+CASE_2754,Critical,Traffic Accident,Night,Clear,Weekday,Medium,Zone A,13.69,3,4,56.8,0.08,5,1
+CASE_2755,High,Traffic Accident,Afternoon,Rainy,Weekday,Medium,Zone C,12.64,20,9,97.4,0.18,1,0
+CASE_2756,Critical,Traffic Accident,Evening,Clear,Weekday,High,Zone B,10.14,12,2,72.6,0.15,3,1
+CASE_2757,Medium,Traffic Accident,Afternoon,Snowy,Weekend,High,Zone E,4.37,2,7,95.0,0.22,1,0
+CASE_2758,Low,Respiratory Emergency,Afternoon,Snowy,Weekday,High,Zone A,2.2,7,7,38.5,0.08,10,1
+CASE_2759,Medium,Stroke,Afternoon,Clear,Weekday,Medium,Zone C,0.73,17,7,40.0,0.18,8,1
+CASE_2760,Medium,Cardiac Arrest,Evening,Rainy,Weekend,Medium,Zone A,2.05,19,1,86.9,0.08,4,0
+CASE_2761,High,Fall/Injury,Night,Clear,Weekday,Low,Zone C,4.74,12,8,23.5,0.18,3,1
+CASE_2762,Low,Respiratory Emergency,Night,Clear,Weekend,Medium,Zone A,8.5,9,2,95.1,0.08,8,1
+CASE_2763,Medium,Traffic Accident,Morning,Rainy,Weekend,Low,Zone E,1.43,14,5,55.7,0.22,9,0
+CASE_2764,Low,Respiratory Emergency,Night,Rainy,Weekend,Medium,Zone D,2.48,2,2,93.4,0.32,8,1
+CASE_2765,Medium,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone C,3.13,4,5,40.3,0.18,6,0
+CASE_2766,High,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone A,9.66,19,7,74.4,0.08,3,1
+CASE_2767,Medium,Respiratory Emergency,Morning,Clear,Weekend,Low,Zone C,9.43,16,6,53.5,0.18,8,1
+CASE_2768,Medium,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone D,8.49,17,5,66.4,0.32,5,0
+CASE_2769,Medium,Cardiac Arrest,Night,Rainy,Weekday,Low,Zone A,4.13,2,4,55.4,0.08,5,0
+CASE_2770,Medium,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone C,5.88,17,8,97.0,0.18,9,0
+CASE_2771,High,Fire/Hazmat,Evening,Rainy,Weekday,Low,Zone E,1.9,19,8,72.3,0.22,1,0
+CASE_2772,High,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone D,3.78,8,1,32.6,0.32,7,0
+CASE_2773,Critical,Fall/Injury,Evening,Clear,Weekday,Low,Zone E,13.52,20,10,91.9,0.22,8,1
+CASE_2774,High,Fall/Injury,Morning,Clear,Weekend,High,Zone E,14.71,6,2,36.5,0.22,10,1
+CASE_2775,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,Medium,Zone E,9.89,12,3,43.4,0.22,3,0
+CASE_2776,High,Stroke,Evening,Clear,Weekday,Low,Zone B,13.79,18,1,19.2,0.15,8,1
+CASE_2777,Medium,Respiratory Emergency,Morning,Snowy,Weekend,Medium,Zone C,9.82,2,3,91.0,0.18,1,1
+CASE_2778,Medium,Fall/Injury,Evening,Snowy,Weekday,High,Zone D,0.98,19,10,35.8,0.32,8,1
+CASE_2779,High,Stroke,Morning,Clear,Weekday,Medium,Zone D,14.95,10,8,33.3,0.32,7,1
+CASE_2780,Low,Traffic Accident,Evening,Clear,Weekday,Low,Zone E,1.93,3,4,92.8,0.22,4,0
+CASE_2781,Critical,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone A,10.4,12,7,82.5,0.08,7,1
+CASE_2782,Medium,Cardiac Arrest,Afternoon,Snowy,Weekday,Medium,Zone B,4.17,16,7,22.7,0.15,10,1
+CASE_2783,High,Stroke,Morning,Clear,Weekend,Medium,Zone B,6.18,12,5,79.2,0.15,7,0
+CASE_2784,High,Stroke,Morning,Foggy,Weekday,Medium,Zone B,9.87,8,1,92.2,0.15,10,0
+CASE_2785,High,Cardiac Arrest,Night,Clear,Weekend,High,Zone A,6.83,5,10,17.1,0.08,1,1
+CASE_2786,High,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone D,4.13,11,4,84.3,0.32,3,1
+CASE_2787,High,Respiratory Emergency,Evening,Foggy,Weekday,Medium,Zone A,5.35,10,7,59.3,0.08,7,1
+CASE_2788,Low,Cardiac Arrest,Night,Clear,Weekday,Medium,Zone D,5.45,3,5,70.2,0.32,5,1
+CASE_2789,Medium,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone D,14.41,9,2,54.4,0.32,9,0
+CASE_2790,Low,Traffic Accident,Afternoon,Clear,Weekday,High,Zone B,12.08,12,8,72.8,0.15,7,1
+CASE_2791,High,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone B,7.15,6,2,13.1,0.15,3,1
+CASE_2792,Medium,Respiratory Emergency,Night,Clear,Weekday,High,Zone C,3.4,19,8,78.6,0.18,1,0
+CASE_2793,High,Fall/Injury,Night,Rainy,Weekday,Low,Zone D,12.26,16,2,13.0,0.32,5,1
+CASE_2794,Low,Cardiac Arrest,Afternoon,Rainy,Weekday,Medium,Zone E,2.78,14,5,51.0,0.22,10,0
+CASE_2795,Low,Fall/Injury,Evening,Clear,Weekday,High,Zone E,3.55,4,4,23.6,0.22,5,0
+CASE_2796,High,Respiratory Emergency,Morning,Foggy,Weekend,Low,Zone E,5.81,18,1,84.1,0.22,7,1
+CASE_2797,Low,Cardiac Arrest,Night,Clear,Weekday,Medium,Zone C,13.27,10,8,38.2,0.18,1,1
+CASE_2798,Low,Traffic Accident,Night,Clear,Weekday,Low,Zone E,2.41,18,10,50.9,0.22,10,0
+CASE_2799,Low,Respiratory Emergency,Morning,Clear,Weekend,Medium,Zone E,2.27,12,3,48.6,0.22,2,0
+CASE_2800,Critical,Traffic Accident,Afternoon,Clear,Weekend,Low,Zone E,7.66,19,4,79.5,0.22,6,1
+CASE_2801,High,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone A,4.51,8,4,53.3,0.08,8,0
+CASE_2802,Medium,Stroke,Afternoon,Foggy,Weekday,Medium,Zone E,8.75,1,5,81.0,0.22,4,1
+CASE_2803,Medium,Fire/Hazmat,Evening,Clear,Weekday,High,Zone C,7.05,14,3,16.6,0.18,3,0
+CASE_2804,Medium,Traffic Accident,Afternoon,Clear,Weekday,High,Zone D,6.81,6,9,27.2,0.32,3,1
+CASE_2805,High,Fire/Hazmat,Morning,Clear,Weekend,Low,Zone A,2.12,14,4,59.6,0.08,3,1
+CASE_2806,High,Respiratory Emergency,Afternoon,Rainy,Weekend,Medium,Zone B,2.55,2,10,95.2,0.15,2,1
+CASE_2807,Low,Traffic Accident,Night,Snowy,Weekday,Low,Zone B,12.41,9,4,16.7,0.15,1,1
+CASE_2808,Low,Cardiac Arrest,Evening,Clear,Weekend,Low,Zone B,13.35,12,6,13.9,0.15,5,0
+CASE_2809,Low,Cardiac Arrest,Afternoon,Clear,Weekday,Low,Zone A,3.9,5,8,24.1,0.08,10,1
+CASE_2810,High,Fall/Injury,Morning,Clear,Weekday,High,Zone E,2.15,2,7,67.7,0.22,5,1
+CASE_2811,High,Respiratory Emergency,Night,Clear,Weekend,High,Zone A,1.27,19,4,45.9,0.08,5,0
+CASE_2812,Medium,Traffic Accident,Evening,Clear,Weekday,Low,Zone B,9.32,7,4,84.3,0.15,4,1
+CASE_2813,Low,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone A,10.87,7,5,16.5,0.08,3,1
+CASE_2814,Low,Traffic Accident,Morning,Clear,Weekend,Low,Zone C,5.91,10,10,27.7,0.18,3,0
+CASE_2815,Critical,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone B,10.36,17,5,37.0,0.15,2,1
+CASE_2816,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,10.84,14,1,66.4,0.15,5,1
+CASE_2817,High,Stroke,Afternoon,Foggy,Weekday,Low,Zone C,14.06,11,8,71.7,0.18,4,1
+CASE_2818,High,Stroke,Night,Foggy,Weekday,Medium,Zone D,1.44,20,10,21.2,0.32,6,0
+CASE_2819,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone A,3.29,6,5,94.9,0.08,2,0
+CASE_2820,Medium,Traffic Accident,Evening,Clear,Weekday,High,Zone A,1.49,8,3,40.7,0.08,2,1
+CASE_2821,Low,Traffic Accident,Afternoon,Clear,Weekend,Medium,Zone A,13.09,19,3,74.2,0.08,8,1
+CASE_2822,High,Stroke,Evening,Clear,Weekday,Medium,Zone E,11.99,19,4,57.2,0.22,6,1
+CASE_2823,High,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone B,8.83,17,7,30.0,0.15,3,1
+CASE_2824,High,Traffic Accident,Morning,Clear,Weekday,High,Zone C,1.71,18,5,86.2,0.18,5,0
+CASE_2825,Medium,Cardiac Arrest,Afternoon,Snowy,Weekend,Low,Zone A,4.46,12,1,83.6,0.08,3,0
+CASE_2826,Low,Respiratory Emergency,Evening,Foggy,Weekday,Medium,Zone C,4.82,9,5,45.6,0.18,2,0
+CASE_2827,Critical,Respiratory Emergency,Morning,Clear,Weekday,High,Zone A,8.63,16,5,63.0,0.08,3,1
+CASE_2828,High,Stroke,Afternoon,Clear,Weekend,Low,Zone A,4.24,18,6,33.2,0.08,1,0
+CASE_2829,Medium,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone C,1.56,16,7,72.1,0.18,7,1
+CASE_2830,Critical,Traffic Accident,Night,Clear,Weekday,Medium,Zone B,11.1,16,5,37.8,0.15,6,1
+CASE_2831,High,Stroke,Afternoon,Clear,Weekend,High,Zone A,4.84,4,2,86.0,0.08,5,1
+CASE_2832,Medium,Stroke,Evening,Clear,Weekday,Medium,Zone D,7.06,7,2,29.6,0.32,6,1
+CASE_2833,High,Traffic Accident,Afternoon,Snowy,Weekend,High,Zone E,2.35,1,4,11.3,0.22,8,1
+CASE_2834,High,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone B,12.14,20,1,34.2,0.15,3,1
+CASE_2835,High,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone C,8.7,1,7,27.2,0.18,3,1
+CASE_2836,Low,Fire/Hazmat,Night,Rainy,Weekend,Medium,Zone E,13.57,8,1,55.7,0.22,5,0
+CASE_2837,Medium,Cardiac Arrest,Afternoon,Rainy,Weekday,Medium,Zone E,7.68,8,3,28.3,0.22,5,1
+CASE_2838,Critical,Fire/Hazmat,Evening,Clear,Weekend,Low,Zone C,14.15,10,10,78.7,0.18,1,1
+CASE_2839,Medium,Fall/Injury,Evening,Snowy,Weekend,Low,Zone D,13.43,1,7,31.7,0.32,4,1
+CASE_2840,Medium,Respiratory Emergency,Afternoon,Clear,Weekend,Low,Zone A,8.86,14,6,73.6,0.08,9,0
+CASE_2841,Medium,Cardiac Arrest,Morning,Clear,Weekend,Medium,Zone C,14.04,14,7,62.1,0.18,8,0
+CASE_2842,Medium,Respiratory Emergency,Morning,Clear,Weekday,High,Zone B,5.18,10,5,98.8,0.15,3,0
+CASE_2843,High,Respiratory Emergency,Morning,Clear,Weekend,Medium,Zone A,5.8,19,8,100.0,0.08,5,0
+CASE_2844,Critical,Traffic Accident,Night,Snowy,Weekday,High,Zone B,1.16,16,6,88.3,0.15,5,1
+CASE_2845,Medium,Fall/Injury,Morning,Rainy,Weekday,Low,Zone A,9.04,9,4,78.4,0.08,7,1
+CASE_2846,Low,Fire/Hazmat,Morning,Snowy,Weekend,High,Zone D,10.97,20,1,44.8,0.32,8,1
+CASE_2847,Low,Respiratory Emergency,Evening,Clear,Weekday,High,Zone C,11.72,16,2,77.8,0.18,9,1
+CASE_2848,High,Fall/Injury,Afternoon,Clear,Weekday,Medium,Zone C,2.67,20,6,96.1,0.18,7,0
+CASE_2849,High,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone A,6.94,8,4,12.1,0.08,2,0
+CASE_2850,Medium,Respiratory Emergency,Morning,Clear,Weekday,Low,Zone A,3.06,7,3,58.4,0.08,8,1
+CASE_2851,High,Cardiac Arrest,Night,Rainy,Weekend,High,Zone C,10.1,11,7,29.6,0.18,8,1
+CASE_2852,High,Fall/Injury,Night,Rainy,Weekday,High,Zone E,2.79,6,7,60.2,0.22,2,1
+CASE_2853,High,Fire/Hazmat,Night,Clear,Weekday,Medium,Zone A,13.61,15,2,52.0,0.08,6,1
+CASE_2854,Critical,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone B,3.84,19,8,61.8,0.15,10,1
+CASE_2855,Medium,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone E,4.73,14,1,59.6,0.22,1,0
+CASE_2856,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone A,12.84,15,10,96.4,0.08,7,1
+CASE_2857,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone E,7.15,6,7,59.7,0.22,10,1
+CASE_2858,High,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone C,0.85,10,10,86.2,0.18,2,0
+CASE_2859,High,Stroke,Afternoon,Clear,Weekday,Medium,Zone B,7.67,14,1,38.8,0.15,5,0
+CASE_2860,High,Stroke,Afternoon,Clear,Weekend,High,Zone B,1.73,16,3,49.4,0.15,7,1
+CASE_2861,High,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone B,14.79,13,3,52.3,0.15,10,0
+CASE_2862,Low,Traffic Accident,Morning,Clear,Weekend,High,Zone B,9.03,11,10,35.1,0.15,9,0
+CASE_2863,Medium,Traffic Accident,Afternoon,Rainy,Weekend,High,Zone E,4.22,3,2,44.2,0.22,1,1
+CASE_2864,Critical,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone D,8.67,8,10,63.9,0.32,9,1
+CASE_2865,Critical,Traffic Accident,Afternoon,Foggy,Weekday,Low,Zone D,1.61,3,5,62.2,0.32,5,1
+CASE_2866,Low,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone D,12.1,2,4,67.3,0.32,6,1
+CASE_2867,Low,Fall/Injury,Morning,Clear,Weekday,Low,Zone B,13.92,14,6,41.7,0.15,8,0
+CASE_2868,Low,Fall/Injury,Evening,Clear,Weekend,Medium,Zone C,13.18,20,2,38.4,0.18,2,0
+CASE_2869,High,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone C,5.46,15,4,65.0,0.18,7,0
+CASE_2870,High,Traffic Accident,Morning,Snowy,Weekday,High,Zone D,5.22,3,7,22.0,0.32,4,1
+CASE_2871,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone B,1.01,1,1,32.8,0.15,9,0
+CASE_2872,Medium,Traffic Accident,Evening,Foggy,Weekday,Medium,Zone C,9.95,15,3,13.8,0.18,6,1
+CASE_2873,High,Stroke,Evening,Snowy,Weekday,Medium,Zone E,8.26,20,1,16.5,0.22,7,1
+CASE_2874,High,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone B,7.16,2,2,31.9,0.15,6,1
+CASE_2875,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,High,Zone A,13.66,18,9,11.8,0.08,8,1
+CASE_2876,Medium,Traffic Accident,Night,Rainy,Weekday,High,Zone C,2.93,1,10,32.1,0.18,6,1
+CASE_2877,Medium,Stroke,Evening,Clear,Weekday,Medium,Zone B,0.64,9,5,68.9,0.15,7,0
+CASE_2878,Medium,Respiratory Emergency,Afternoon,Rainy,Weekend,Medium,Zone D,1.56,3,4,15.5,0.32,8,1
+CASE_2879,Medium,Traffic Accident,Afternoon,Clear,Weekday,High,Zone E,3.74,2,4,49.3,0.22,1,1
+CASE_2880,High,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone C,0.98,4,8,92.2,0.18,10,0
+CASE_2881,High,Fall/Injury,Evening,Clear,Weekday,Low,Zone C,7.79,16,3,81.2,0.18,4,0
+CASE_2882,High,Fire/Hazmat,Afternoon,Clear,Weekday,Low,Zone D,5.05,1,4,37.5,0.32,6,0
+CASE_2883,High,Traffic Accident,Night,Snowy,Weekend,Low,Zone A,3.12,9,2,93.2,0.08,1,0
+CASE_2884,Low,Stroke,Afternoon,Clear,Weekday,Medium,Zone B,11.38,8,6,39.7,0.15,4,1
+CASE_2885,Medium,Fire/Hazmat,Afternoon,Snowy,Weekday,Low,Zone E,3.46,6,9,16.5,0.22,6,1
+CASE_2886,Low,Fire/Hazmat,Afternoon,Clear,Weekend,Low,Zone D,10.47,20,4,99.5,0.32,7,0
+CASE_2887,Medium,Fall/Injury,Night,Clear,Weekend,Low,Zone A,5.56,18,6,88.3,0.08,6,0
+CASE_2888,High,Fall/Injury,Evening,Clear,Weekday,Medium,Zone A,7.92,16,4,51.9,0.08,4,0
+CASE_2889,Critical,Respiratory Emergency,Afternoon,Clear,Weekday,Medium,Zone D,14.04,8,2,70.0,0.32,7,1
+CASE_2890,Low,Fall/Injury,Evening,Clear,Weekend,Medium,Zone D,1.04,4,6,70.4,0.32,10,1
+CASE_2891,Medium,Respiratory Emergency,Afternoon,Clear,Weekday,Low,Zone E,7.75,3,7,27.5,0.22,2,1
+CASE_2892,High,Fall/Injury,Afternoon,Snowy,Weekend,Low,Zone B,12.89,15,4,28.0,0.15,6,1
+CASE_2893,Medium,Respiratory Emergency,Morning,Clear,Weekend,Medium,Zone E,9.03,6,7,52.3,0.22,5,1
+CASE_2894,Medium,Fall/Injury,Afternoon,Clear,Weekend,Medium,Zone C,4.51,1,8,92.0,0.18,2,1
+CASE_2895,High,Stroke,Morning,Snowy,Weekday,Low,Zone D,6.27,18,3,10.9,0.32,9,1
+CASE_2896,High,Cardiac Arrest,Night,Rainy,Weekend,Low,Zone C,10.36,11,2,80.4,0.18,7,1
+CASE_2897,Low,Stroke,Afternoon,Clear,Weekday,High,Zone A,13.42,3,5,15.2,0.08,3,1
+CASE_2898,Medium,Respiratory Emergency,Night,Clear,Weekend,Medium,Zone E,1.1,13,2,53.0,0.22,7,0
+CASE_2899,High,Stroke,Afternoon,Snowy,Weekday,Low,Zone A,1.54,17,10,67.4,0.08,6,1
+CASE_2900,Medium,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone B,5.21,18,5,71.8,0.15,7,0
+CASE_2901,Low,Traffic Accident,Afternoon,Clear,Weekday,High,Zone E,3.88,14,10,15.3,0.22,4,1
+CASE_2902,High,Fire/Hazmat,Morning,Clear,Weekday,Medium,Zone C,4.34,7,6,47.7,0.18,10,1
+CASE_2903,Low,Traffic Accident,Afternoon,Snowy,Weekday,Medium,Zone E,3.71,7,8,62.5,0.22,8,1
+CASE_2904,High,Stroke,Morning,Clear,Weekend,Medium,Zone C,3.34,14,6,15.9,0.18,8,0
+CASE_2905,Medium,Respiratory Emergency,Evening,Foggy,Weekday,Medium,Zone B,2.39,15,4,22.2,0.15,7,1
+CASE_2906,Critical,Respiratory Emergency,Afternoon,Clear,Weekend,Medium,Zone E,14.04,12,3,69.7,0.22,7,1
+CASE_2907,Medium,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone A,2.59,12,2,56.9,0.08,10,0
+CASE_2908,Medium,Respiratory Emergency,Morning,Clear,Weekday,Medium,Zone E,3.46,8,1,24.6,0.22,8,0
+CASE_2909,Low,Traffic Accident,Morning,Clear,Weekday,Low,Zone A,4.07,16,2,58.2,0.08,1,0
+CASE_2910,Medium,Cardiac Arrest,Afternoon,Snowy,Weekday,High,Zone E,14.03,9,2,92.1,0.22,6,1
+CASE_2911,High,Traffic Accident,Night,Clear,Weekend,Medium,Zone A,11.46,2,5,11.4,0.08,2,1
+CASE_2912,Critical,Cardiac Arrest,Evening,Clear,Weekday,Low,Zone C,11.95,14,9,67.8,0.18,1,1
+CASE_2913,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,High,Zone E,2.02,16,1,16.6,0.22,10,1
+CASE_2914,Medium,Fire/Hazmat,Afternoon,Clear,Weekday,High,Zone C,12.63,5,4,10.6,0.18,7,1
+CASE_2915,High,Traffic Accident,Morning,Clear,Weekend,High,Zone D,6.42,5,10,23.6,0.32,6,1
+CASE_2916,High,Fall/Injury,Night,Rainy,Weekday,High,Zone E,4.31,20,7,48.1,0.22,5,1
+CASE_2917,Medium,Traffic Accident,Evening,Clear,Weekday,High,Zone D,8.85,18,10,82.2,0.32,5,1
+CASE_2918,Medium,Fall/Injury,Afternoon,Clear,Weekday,Low,Zone E,12.42,18,3,35.4,0.22,9,0
+CASE_2919,Medium,Stroke,Afternoon,Clear,Weekday,High,Zone B,11.79,5,8,66.3,0.15,9,1
+CASE_2920,High,Fire/Hazmat,Morning,Rainy,Weekday,High,Zone A,13.4,11,3,47.0,0.08,6,1
+CASE_2921,Low,Respiratory Emergency,Night,Rainy,Weekend,Low,Zone A,13.96,13,8,31.1,0.08,3,1
+CASE_2922,High,Fall/Injury,Morning,Clear,Weekday,Low,Zone A,3.95,3,2,56.3,0.08,7,1
+CASE_2923,Medium,Traffic Accident,Evening,Clear,Weekday,High,Zone A,6.65,17,5,81.8,0.08,4,0
+CASE_2924,High,Fire/Hazmat,Morning,Foggy,Weekday,Low,Zone C,0.71,18,4,84.9,0.18,5,0
+CASE_2925,Low,Cardiac Arrest,Evening,Clear,Weekday,High,Zone A,13.25,14,9,86.2,0.08,7,1
+CASE_2926,Medium,Fall/Injury,Evening,Snowy,Weekday,Low,Zone A,2.74,12,3,40.5,0.08,7,1
+CASE_2927,Medium,Fall/Injury,Evening,Snowy,Weekend,Low,Zone A,12.99,14,5,81.4,0.08,10,1
+CASE_2928,High,Fall/Injury,Evening,Rainy,Weekend,Medium,Zone E,5.28,18,10,29.1,0.22,8,1
+CASE_2929,Low,Cardiac Arrest,Night,Clear,Weekend,Low,Zone C,5.84,20,9,76.5,0.18,1,0
+CASE_2930,Medium,Fire/Hazmat,Morning,Snowy,Weekend,Medium,Zone B,1.07,2,6,95.4,0.15,5,0
+CASE_2931,Medium,Traffic Accident,Afternoon,Rainy,Weekday,Medium,Zone E,5.24,7,2,11.2,0.22,9,1
+CASE_2932,Medium,Fall/Injury,Morning,Clear,Weekday,Low,Zone A,13.38,15,1,49.6,0.08,7,1
+CASE_2933,High,Traffic Accident,Night,Clear,Weekday,Low,Zone E,0.87,10,1,68.3,0.22,2,1
+CASE_2934,High,Traffic Accident,Afternoon,Clear,Weekday,Medium,Zone C,6.39,15,7,73.2,0.18,1,0
+CASE_2935,High,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone A,0.96,17,2,25.8,0.08,8,0
+CASE_2936,Medium,Respiratory Emergency,Evening,Clear,Weekday,Medium,Zone D,5.88,11,7,97.5,0.32,9,1
+CASE_2937,High,Traffic Accident,Morning,Clear,Weekday,Medium,Zone D,3.0,2,1,65.4,0.32,10,1
+CASE_2938,Medium,Traffic Accident,Morning,Clear,Weekend,Low,Zone B,4.16,18,4,24.8,0.15,5,1
+CASE_2939,Low,Respiratory Emergency,Afternoon,Clear,Weekend,Medium,Zone E,13.23,4,10,11.8,0.22,6,0
+CASE_2940,Low,Fall/Injury,Afternoon,Clear,Weekend,Low,Zone A,6.82,9,4,80.5,0.08,2,0
+CASE_2941,Medium,Stroke,Morning,Rainy,Weekday,Low,Zone B,4.47,17,5,17.2,0.15,5,0
+CASE_2942,High,Cardiac Arrest,Morning,Foggy,Weekday,Low,Zone A,9.05,17,10,22.7,0.08,4,1
+CASE_2943,High,Traffic Accident,Night,Clear,Weekday,High,Zone A,2.56,17,1,61.7,0.08,8,1
+CASE_2944,High,Cardiac Arrest,Night,Clear,Weekday,High,Zone A,4.26,16,7,64.3,0.08,8,1
+CASE_2945,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,High,Zone E,8.42,20,2,71.8,0.22,5,0
+CASE_2946,Medium,Fall/Injury,Afternoon,Rainy,Weekday,Medium,Zone A,3.94,8,2,45.4,0.08,8,1
+CASE_2947,Low,Fall/Injury,Morning,Rainy,Weekday,Low,Zone B,10.35,15,8,79.7,0.15,6,0
+CASE_2948,Medium,Traffic Accident,Evening,Foggy,Weekday,Medium,Zone C,7.63,1,9,97.7,0.18,10,1
+CASE_2949,Medium,Traffic Accident,Evening,Clear,Weekday,Medium,Zone E,11.69,19,6,34.4,0.22,6,0
+CASE_2950,Low,Cardiac Arrest,Morning,Foggy,Weekday,High,Zone E,14.25,15,1,73.3,0.22,4,1
+CASE_2951,Medium,Stroke,Morning,Clear,Weekday,Low,Zone D,2.18,9,1,93.6,0.32,10,1
+CASE_2952,Medium,Fire/Hazmat,Evening,Rainy,Weekday,Low,Zone E,5.35,5,7,71.8,0.22,3,1
+CASE_2953,High,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone D,5.13,16,8,71.3,0.32,9,1
+CASE_2954,Critical,Traffic Accident,Morning,Snowy,Weekday,High,Zone E,2.69,13,3,30.1,0.22,5,1
+CASE_2955,Critical,Stroke,Evening,Clear,Weekday,High,Zone D,12.25,16,9,58.2,0.32,10,1
+CASE_2956,High,Fire/Hazmat,Afternoon,Rainy,Weekend,Medium,Zone A,11.52,11,4,60.6,0.08,10,1
+CASE_2957,Medium,Respiratory Emergency,Afternoon,Snowy,Weekend,High,Zone B,7.52,13,4,73.0,0.15,4,1
+CASE_2958,High,Cardiac Arrest,Evening,Clear,Weekday,Medium,Zone C,8.3,6,3,99.7,0.18,6,1
+CASE_2959,High,Cardiac Arrest,Evening,Clear,Weekday,High,Zone B,1.36,20,8,13.0,0.15,4,0
+CASE_2960,Low,Respiratory Emergency,Afternoon,Snowy,Weekday,High,Zone B,8.55,17,9,15.9,0.15,6,1
+CASE_2961,Medium,Traffic Accident,Night,Clear,Weekday,High,Zone C,11.97,5,1,17.0,0.18,10,1
+CASE_2962,High,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone E,8.82,17,2,76.9,0.22,8,1
+CASE_2963,Medium,Respiratory Emergency,Evening,Clear,Weekday,Low,Zone A,4.35,1,1,22.3,0.08,8,1
+CASE_2964,Medium,Cardiac Arrest,Afternoon,Clear,Weekday,Medium,Zone D,10.18,5,4,66.0,0.32,6,1
+CASE_2965,Medium,Fall/Injury,Night,Clear,Weekday,Medium,Zone D,5.74,5,10,39.2,0.32,1,1
+CASE_2966,Low,Traffic Accident,Night,Clear,Weekend,High,Zone E,8.4,7,7,51.2,0.22,1,1
+CASE_2967,Medium,Cardiac Arrest,Morning,Clear,Weekday,Low,Zone E,7.57,16,7,29.4,0.22,3,0
+CASE_2968,Medium,Respiratory Emergency,Night,Clear,Weekend,Low,Zone D,6.03,18,6,87.9,0.32,2,0
+CASE_2969,Low,Traffic Accident,Evening,Snowy,Weekday,Medium,Zone C,10.92,6,5,62.8,0.18,1,1
+CASE_2970,Low,Fire/Hazmat,Evening,Foggy,Weekday,Low,Zone A,13.32,2,4,95.0,0.08,1,1
+CASE_2971,High,Respiratory Emergency,Morning,Rainy,Weekend,Medium,Zone C,0.58,13,8,61.7,0.18,6,1
+CASE_2972,Medium,Traffic Accident,Evening,Clear,Weekend,Medium,Zone D,14.04,10,7,21.2,0.32,7,1
+CASE_2973,Medium,Fall/Injury,Night,Foggy,Weekday,Medium,Zone E,7.92,20,10,25.4,0.22,8,1
+CASE_2974,Medium,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone D,10.66,11,1,99.0,0.32,3,0
+CASE_2975,Critical,Fire/Hazmat,Night,Clear,Weekday,High,Zone A,12.91,2,6,75.3,0.08,1,1
+CASE_2976,Medium,Traffic Accident,Morning,Foggy,Weekday,Medium,Zone C,7.27,8,2,14.4,0.18,5,0
+CASE_2977,Medium,Respiratory Emergency,Morning,Rainy,Weekend,High,Zone B,12.61,19,4,73.3,0.15,8,0
+CASE_2978,High,Cardiac Arrest,Afternoon,Rainy,Weekend,Medium,Zone A,3.08,20,5,47.1,0.08,4,0
+CASE_2979,High,Respiratory Emergency,Afternoon,Rainy,Weekday,Low,Zone A,2.81,17,8,37.6,0.08,2,0
+CASE_2980,Low,Stroke,Evening,Clear,Weekday,Low,Zone A,10.03,16,6,23.9,0.08,9,0
+CASE_2981,High,Stroke,Morning,Clear,Weekday,Low,Zone E,13.12,10,2,85.6,0.22,9,0
+CASE_2982,Medium,Traffic Accident,Night,Rainy,Weekday,Medium,Zone B,13.44,5,5,15.7,0.15,3,1
+CASE_2983,Medium,Traffic Accident,Morning,Clear,Weekend,Low,Zone B,9.83,14,5,36.1,0.15,7,0
+CASE_2984,Low,Stroke,Morning,Clear,Weekend,Medium,Zone E,8.12,19,6,37.6,0.22,1,0
+CASE_2985,Low,Fire/Hazmat,Morning,Rainy,Weekday,Medium,Zone B,5.31,4,1,24.5,0.15,8,0
+CASE_2986,High,Cardiac Arrest,Afternoon,Rainy,Weekday,Low,Zone A,14.71,20,8,55.7,0.08,8,1
+CASE_2987,Medium,Respiratory Emergency,Night,Clear,Weekday,Low,Zone B,5.14,16,3,11.1,0.15,3,0
+CASE_2988,Medium,Traffic Accident,Evening,Rainy,Weekday,Medium,Zone A,11.29,15,5,37.1,0.08,5,1
+CASE_2989,High,Stroke,Evening,Snowy,Weekend,High,Zone A,8.21,9,7,94.0,0.08,4,1
+CASE_2990,High,Cardiac Arrest,Morning,Rainy,Weekday,Low,Zone A,9.32,3,3,37.9,0.08,7,1
+CASE_2991,Low,Traffic Accident,Afternoon,Clear,Weekday,Low,Zone C,6.21,9,10,42.4,0.18,7,0
+CASE_2992,High,Fall/Injury,Afternoon,Clear,Weekday,High,Zone A,14.49,18,6,52.6,0.08,8,1
+CASE_2993,Low,Cardiac Arrest,Afternoon,Clear,Weekend,Low,Zone B,8.79,4,5,60.6,0.15,5,1
+CASE_2994,High,Respiratory Emergency,Morning,Clear,Weekday,High,Zone E,14.1,19,7,82.8,0.22,5,1
+CASE_2995,High,Respiratory Emergency,Evening,Clear,Weekend,Low,Zone B,0.61,4,10,27.1,0.15,8,1
+CASE_2996,Critical,Traffic Accident,Afternoon,Clear,Weekend,High,Zone E,8.8,9,3,88.5,0.22,5,1
+CASE_2997,Low,Traffic Accident,Evening,Clear,Weekend,Medium,Zone C,10.9,1,2,78.2,0.18,1,1
+CASE_2998,Low,Respiratory Emergency,Afternoon,Foggy,Weekday,High,Zone B,11.3,1,4,75.0,0.15,3,1
+CASE_2999,Medium,Traffic Accident,Morning,Clear,Weekday,Medium,Zone D,13.62,20,3,17.8,0.32,2,1
