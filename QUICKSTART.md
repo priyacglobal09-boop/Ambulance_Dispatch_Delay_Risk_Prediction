@@ -23,10 +23,42 @@ The app should open at `http://localhost:8501`.
 ## Optional: retrain everything
 
 ```bash
-/home/priya_paul/.venv/bin/python src/main.py
+/home/priya_paul/.venv/bin/python src/main.py --data-source current
 ```
 
-This regenerates data, trains all three models, saves model artifacts, and refreshes figures and reports.
+This trains on the current normalized dataset, trains all three models, saves model artifacts, and refreshes figures and reports.
+
+## Optional: train from Kaggle IERAD
+
+Configure Kaggle credentials at `~/.kaggle/kaggle.json`, then run:
+
+```bash
+/home/priya_paul/.venv/bin/python src/main.py --data-source ierad --download-ierad
+```
+
+If you downloaded the dataset manually:
+
+```bash
+/home/priya_paul/.venv/bin/python src/main.py --data-source ierad --ierad-input /path/to/ierad.csv
+```
+
+For faster local iteration on the full Kaggle file:
+
+```bash
+/home/priya_paul/.venv/bin/python src/main.py --data-source ierad --ierad-input /path/to/ierad.csv --max-records 30000 --integer-epochs 10 --embedding-epochs 12
+```
+
+For the current higher-quality artifact build:
+
+```bash
+/home/priya_paul/.venv/bin/python src/main.py --data-source current --max-records 100000 --integer-epochs 15 --embedding-epochs 20
+```
+
+To regenerate the offline synthetic fallback dataset:
+
+```bash
+/home/priya_paul/.venv/bin/python src/main.py --data-source synthetic
+```
 
 ## Optional: open the notebook
 

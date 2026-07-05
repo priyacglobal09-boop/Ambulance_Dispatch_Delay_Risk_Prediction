@@ -17,6 +17,7 @@ if str(SRC_DIR) not in sys.path:
 from models import load_pytorch_model_checkpoint  # noqa: E402
 from preprocessing import AmbulanceDataPipeline  # noqa: E402
 from utils import get_actionable_recommendations  # noqa: E402
+from data_ingestion import convert_ierad_to_project_schema  # noqa: E402
 
 
 MODEL_OPTIONS = {
@@ -87,11 +88,26 @@ def load_metrics():
 
 
 @st.cache_data(show_spinner=False)
+def load_feature_importance():
+    importance_path = REPO_ROOT / "reports" / "feature_importance_linear.json"
+    if not importance_path.exists():
+        return pd.DataFrame()
+    return pd.read_json(importance_path)
+
+
+@st.cache_data(show_spinner=False)
 def load_dataset_preview():
     data_path = REPO_ROOT / "data" / "emergency_response_data.csv"
     if not data_path.exists():
         return None
     return pd.read_csv(data_path)
+
+
+def model_threshold(selected_model: str, metrics: dict | None) -> float:
+    if not metrics:
+        return 0.5
+    thresholds = metrics.get("decision_thresholds", {})
+    return float(thresholds.get(selected_model, {}).get("threshold", 0.5))
 
 
 def risk_label(probability: float) -> str:
@@ -110,7 +126,7 @@ def risk_color(probability: float) -> str:
     return "#047857"
 
 
-def predict_one(raw_input: dict, selected_model: str, pipeline: AmbulanceDataPipeline, models: dict):
+def predict_one(raw_input: dict, selected_model: str, pipeline: AmbulanceDataPipeline, models: dict, threshold=0.5):
     if selected_model == "linear":
         features = pipeline.transform_single(raw_input, "linear")
     elif selected_model == "integer_fcnn":
@@ -121,27 +137,67 @@ def predict_one(raw_input: dict, selected_model: str, pipeline: AmbulanceDataPip
         raise ValueError(f"Unknown model key: {selected_model}")
 
     probability = float(models[selected_model].predict_proba(features)[0])
-    prediction = int(probability >= 0.5)
+    prediction = int(probability >= threshold)
     return probability, prediction
 
 
-def predict_batch(df: pd.DataFrame, selected_model: str, pipeline: AmbulanceDataPipeline, models: dict):
+def predict_batch(df: pd.DataFrame, selected_model: str, pipeline: AmbulanceDataPipeline, models: dict, threshold=0.5):
     required_cols = pipeline.categorical_cols + pipeline.numerical_cols
     missing = [col for col in required_cols if col not in df.columns]
     if missing:
-        raise ValueError("Uploaded CSV is missing required columns: " + ", ".join(missing))
+        converted = convert_ierad_to_project_schema(df)
+        missing_after_conversion = [col for col in required_cols if col not in converted.columns]
+        if missing_after_conversion:
+            raise ValueError("Uploaded CSV is missing required columns: " + ", ".join(missing))
+        df = converted
 
     if selected_model == "linear":
         features = pipeline.transform_linear(df)
     else:
         features = pipeline.transform_integer(df)
+    if isinstance(features, tuple):
+        features = features[0]
 
     probabilities = models[selected_model].predict_proba(features)
     output = df.copy()
     output["delay_probability"] = probabilities
-    output["delay_prediction"] = (probabilities >= 0.5).astype(int)
+    output["delay_prediction"] = (probabilities >= threshold).astype(int)
     output["risk_band"] = [risk_label(float(p)) for p in probabilities]
     return output
+
+
+def reference_input(pipeline: AmbulanceDataPipeline):
+    preview = load_dataset_preview()
+    if preview is None or preview.empty:
+        return default_input(pipeline)
+
+    reference = {}
+    for col in pipeline.categorical_cols:
+        reference[col] = preview[col].mode().iloc[0]
+    for col in pipeline.numerical_cols:
+        reference[col] = float(preview[col].median())
+    return reference
+
+
+def explain_prediction(raw_input: dict, selected_model: str, pipeline: AmbulanceDataPipeline, models: dict):
+    base_probability, _ = predict_one(raw_input, selected_model, pipeline, models)
+    baseline = reference_input(pipeline)
+    rows = []
+    for feature, baseline_value in baseline.items():
+        if raw_input.get(feature) == baseline_value:
+            continue
+        counterfactual = dict(raw_input)
+        counterfactual[feature] = baseline_value
+        counterfactual_probability, _ = predict_one(counterfactual, selected_model, pipeline, models)
+        rows.append(
+            {
+                "Feature": feature,
+                "Current": raw_input.get(feature),
+                "Reference": baseline_value,
+                "Impact": base_probability - counterfactual_probability,
+            }
+        )
+    return pd.DataFrame(rows).assign(AbsImpact=lambda df: df["Impact"].abs()).sort_values("AbsImpact", ascending=False).drop(columns=["AbsImpact"]).head(8)
 
 
 def format_metrics_table(metrics: dict):
@@ -172,17 +228,45 @@ def overview_page(metrics):
     col2.metric("Train", f"{stats.get('train_size', 0):,}")
     col3.metric("Validation", f"{stats.get('val_size', 0):,}")
     col4.metric("Test", f"{stats.get('test_size', 0):,}")
+    if stats.get("data_source"):
+        st.caption(f"Current artifact data source: {stats['data_source']}")
 
     st.subheader("System Components")
     st.write(
-        "The project contains synthetic data generation, preprocessing, three trained "
-        "models, evaluation reports, visualizations, and this Streamlit interface."
+        "The project contains Kaggle IERAD import support, synthetic fallback data generation, "
+        "preprocessing, three trained models, evaluation reports, visualizations, and this "
+        "Streamlit interface."
     )
 
     preview = load_dataset_preview()
     if preview is not None:
-        st.subheader("Dataset Preview")
-        st.dataframe(preview.head(20), use_container_width=True)
+        st.subheader("Dataset Explorer")
+        filters = st.columns(4)
+        region = filters[0].multiselect("Region", sorted(preview["dispatch_zone"].dropna().unique()))
+        traffic = filters[1].multiselect("Traffic", sorted(preview["traffic_density"].dropna().unique()))
+        weather = filters[2].multiselect("Weather", sorted(preview["weather_conditions"].dropna().unique()))
+        incident = filters[3].multiselect("Incident", sorted(preview["incident_type"].dropna().unique()))
+
+        filtered = preview.copy()
+        if region:
+            filtered = filtered[filtered["dispatch_zone"].isin(region)]
+        if traffic:
+            filtered = filtered[filtered["traffic_density"].isin(traffic)]
+        if weather:
+            filtered = filtered[filtered["weather_conditions"].isin(weather)]
+        if incident:
+            filtered = filtered[filtered["incident_type"].isin(incident)]
+
+        kpi1, kpi2, kpi3 = st.columns(3)
+        kpi1.metric("Filtered Rows", f"{len(filtered):,}")
+        kpi2.metric("Delay Risk Rate", f"{filtered['delay_risk'].mean():.2%}" if len(filtered) else "0.00%")
+        kpi3.metric("Median Distance", f"{filtered['distance_to_scene'].median():.1f}" if len(filtered) else "0.0")
+
+        chart_left, chart_right = st.columns(2)
+        if len(filtered):
+            chart_left.bar_chart(filtered.groupby("dispatch_zone")["delay_risk"].mean())
+            chart_right.bar_chart(filtered.groupby("traffic_density")["delay_risk"].mean())
+        st.dataframe(filtered.head(100), width="stretch")
 
 
 def dashboard_page(metrics):
@@ -193,12 +277,28 @@ def dashboard_page(metrics):
         return
 
     metrics_df = format_metrics_table(metrics)
-    st.dataframe(metrics_df, use_container_width=True, hide_index=True)
+    st.dataframe(metrics_df, width="stretch", hide_index=True)
+
+    thresholds = metrics.get("decision_thresholds", {})
+    if thresholds:
+        threshold_rows = [
+            {"Model": label, "Threshold": values.get("threshold"), "Validation Score": values.get("score")}
+            for key, values in thresholds.items()
+            for label in [MODEL_OPTIONS and next((name for name, model_key in MODEL_OPTIONS.items() if model_key == key), key)]
+        ]
+        st.subheader("Decision Thresholds")
+        st.dataframe(pd.DataFrame(threshold_rows), width="stretch", hide_index=True)
 
     chart_df = metrics_df.set_index("Model")[["Accuracy", "AUC-ROC"]].apply(
         lambda col: col.str.rstrip("%").astype(float) / 100.0
     )
-    st.bar_chart(chart_df, use_container_width=True)
+    st.bar_chart(chart_df, width="stretch")
+
+    importance = load_feature_importance()
+    if not importance.empty:
+        st.subheader("Linear Model Feature Importance")
+        importance_chart = importance.head(15).set_index("feature")["absolute_importance"]
+        st.bar_chart(importance_chart, width="stretch")
 
     st.subheader("Generated Figures")
     figure_paths = [
@@ -212,7 +312,7 @@ def dashboard_page(metrics):
     cols = st.columns(2)
     for idx, (caption, path) in enumerate(figure_paths):
         if path.exists():
-            cols[idx % 2].image(str(path), caption=caption, use_container_width=True)
+            cols[idx % 2].image(str(path), caption=caption, width="stretch")
 
 
 def default_input(pipeline: AmbulanceDataPipeline):
@@ -233,11 +333,13 @@ def default_input(pipeline: AmbulanceDataPipeline):
     }
 
 
-def single_prediction_page(pipeline, models):
+def single_prediction_page(pipeline, models, metrics):
     st.title("Single Prediction")
 
     selected_label = st.selectbox("Model", list(MODEL_OPTIONS.keys()))
     selected_model = MODEL_OPTIONS[selected_label]
+    threshold = model_threshold(selected_model, metrics)
+    st.caption(f"Decision threshold: {threshold:.2f}")
     defaults = default_input(pipeline)
 
     left, right = st.columns(2)
@@ -265,7 +367,7 @@ def single_prediction_page(pipeline, models):
         )
 
     if st.button("Predict delay risk", type="primary"):
-        probability, prediction = predict_one(raw_input, selected_model, pipeline, models)
+        probability, prediction = predict_one(raw_input, selected_model, pipeline, models, threshold=threshold)
         color = risk_color(probability)
         st.markdown(
             f"""
@@ -282,31 +384,46 @@ def single_prediction_page(pipeline, models):
         for recommendation in get_actionable_recommendations(raw_input, probability):
             st.write(recommendation)
 
+        explanation = explain_prediction(raw_input, selected_model, pipeline, models)
+        if not explanation.empty:
+            st.subheader("Prediction Drivers")
+            st.dataframe(explanation, width="stretch", hide_index=True)
 
-def batch_prediction_page(pipeline, models):
+
+def batch_prediction_page(pipeline, models, metrics):
     st.title("Batch Prediction")
     selected_label = st.selectbox("Model", list(MODEL_OPTIONS.keys()), key="batch_model")
     selected_model = MODEL_OPTIONS[selected_label]
+    threshold = model_threshold(selected_model, metrics)
+    st.caption(f"Decision threshold: {threshold:.2f}")
 
-    st.write("Upload a CSV with the same input columns as `data/emergency_response_data.csv`.")
+    st.write(
+        "Upload a CSV with the same input columns as `data/emergency_response_data.csv`, "
+        "or upload a raw IERAD-style CSV and the app will attempt to normalize it."
+    )
     uploaded_file = st.file_uploader("CSV file", type=["csv"])
 
     if uploaded_file is None:
         preview = load_dataset_preview()
         if preview is not None:
             st.caption("Example input format")
-            st.dataframe(preview.drop(columns=["delay_risk"], errors="ignore").head(5), use_container_width=True)
+            st.dataframe(preview.drop(columns=["delay_risk"], errors="ignore").head(5), width="stretch")
         return
 
     df = pd.read_csv(uploaded_file)
     try:
-        predictions = predict_batch(df, selected_model, pipeline, models)
+        predictions = predict_batch(df, selected_model, pipeline, models, threshold=threshold)
     except Exception as exc:
         st.error(str(exc))
         return
 
     st.success(f"Generated predictions for {len(predictions):,} rows.")
-    st.dataframe(predictions.head(100), use_container_width=True)
+    summary_cols = st.columns(3)
+    summary_cols[0].metric("Predicted High Risk", f"{predictions['delay_prediction'].mean():.2%}")
+    summary_cols[1].metric("Average Probability", f"{predictions['delay_probability'].mean():.2%}")
+    summary_cols[2].metric("Rows", f"{len(predictions):,}")
+    st.bar_chart(predictions["risk_band"].value_counts(), width="stretch")
+    st.dataframe(predictions.head(100), width="stretch")
     st.download_button(
         "Download predictions",
         predictions.to_csv(index=False).encode("utf-8"),
@@ -319,7 +436,8 @@ def about_page():
     st.title("About")
     st.write(
         "This application demonstrates a complete machine learning workflow for ambulance "
-        "dispatch delay risk prediction using synthetic emergency response data."
+        "dispatch delay risk prediction using Kaggle IERAD-compatible data or synthetic "
+        "fallback emergency response data."
     )
     st.write(
         "The models are intended for workflow demonstration and decision-support prototyping. "
@@ -357,9 +475,9 @@ def main():
     elif page == "Model Dashboard":
         dashboard_page(metrics)
     elif page == "Single Prediction":
-        single_prediction_page(pipeline, models)
+        single_prediction_page(pipeline, models, metrics)
     elif page == "Batch Prediction":
-        batch_prediction_page(pipeline, models)
+        batch_prediction_page(pipeline, models, metrics)
     else:
         about_page()
 
