@@ -6,7 +6,8 @@ Build an ambulance dispatch delay risk prediction system that estimates whether 
 
 ## Delivered Components
 
-- Synthetic dataset with 2000 emergency response records
+- Kaggle IERAD import support with schema normalization
+- Synthetic fallback dataset with 2000 emergency response records
 - Preprocessing pipeline with validation, scaling, one-hot encoding, and ordinal encoding
 - Three model approaches:
   - Logistic regression baseline
@@ -14,17 +15,17 @@ Build an ambulance dispatch delay risk prediction system that estimates whether 
   - FCNN with embedding layers
 - Training orchestration script
 - Saved preprocessing and model artifacts
-- Evaluation report and visualizations
+- Evaluation report, tuned thresholds, feature importance, and visualizations
 - Streamlit web application
 - Jupyter notebook for exploration
 - Setup and deliverables documentation
 
 ## Current Performance
 
-The current saved report shows the FCNN embedding model has the highest accuracy among the saved artifacts at `78.00%`. Logistic regression has the highest saved AUC-ROC at `82.47%`.
+The current saved report shows the FCNN embedding model has the highest accuracy among the saved artifacts at `98.66%` and the highest AUC-ROC at `99.95%`.
 
 Model metrics are stored in `reports/model_comparison.json`.
 
 ## Important Caveat
 
-The project uses synthetic data. Results demonstrate modeling workflow and application integration, not validated operational performance in a real emergency dispatch environment.
+The Kaggle IERAD source does not include a direct binary `delay_risk` column, so the project derives the target from operational dispatch conditions. Results demonstrate modeling workflow and application integration, not validated operational performance in a real emergency dispatch environment.
