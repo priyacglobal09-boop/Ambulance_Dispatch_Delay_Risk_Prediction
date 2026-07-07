@@ -11,7 +11,7 @@
 
 ## Data and Artifacts
 
-- [x] `data/emergency_response_data.csv` with 2000 records
+- [x] `data/emergency_response_data.csv` normalized emergency response dataset
 - [x] `models/data_pipeline.pkl`
 - [x] `models/linear_regression_model.pkl`
 - [x] `models/fcnn_integer_model.pt`
@@ -33,6 +33,8 @@
 - [x] `README.md`
 - [x] `QUICKSTART.md`
 - [x] `PROJECT_SUMMARY.md`
+- [x] `docs/project_report.md`
+- [x] `docs/presentation.pdf` 10-page presentation
 - [x] `DELIVERABLES.md`
 - [x] `requirements.txt`
 
